@@ -857,23 +857,23 @@
 		<group name="save">
 		
 			<string id="title">		El proyecto '{0}' tiene cambios sin guardar.		</string>
-			<string id="subtitle">	What would you like to do?					</string>
-			<string id="option1">	Save changes\nSave the project to disk, then close.</string>
-			<string id="option2">	Don't save\nDiscard the unsaved changes.</string>
-			<string id="option3">	Cancel\nGo back to Construct 2.</string>
+			<string id="subtitle">	¿Qué es lo que quieres hacer?</string>
+			<string id="option1">	Guardar cambios\nGuardar el proyecto en el disco, entonces cerrar.</string>
+			<string id="option2">	No guardar\nDescargar los cambios.</string>
+			<string id="option3">	Cancela\nVolver a Construct 2.</string>
 			
 			<!-- Ordinary messagebox prompt for Windows XP -->
-			<string id="xp">		Save changes to project '{0}'?</string>
+			<string id="xp">		¿Guardar los cambios en el proyecto '{0}'?</string>
 		
 		</group> <!-- save -->
 	
 		<!-- Shown on startup for invalid license files.  Note \n indicates a line break, since
 			 line breaks and whitespace in XML tags are ignored. -->
-		<string id="licenseload-fail">A license file for Construct 2 was found, but there was an error loading it.  Construct 2 has reverted to Free edition.\n\nThis can occur if the file is damaged, corrupted or otherwise modified in any way.  If you have a backup of your license file, try restoring it.  Otherwise, please contact licensehelp@scirra.com and we'll try to sort you out as quickly as we can.</string>
+		<string id="licenseload-fail">Se encontró un archivo de licencia para Construct 2, pero se produjo un error al cargarlo. Construct 2 ha vuelto a la edición gratuita.\n\nEsto puede ocurrir si el archivo está dañado, dañado o modificado de alguna manera. Si tiene una copia de seguridad del archivo de licencia, intente restaurarlo. De lo contrario, póngase en contacto con licensehelp@scirra.com e intentaremos solucionarlo tan rápido como podamos.</string>
 		
 		<!-- Shown on startup if the user has balloon tips disabled, which means they may not see
 			 syntax error prompts in the event sheet and other notifications. -->
-		<string id="balloontips-disabled">Balloon tips appear to be disabled!  You may not see notifications of errors.</string>
+		<string id="balloontips-disabled">Los tips están parecen estar deshabilitados. No verá notificaciones de errores.</string>
 		
 		<!-- Shown if no exporters could be found or loaded -->
 		<string id="noexporters-error">Failed to find or load any exporters.  The IDE cannot start up.</string>
