@@ -13,7 +13,7 @@
 		 
 	<!-- Common words for general purpose uses, e.g. OK, Cancel, Yes, No. -->
 	<group name="common">
-		<string id="yes">		Sí			</string>
+		<string id="yes">		Si			</string>
 		<string id="no">		No			</string>
 		
 		<string id="ok">		OK			</string>
@@ -28,8 +28,8 @@
 		<string id="help">		Ayuda		</string>
 		
 		<!-- For On/Off settings, like 'Pixel rounding' -->
-		<string id="on">		On			</string>
-		<string id="off">		Off			</string>
+		<string id="on">		Encendido			</string>
+		<string id="off">		Apagado			</string>
 		
 		<!-- Alternative for On/Off -->
 		<string id="true">		Verdadeo	</string>
