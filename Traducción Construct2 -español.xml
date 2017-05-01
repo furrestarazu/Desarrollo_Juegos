@@ -816,35 +816,35 @@
 		<string id="toggleevent1">			Activar 1 evento deshabilitado</string>
 		<string id="toggleeventN">			Activar {0} eventos deshabilitados</string>
 		
-		<string id="addglobalvar">			Add global variable			</string>
-		<string id="addlocalvar">			Add local variable			</string>
-		<string id="editglobalvar">			Edit global variable		</string>
-		<string id="editlocalvar">			Edit local variable			</string>
+		<string id="addglobalvar">			Agregar variable global			</string>
+		<string id="addlocalvar">			Agregar variable local	</string>
+		<string id="editglobalvar">			Editar variable global	</string>
+		<string id="editlocalvar">			Editar varbiable local			</string>
 		
-		<string id="moveinstance1">			Move 1 instance				</string>
-		<string id="moveinstanceN">			Move {0} instances			</string>
-		<string id="nudgeinstance1">		Nudge 1 instance			</string>
-		<string id="nudgeinstanceN">		Nudge {0} instances			</string>
-		<string id="rotateinstance1">		Rotate 1 instance			</string>
-		<string id="rotateinstanceN">		Rotate {0} instances		</string>
-		<string id="resizeinstance1">		Resize 1 instance			</string>
-		<string id="resizeinstanceN">		Resize {0} instances		</string>
-		<string id="cloneinstance1">		Clone 1 instance			</string>
-		<string id="cloneinstanceN">		Clone {0} instances			</string>
-		<string id="deleteinstance1">		Delete 1 instance			</string>
-		<string id="deleteinstanceN">		Delete {0} instances		</string>
-		<string id="pasteinstance1">		Paste 1 instance			</string>
-		<string id="pasteinstanceN">		Paste {0} instances			</string>
+		<string id="moveinstance1">			Mover 1 instancia				</string>
+		<string id="moveinstanceN">			Mover {0} instancia			</string>
+		<string id="nudgeinstance1">		Empujar 1 instancia			</string>
+		<string id="nudgeinstanceN">		Empujar {0} instancias			</string>
+		<string id="rotateinstance1">		Rotar 1 instancia			</string>
+		<string id="rotateinstanceN">		Rotar {0} instancias		</string>
+		<string id="resizeinstance1">		Redimensionar  1 instancia			</string>
+		<string id="resizeinstanceN">		Redimensionar {0} instancias		</string>
+		<string id="cloneinstance1">		Clonar 1 instancia			</string>
+		<string id="cloneinstanceN">		Clonar {0} instancias			</string>
+		<string id="deleteinstance1">		Borrar 1 instancia			</string>
+		<string id="deleteinstanceN">		Borrar {0} instancias		</string>
+		<string id="pasteinstance1">		Pegar 1 instancia			</string>
+		<string id="pasteinstanceN">		Pegar {0} instancias			</string>
 		
-		<string id="insertinstance">		Insert '{0}' instance		</string>	<!-- e.g. "Insert 'Sprite' instance" -->
-		<string id="dropinobject">			Drop-in object				</string>	<!-- when dragging and dropping image file in to C2 -->
-		<string id="clonetype">				Clone object type '{0}'		</string>
+		<string id="insertinstance">		Insertar '{0}' instancia		</string>	<!-- e.g. "Insert 'Sprite' instance" -->
+		<string id="dropinobject">			Pasar objeto				</string>	<!-- when dragging and dropping image file in to C2 -->
+		<string id="clonetype">				Clonar tipo de objeto '{0}'		</string>
 		
-		<string id="editimage">				Edit '{0}' image			</string>	<!-- e.g. "Edit 'Sprite' image" -->
-		<string id="moveanimfolder">		Move animation folder		</string>
-		<string id="moveanim">				Move animation				</string>
-		<string id="movelayout">			Move layout					</string>
-		<string id="movelayoutfolder">		Move layout folder			</string>
+		<string id="editimage">				Editar '{0}' imagen			</string>	<!-- e.g. "Edit 'Sprite' image" -->
+		<string id="moveanimfolder">		Mover carpeta de animación		</string>
+		<string id="moveanim">				Mover animación</string>
+		<string id="movelayout">			Mover diseño			</string>
+		<string id="movelayoutfolder">		Mover carpeta de diseño</string>
 		
 	</group> <!-- undo -->
 	
@@ -854,7 +854,7 @@
 		<!-- Save Changes message -->
 		<group name="save">
 		
-			<string id="title">		The project '{0}' has unsaved changes.		</string>
+			<string id="title">		El proyecto '{0}' tiene cambios sin guardar.		</string>
 			<string id="subtitle">	What would you like to do?					</string>
 			<string id="option1">	Save changes\nSave the project to disk, then close.</string>
 			<string id="option2">	Don't save\nDiscard the unsaved changes.</string>
