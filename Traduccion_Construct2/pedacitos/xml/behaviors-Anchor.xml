@@ -1,49 +1,49 @@
 <group name="Anchor">
  <string id="name">
-  Anchor
+  Anclaje
  </string>
  <string id="category">
   General
  </string>
  <string id="description">
-  Position objects relative to the size of the window.
+  Posición de los objetos en relación con el tamaño de la ventana.
  </string>
  <group name="properties">
   <string id="leftedge">
-   Left edge
+   Borde izquierdo
   </string>
   <string id="leftedge-desc">
-   Anchor the object's left edge to a window edge.
+   Anclar el borde izquierdo del objeto a un borde de ventana.
   </string>
   <string id="leftedge-options">
-   Window left|Window right
+   Ventana izquierda|Ventana derecha
   </string>
   <string id="topedge">
-   Top edge
+   Borde superior
   </string>
   <string id="topedge-desc">
-   Anchor the object's top edge to a window edge.
+   Anclar el borde superior del objeto a un borde de la ventana
   </string>
   <string id="topedge-options">
-   Window top|Window bottom
+   Ventana superior|Ventana inferior
   </string>
   <string id="rightedge">
-   Right edge
+   Borde derecho
   </string>
   <string id="rightedge-desc">
-   Anchor the object's right edge.
+   Anclar el borde derecho del objeto
   </string>
   <string id="rightedge-options">
-   None|Window right
+   Ninguno|Ventana derecha
   </string>
   <string id="bottomedge">
-   Bottom edge
+   Borde inferior
   </string>
   <string id="bottomedge-desc">
-   Anchor the object's bottom edge.
+   Anclar el objeto al borde inferior
   </string>
   <string id="bottomedge-options">
-   None|Window bottom
+   Ninguno|Ventana inferior
   </string>
  </group>
  <!-- properties -->
