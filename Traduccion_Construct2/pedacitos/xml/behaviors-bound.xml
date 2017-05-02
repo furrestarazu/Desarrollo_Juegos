@@ -1,0 +1,32 @@
+<group name="bound">
+ <string id="name">
+  Bound to layout
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Stop an object leaving the layout.
+ </string>
+ <group name="properties">
+  <string id="boundby">
+   Bound by
+  </string>
+  <string id="boundby-desc">
+   Choose whether to stop the object at its origin or at its edge.
+  </string>
+  <string id="boundby-options">
+   Origin|Edge
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

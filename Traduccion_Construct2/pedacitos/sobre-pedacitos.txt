@@ -1,0 +1,16 @@
+﻿Pedacitos de Construct
+========================
+
+Los archivos son parte de un archivo de idioma de construct en XML. Se separó para que el documento no sea tan largo; por nodos "root" (no el root del XML pero de los primeros nodos "group" debajo de él). Si este nodo tiene muchos sub-nodos "group", se los separa por otros mini archivos.
+
+Los nombres quedarían así:
+
+- group. Ejemplo: common
+- group-subgroup. Ejemplo: ui-ribbon
+
+Después de traducir los strings, hay que unir los archivos, poniendo el tag de identificación de XML correspondiente. A los nodos de subgrupo (ejemplo: ui-ribbon) hay que incluirle el nodo padre que los contiene. Por ejemplo: ui-ribbon, hay que crear el nodo <group name="ui">, poner todos los sub-nodos correspondientes, y despues cerrarlo. Luego cerrar el tag de identificación de XML.
+
+Se creó rapidamente un script de python (3) para unirlos. A tener en cuenta:
+
+- se debe llamar por CLI/línea de comandos/terminal, con un parámentro indicando la carpeta donde estan los XML
+- el archivo final se llamará construct-es.xml, y se guardará en la carpeta donde corre el script

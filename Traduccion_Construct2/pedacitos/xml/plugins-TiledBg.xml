@@ -1,0 +1,104 @@
+<group name="TiledBg">
+ <string id="name">
+  Tiled Background
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Automatically tile an image over an area.  Tiled Backgrounds are much faster than tiling Sprites.
+ </string>
+ <group name="properties">
+  <string id="image">
+   Image
+  </string>
+  <string id="image-desc">
+   Click to edit the object's image.
+  </string>
+  <string id="initialvisibility">
+   Initial visibility
+  </string>
+  <string id="initialvisibility-desc">
+   Choose whether the object is visible when the layout starts.
+  </string>
+  <string id="initialvisibility-options">
+   Visible|Invisible
+  </string>
+  <string id="effect">
+   Effect
+  </string>
+  <string id="effect-desc">
+   Choose an effect for this object.  (This does not preview in the layout, only when you run.)
+  </string>
+  <string id="effect-options">
+   (none)|Additive|XOR|Copy|Destination over|Source in|Destination in|Source out|Destination out|Source atop|Destination atop
+  </string>
+  <string id="hotspot">
+   Hotspot
+  </string>
+  <string id="hotspot-desc">
+   Choose the location of the hot spot in the object.
+  </string>
+  <string id="hotspot-options">
+   Top-left|Center
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="1">
+   Set effect
+  </string>
+  <string id="1-display">
+   Set effect to [i]{0}[/i]
+  </string>
+  <string id="1-desc">
+   Set the rendering effect of this object.
+  </string>
+  <string id="1-p0">
+   Effect
+  </string>
+  <string id="1-p0-desc">
+   Choose the new effect for this object.
+  </string>
+  <string id="1-p0-opt0">
+   (none)
+  </string>
+  <string id="1-p0-opt1">
+   Additive
+  </string>
+  <string id="1-p0-opt2">
+   XOR
+  </string>
+  <string id="1-p0-opt3">
+   Copy
+  </string>
+  <string id="1-p0-opt4">
+   Destination over
+  </string>
+  <string id="1-p0-opt5">
+   Source in
+  </string>
+  <string id="1-p0-opt6">
+   Destination in
+  </string>
+  <string id="1-p0-opt7">
+   Source out
+  </string>
+  <string id="1-p0-opt8">
+   Destination out
+  </string>
+  <string id="1-p0-opt9">
+   Source atop
+  </string>
+  <string id="1-p0-opt10">
+   Destination atop
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

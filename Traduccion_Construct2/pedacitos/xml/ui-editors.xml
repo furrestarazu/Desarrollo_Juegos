@@ -1,0 +1,13 @@
+<group name="editors">
+ <!-- Picture/animation editor strings -->
+ <group name="picture">
+  <string id="caption-image">
+   Editar imagen: {0}
+  </string>
+  <string id="caption-animation">
+   Editar imagen: {0} ({1}, fotograma {2})
+  </string>
+  <!-- object name; animation name; frame number -->
+ </group>
+ <!-- picture -->
+</group>

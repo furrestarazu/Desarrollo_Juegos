@@ -1,0 +1,410 @@
+<group name="custom">
+ <string id="name">
+  Custom Movement
+ </string>
+ <string id="category">
+  Movements
+ </string>
+ <string id="description">
+  Make your own movement using low-level movement functions.
+ </string>
+ <group name="properties">
+  <string id="steppingmode">
+   Stepping mode
+  </string>
+  <string id="steppingmode-desc">
+   Move in increments while firing the step triggers.
+  </string>
+  <string id="steppingmode-options">
+   None|Linear|Horizontal then vertical|Vertical then horizontal
+  </string>
+  <string id="pixelsperstep">
+   Pixels per step
+  </string>
+  <string id="pixelsperstep-desc">
+   When stepping enabled, the number of pixels to move each step.
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is moving
+  </string>
+  <string id="0-display">
+   {my} is moving
+  </string>
+  <string id="0-desc">
+   True when the object is moving.
+  </string>
+  <string id="1">
+   Compare speed
+  </string>
+  <string id="1-display">
+   {my} {0} speed {1} {2}
+  </string>
+  <string id="1-desc">
+   Compare the current speed of the object.
+  </string>
+  <string id="1-p0">
+   Which
+  </string>
+  <string id="1-p0-desc">
+   Choose the speed to compare.
+  </string>
+  <string id="1-p0-opt0">
+   Overall
+  </string>
+  <string id="1-p0-opt1">
+   Horizontal
+  </string>
+  <string id="1-p0-opt2">
+   Vertical
+  </string>
+  <string id="1-p1">
+   Comparison
+  </string>
+  <string id="1-p1-desc">
+   Choose the way to compare the speed.
+  </string>
+  <string id="1-p2">
+   Speed
+  </string>
+  <string id="1-p2-desc">
+   The speed, in pixels per second, to compare to.
+  </string>
+  <string id="2">
+   On step
+  </string>
+  <string id="2-display">
+   On {my} step
+  </string>
+  <string id="2-desc">
+   Triggered when stepping the object for motion.
+  </string>
+  <string id="3">
+   On horizontal step
+  </string>
+  <string id="3-display">
+   On {my} horizontal step
+  </string>
+  <string id="3-desc">
+   Triggered when stepping the object horizontally for motion.
+  </string>
+  <string id="4">
+   On vertical step
+  </string>
+  <string id="4-display">
+   On {my} vertical step
+  </string>
+  <string id="4-desc">
+   Triggered when stepping the object vertically for motion.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Stop
+  </string>
+  <string id="0-display">
+   Stop {my}
+  </string>
+  <string id="0-desc">
+   Set the speed to zero.
+  </string>
+  <string id="1">
+   Reverse
+  </string>
+  <string id="1-display">
+   Reverse {my}
+  </string>
+  <string id="1-desc">
+   Invert the direction of motion.
+  </string>
+  <string id="1-p0">
+   Axes
+  </string>
+  <string id="1-p0-desc">
+   Choose which axes to reverse on.
+  </string>
+  <string id="1-p0-opt0">
+   Both
+  </string>
+  <string id="1-p0-opt1">
+   Horizontally
+  </string>
+  <string id="1-p0-opt2">
+   Vertically
+  </string>
+  <string id="2">
+   Set speed
+  </string>
+  <string id="2-display">
+   Set {my} {0} speed to [i]{1}[/i]
+  </string>
+  <string id="2-desc">
+   Set the object's current speed.
+  </string>
+  <string id="2-p0">
+   Which
+  </string>
+  <string id="2-p0-desc">
+   Choose the speed to set.
+  </string>
+  <string id="2-p0-opt0">
+   Overall
+  </string>
+  <string id="2-p0-opt1">
+   Horizontal
+  </string>
+  <string id="2-p0-opt2">
+   Vertical
+  </string>
+  <string id="2-p1">
+   Speed
+  </string>
+  <string id="2-p1-desc">
+   The new speed of the object to set, in pixels per second.
+  </string>
+  <string id="3">
+   Accelerate
+  </string>
+  <string id="3-display">
+   Accelerate {my} {0} [i]{1}[/i]
+  </string>
+  <string id="3-desc">
+   Accelerate the object forwards or on an axis.
+  </string>
+  <string id="3-p0">
+   Which
+  </string>
+  <string id="3-p0-desc">
+   Choose which way to accelerate.
+  </string>
+  <string id="3-p0-opt0">
+   Forwards
+  </string>
+  <string id="3-p0-opt1">
+   Horizontally
+  </string>
+  <string id="3-p0-opt2">
+   Vertically
+  </string>
+  <string id="3-p1">
+   Acceleration
+  </string>
+  <string id="3-p1-desc">
+   The acceleration, in pixels per second per second.
+  </string>
+  <string id="4">
+   Accelerate toward angle
+  </string>
+  <string id="4-display">
+   Accelerate {my} [i]{0}[/i] at angle [i]{1}[/i]
+  </string>
+  <string id="4-desc">
+   Accelerate the object at an angle.
+  </string>
+  <string id="4-p0">
+   Acceleration
+  </string>
+  <string id="4-p0-desc">
+   The acceleration, in pixels per second per second.
+  </string>
+  <string id="4-p1">
+   Angle
+  </string>
+  <string id="4-p1-desc">
+   The angle, in degrees, to accelerate toward.
+  </string>
+  <string id="5">
+   Accelerate toward position
+  </string>
+  <string id="5-display">
+   Accelerate {my} [i]{0}[/i] toward ([i]{1}[/i], [i]{2}[/i])
+  </string>
+  <string id="5-desc">
+   Accelerate the object toward a position.
+  </string>
+  <string id="5-p0">
+   Acceleration
+  </string>
+  <string id="5-p0-desc">
+   The acceleration, in pixels per second per second.
+  </string>
+  <string id="5-p1">
+   X
+  </string>
+  <string id="5-p1-desc">
+   The X co-ordinate in the layout to accelerate toward.
+  </string>
+  <string id="5-p2">
+   Y
+  </string>
+  <string id="5-p2-desc">
+   The Y co-ordinate in the layout to accelerate toward.
+  </string>
+  <string id="6">
+   Set angle of motion
+  </string>
+  <string id="6-display">
+   Set {my} angle of motion to [i]{0}[/i]
+  </string>
+  <string id="6-desc">
+   Set the object's current speed.
+  </string>
+  <string id="6-p0">
+   Angle
+  </string>
+  <string id="6-p0-desc">
+   The new angle of motion, in degrees.
+  </string>
+  <string id="7">
+   Rotate clockwise
+  </string>
+  <string id="7-display">
+   Rotate {my} angle of motion clockwise [i]{0}[/i] degrees
+  </string>
+  <string id="7-desc">
+   Rotate the angle of motion in a clockwise direction.
+  </string>
+  <string id="7-p0">
+   Angle
+  </string>
+  <string id="7-p0-desc">
+   Amount to rotate clockwise, in degrees.
+  </string>
+  <string id="8">
+   Rotate counter-clockwise
+  </string>
+  <string id="8-display">
+   Rotate {my} angle of motion counter-clockwise [i]{0}[/i] degrees
+  </string>
+  <string id="8-desc">
+   Rotate the angle of motion in a counter-clockwise direction.
+  </string>
+  <string id="8-p0">
+   Angle
+  </string>
+  <string id="8-p0-desc">
+   Amount to rotate counter-clockwise, in degrees.
+  </string>
+  <string id="9">
+   Stop stepping
+  </string>
+  <string id="9-display">
+   Stop {my} stepping ({0})
+  </string>
+  <string id="9-desc">
+   Stop the current stepping, preventing any more step triggers firing this tick.
+  </string>
+  <string id="9-p0">
+   Position
+  </string>
+  <string id="9-p0-desc">
+   Choose the resulting object position.
+  </string>
+  <string id="9-p0-opt0">
+   Go back a step
+  </string>
+  <string id="9-p0-opt1">
+   Stay at current position
+  </string>
+  <string id="10">
+   Push out solid
+  </string>
+  <string id="10-display">
+   Push {my} out of solid ({0})
+  </string>
+  <string id="10-desc">
+   Push the object to a space if it is overlapping a solid.
+  </string>
+  <string id="10-p0">
+   Direction
+  </string>
+  <string id="10-p0-desc">
+   Choose the method of push out.
+  </string>
+  <string id="10-p0-opt0">
+   Opposite angle
+  </string>
+  <string id="10-p0-opt1">
+   Nearest
+  </string>
+  <string id="10-p0-opt2">
+   Up
+  </string>
+  <string id="10-p0-opt3">
+   Down
+  </string>
+  <string id="10-p0-opt4">
+   Left
+  </string>
+  <string id="10-p0-opt5">
+   Right
+  </string>
+  <string id="11">
+   Push out solid at angle
+  </string>
+  <string id="11-display">
+   Push {my} out of solid at angle {0}
+  </string>
+  <string id="11-desc">
+   Push the object to a space at an angle if it is overlapping a solid.
+  </string>
+  <string id="11-p0">
+   Angle
+  </string>
+  <string id="11-p0-desc">
+   Angle, in degrees, to push the object out at.
+  </string>
+  <string id="12">
+   Set enabled
+  </string>
+  <string id="12-display">
+   Set {my} [b]{0}[/b]
+  </string>
+  <string id="12-desc">
+   Set whether this behavior is enabled.
+  </string>
+  <string id="12-p0">
+   State
+  </string>
+  <string id="12-p0-desc">
+   Set whether to enable or disable the behavior.
+  </string>
+  <string id="12-p0-opt0">
+   Disabled
+  </string>
+  <string id="12-p0-opt1">
+   Enabled
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   Speed
+  </string>
+  <string id="0-desc">
+   The current object speed, in pixels per second.
+  </string>
+  <string id="1">
+   MovingAngle
+  </string>
+  <string id="1-desc">
+   The current angle of motion, in degrees.
+  </string>
+  <string id="2">
+   dx
+  </string>
+  <string id="2-desc">
+   The current X component of motion, in pixels per second.
+  </string>
+  <string id="3">
+   dy
+  </string>
+  <string id="3-desc">
+   The current Y component of motion, in pixels per second.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

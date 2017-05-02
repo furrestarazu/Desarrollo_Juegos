@@ -1,0 +1,863 @@
+<group name="common">
+ <!-- Common plugin conditions -->
+ <group name="cnds">
+  <string id="-1">
+   Compare X
+  </string>
+  <string id="-1-display">
+   X {0} {1}
+  </string>
+  <string id="-1-desc">
+   Compare the X co-ordinate to a value.
+  </string>
+  <string id="-1-p0">
+   Comparison
+  </string>
+  <string id="-1-p0-desc">
+   How to compare the X co-ordinate.
+  </string>
+  <string id="-1-p1">
+   X co-ordinate
+  </string>
+  <string id="-1-p1-desc">
+   The X co-ordinate to compare to.
+  </string>
+  <string id="-2">
+   Compare Y
+  </string>
+  <string id="-2-display">
+   Y {0} {1}
+  </string>
+  <string id="-2-desc">
+   Compare the Y co-ordinate to a value.
+  </string>
+  <string id="-2-p0">
+   Comparison
+  </string>
+  <string id="-2-p0-desc">
+   How to compare the Y co-ordinate.
+  </string>
+  <string id="-2-p1">
+   Y co-ordinate
+  </string>
+  <string id="-2-p1-desc">
+   The Y co-ordinate to compare to.
+  </string>
+  <string id="-3">
+   Is on-screen
+  </string>
+  <string id="-3-display">
+   Is on-screen
+  </string>
+  <string id="-3-desc">
+   Test if the object is currently in the visible screen.
+  </string>
+  <string id="-4">
+   Is outside layout
+  </string>
+  <string id="-4-display">
+   Is outside layout
+  </string>
+  <string id="-4-desc">
+   Test if the object is outside the layout boundary.
+  </string>
+  <string id="-15">
+   Pick nearest/furthest
+  </string>
+  <string id="-15-display">
+   Pick {0} ({1}, {2})
+  </string>
+  <string id="-15-desc">
+   Pick the instance nearest to or furthest from a point in the layout.
+  </string>
+  <string id="-15-p0">
+   Which
+  </string>
+  <string id="-15-p0-desc">
+   Choose whether to pick the nearest or furthest instance to the point.
+  </string>
+  <string id="-15-p0-opt0">
+   nearest to
+  </string>
+  <string id="-15-p0-opt1">
+   furthest from
+  </string>
+  <string id="-15-p1">
+   X
+  </string>
+  <string id="-15-p1-desc">
+   X co-ordinate of position to compare distance to.
+  </string>
+  <string id="-15-p2">
+   Y
+  </string>
+  <string id="-15-p2-desc">
+   Y co-ordinate of position to compare distance to.
+  </string>
+  <string id="-5">
+   Compare width
+  </string>
+  <string id="-5-display">
+   Width {0} {1}
+  </string>
+  <string id="-5-desc">
+   Compare the width to a value.
+  </string>
+  <string id="-5-p0">
+   Comparison
+  </string>
+  <string id="-5-p0-desc">
+   How to compare the width.
+  </string>
+  <string id="-5-p1">
+   Width
+  </string>
+  <string id="-5-p1-desc">
+   The width to compare to.
+  </string>
+  <string id="-6">
+   Compare height
+  </string>
+  <string id="-6-display">
+   Height {0} {1}
+  </string>
+  <string id="-6-desc">
+   Compare the height to a value.
+  </string>
+  <string id="-6-p0">
+   Comparison
+  </string>
+  <string id="-6-p0-desc">
+   How to compare the height.
+  </string>
+  <string id="-6-p1">
+   Height
+  </string>
+  <string id="-6-p1-desc">
+   The height to compare to.
+  </string>
+  <string id="-11">
+   Is within angle
+  </string>
+  <string id="-11-display">
+   Within {0} degrees of {1}
+  </string>
+  <string id="-11-desc">
+   Compare if the object's angle is within X degrees of another angle.
+  </string>
+  <string id="-11-p0">
+   Within
+  </string>
+  <string id="-11-p0-desc">
+   Number of degrees that object must be within.
+  </string>
+  <string id="-11-p1">
+   Angle
+  </string>
+  <string id="-11-p1-desc">
+   Angle, in degrees, to compare if object facing towards.
+  </string>
+  <string id="-12">
+   Is clockwise from
+  </string>
+  <string id="-12-display">
+   Is clockwise from {0}
+  </string>
+  <string id="-12-desc">
+   Compare if the object's angle is clockwise from another angle.
+  </string>
+  <string id="-12-p0">
+   Angle
+  </string>
+  <string id="-12-p0-desc">
+   Angle, in degrees, to test if object's angle is clockwise from.
+  </string>
+  <string id="-13">
+   Is between angles
+  </string>
+  <string id="-13-display">
+   Is between {0} and {1} degrees
+  </string>
+  <string id="-13-desc">
+   Compare if the object's angle is between two angles.
+  </string>
+  <string id="-13-p0">
+   First angle
+  </string>
+  <string id="-13-p0-desc">
+   First angle, in degrees. Specify in clockwise order.
+  </string>
+  <string id="-13-p1">
+   Second angle
+  </string>
+  <string id="-13-p1-desc">
+   Second angle, in degrees. Specify in clockwise order.
+  </string>
+  <string id="-7">
+   Compare instance variable
+  </string>
+  <string id="-7-display">
+   [b]{0}[/b] {1} {2}
+  </string>
+  <string id="-7-desc">
+   Compare the value of an instance variable.
+  </string>
+  <string id="-7-p0">
+   Instance variable
+  </string>
+  <string id="-7-p0-desc">
+   Choose the instance variable to compare.
+  </string>
+  <string id="-7-p1">
+   Comparison
+  </string>
+  <string id="-7-p1-desc">
+   How to compare the instance variable.
+  </string>
+  <string id="-7-p2">
+   Value
+  </string>
+  <string id="-7-p2-desc">
+   Value to compare to the instance variable.
+  </string>
+  <string id="-8">
+   Is boolean instance variable set
+  </string>
+  <string id="-8-display">
+   Is [b]{0}[/b]
+  </string>
+  <string id="-8-desc">
+   Test if a boolean instance variable is true.
+  </string>
+  <string id="-8-p0">
+   Instance variable
+  </string>
+  <string id="-8-p0-desc">
+   Choose the instance variable to test.
+  </string>
+  <string id="-14">
+   Pick by unique ID
+  </string>
+  <string id="-14-display">
+   Pick instance with UID [b]{0}[/b]
+  </string>
+  <string id="-14-desc">
+   Pick a specific instance by its unique ID (UID).
+  </string>
+  <string id="-14-p0">
+   Unique ID
+  </string>
+  <string id="-14-p0-desc">
+   The unique ID (UID) of the instance to pick.
+  </string>
+  <string id="-9">
+   Is visible
+  </string>
+  <string id="-9-display">
+   Is visible
+  </string>
+  <string id="-9-desc">
+   Test if the object is currently visible.
+  </string>
+  <string id="-10">
+   Compare opacity
+  </string>
+  <string id="-10-display">
+   Opacity {0} {1}
+  </string>
+  <string id="-10-desc">
+   Compare the object's current opacity.
+  </string>
+  <string id="-10-p0">
+   Comparison
+  </string>
+  <string id="-10-p0-desc">
+   How to compare the X co-ordinate.
+  </string>
+  <string id="-10-p1">
+   Opacity
+  </string>
+  <string id="-10-p1-desc">
+   The opacity (0-100) to compare to.
+  </string>
+  <string id="-16">
+   Is on layer
+  </string>
+  <string id="-16-display">
+   Is on layer {0}
+  </string>
+  <string id="-16-desc">
+   Pick all objects on a given layer.
+  </string>
+  <string id="-16-p0">
+   Layer
+  </string>
+  <string id="-16-p0-desc">
+   Layer name or number to test if the object is on.
+  </string>
+  <string id="-17">
+   Pick top/bottom
+  </string>
+  <string id="-17-display">
+   Pick {0} instance
+  </string>
+  <string id="-17-desc">
+   Pick either the top-most or bottom-most object in Z order.
+  </string>
+  <string id="-17-p0">
+   Which
+  </string>
+  <string id="-17-p0-desc">
+   Choose whether to pick the top-most or bottom-most instance in Z order.
+  </string>
+  <string id="-17-p0-opt0">
+   top
+  </string>
+  <string id="-17-p0-opt1">
+   bottom
+  </string>
+ </group>
+ <!-- cnds -->
+ <!-- Common plugin actions -->
+ <group name="acts">
+  <string id="-1">
+   Set X
+  </string>
+  <string id="-1-display">
+   Set X to [i]{0}[/i]
+  </string>
+  <string id="-1-desc">
+   Set the object's X co-ordinate.
+  </string>
+  <string id="-1-p0">
+   X
+  </string>
+  <string id="-1-p0-desc">
+   New X co-ordinate, in pixels.
+  </string>
+  <string id="-2">
+   Set Y
+  </string>
+  <string id="-2-display">
+   Set Y to [i]{0}[/i]
+  </string>
+  <string id="-2-desc">
+   Set the object's Y co-ordinate.
+  </string>
+  <string id="-2-p0">
+   Y
+  </string>
+  <string id="-2-p0-desc">
+   New Y co-ordinate, in pixels.
+  </string>
+  <string id="-3">
+   Set position
+  </string>
+  <string id="-3-display">
+   Set position to ([i]{0}[/i], [i]{1}[/i])
+  </string>
+  <string id="-3-desc">
+   Set the object's X and Y co-ordinates at the same time.
+  </string>
+  <string id="-3-p0">
+   X
+  </string>
+  <string id="-3-p0-desc">
+   New X co-ordinate, in pixels.
+  </string>
+  <string id="-3-p1">
+   Y
+  </string>
+  <string id="-3-p1-desc">
+   New Y co-ordinate, in pixels.
+  </string>
+  <string id="-4">
+   Set position to another object
+  </string>
+  <string id="-4-display">
+   Set position to {0} [i](image point {1})[/i]
+  </string>
+  <string id="-4-desc">
+   Position object relative to another object.
+  </string>
+  <string id="-4-p0">
+   Object
+  </string>
+  <string id="-4-p0-desc">
+   Object to position by.
+  </string>
+  <string id="-4-p1">
+   Image point (optional)
+  </string>
+  <string id="-4-p1-desc">
+   The name or number of an image point in the object to position by.  Leave 0 for object's origin.
+  </string>
+  <string id="-17">
+   Move forward
+  </string>
+  <string id="-17-display">
+   Move forward [i]{0}[/i] pixels
+  </string>
+  <string id="-17-desc">
+   Move object forwards a number of pixels at its current angle.
+  </string>
+  <string id="-17-p0">
+   Distance
+  </string>
+  <string id="-17-p0-desc">
+   Distance, in pixels, to move the object forwards at its current angle.
+  </string>
+  <string id="-23">
+   Move at angle
+  </string>
+  <string id="-23-display">
+   Move [i]{1}[/i] pixels at angle [i]{0}[/i]
+  </string>
+  <string id="-23-desc">
+   Move object a number of pixels at a given angle.
+  </string>
+  <string id="-23-p0">
+   Angle
+  </string>
+  <string id="-23-p0-desc">
+   Angle, in degrees, at which to move the object.
+  </string>
+  <string id="-23-p1">
+   Distance
+  </string>
+  <string id="-23-p1-desc">
+   Distance, in pixels, to move the object at the given angle.
+  </string>
+  <string id="-5">
+   Set width
+  </string>
+  <string id="-5-display">
+   Set width to [i]{0}[/i]
+  </string>
+  <string id="-5-desc">
+   Set the object's width.
+  </string>
+  <string id="-5-p0">
+   Width
+  </string>
+  <string id="-5-p0-desc">
+   New object width, in pixels.
+  </string>
+  <string id="-6">
+   Set height
+  </string>
+  <string id="-6-display">
+   Set height to [i]{0}[/i]
+  </string>
+  <string id="-6-desc">
+   Set the object's height.
+  </string>
+  <string id="-6-p0">
+   Height
+  </string>
+  <string id="-6-p0-desc">
+   New object height, in pixels.
+  </string>
+  <string id="-7">
+   Set size
+  </string>
+  <string id="-7-display">
+   Set size to ([i]{0}[/i], [i]{1}[/i])
+  </string>
+  <string id="-7-desc">
+   Set the object's width and height at the same time.
+  </string>
+  <string id="-7-p0">
+   Width
+  </string>
+  <string id="-7-p0-desc">
+   New object width, in pixels.
+  </string>
+  <string id="-7-p1">
+   Height
+  </string>
+  <string id="-7-p1-desc">
+   New object height, in pixels.
+  </string>
+  <string id="-8">
+   Set angle
+  </string>
+  <string id="-8-display">
+   Set angle to [i]{0}[/i] degrees
+  </string>
+  <string id="-8-desc">
+   Set the angle the object is oriented at.
+  </string>
+  <string id="-8-p0">
+   Angle
+  </string>
+  <string id="-8-p0-desc">
+   New object angle, in degrees.
+  </string>
+  <string id="-18">
+   Rotate clockwise
+  </string>
+  <string id="-18-display">
+   Rotate [i]{0}[/i] degrees clockwise
+  </string>
+  <string id="-18-desc">
+   Rotate the object's angle clockwise by a number of degrees.
+  </string>
+  <string id="-18-p0">
+   Degrees
+  </string>
+  <string id="-18-p0-desc">
+   Number of degrees to rotate the object clockwise.
+  </string>
+  <string id="-19">
+   Rotate counter-clockwise
+  </string>
+  <string id="-19-display">
+   Rotate [i]{0}[/i] degrees counter-clockwise
+  </string>
+  <string id="-19-desc">
+   Rotate the object's angle counter-clockwise by a number of degrees.
+  </string>
+  <string id="-19-p0">
+   Degrees
+  </string>
+  <string id="-19-p0-desc">
+   Number of degrees to rotate the object counter-clockwise.
+  </string>
+  <string id="-20">
+   Rotate toward angle
+  </string>
+  <string id="-20-display">
+   Rotate [i]{0}[/i] degrees toward [i]{1}[/i]
+  </string>
+  <string id="-20-desc">
+   Rotate the object towards another angle.
+  </string>
+  <string id="-20-p0">
+   Degrees
+  </string>
+  <string id="-20-p0-desc">
+   Number of degrees to rotate towards the target angle.
+  </string>
+  <string id="-20-p1">
+   Angle
+  </string>
+  <string id="-20-p1-desc">
+   Angle, in degrees, to rotate towards.
+  </string>
+  <string id="-21">
+   Rotate toward position
+  </string>
+  <string id="-21-display">
+   Rotate [i]{0}[/i] degrees toward ([i]{1}[/i], [i]{2}[/i])
+  </string>
+  <string id="-21-desc">
+   Rotate the object towards a position.
+  </string>
+  <string id="-21-p0">
+   Degrees
+  </string>
+  <string id="-21-p0-desc">
+   Number of degrees to rotate towards the target position.
+  </string>
+  <string id="-21-p1">
+   X
+  </string>
+  <string id="-21-p1-desc">
+   X position to rotate toward.
+  </string>
+  <string id="-21-p2">
+   Y
+  </string>
+  <string id="-21-p2-desc">
+   Y position to rotate toward.
+  </string>
+  <string id="-22">
+   Set angle toward position
+  </string>
+  <string id="-22-display">
+   Set angle toward ([i]{0}[/i], [i]{1}[/i])
+  </string>
+  <string id="-22-desc">
+   Set the object's angle towards a position.
+  </string>
+  <string id="-22-p0">
+   X
+  </string>
+  <string id="-22-p0-desc">
+   X position to set angle toward.
+  </string>
+  <string id="-22-p1">
+   Y
+  </string>
+  <string id="-22-p1-desc">
+   Y position to set angle toward.
+  </string>
+  <string id="-10">
+   Set value
+  </string>
+  <string id="-10-display">
+   Set [b]{0}[/b] to [i]{1}[/i]
+  </string>
+  <string id="-10-desc">
+   Set the value of an instance variable.
+  </string>
+  <string id="-10-p0">
+   Instance variable
+  </string>
+  <string id="-10-p0-desc">
+   Choose the instance variable to change.
+  </string>
+  <string id="-10-p1">
+   Value
+  </string>
+  <string id="-10-p1-desc">
+   Value to store in this instance variable.
+  </string>
+  <string id="-11">
+   Add to
+  </string>
+  <string id="-11-display">
+   Add [i]{1}[/i] to [b]{0}[/b]
+  </string>
+  <string id="-11-desc">
+   Add to the value of an instance variable.
+  </string>
+  <string id="-11-p0">
+   Instance variable
+  </string>
+  <string id="-11-p0-desc">
+   Choose the instance variable to change.
+  </string>
+  <string id="-11-p1">
+   Value
+  </string>
+  <string id="-11-p1-desc">
+   Value to add to this instance variable.
+  </string>
+  <string id="-12">
+   Subtract from
+  </string>
+  <string id="-12-display">
+   Subtract [i]{1}[/i] from [b]{0}[/b]
+  </string>
+  <string id="-12-desc">
+   Subtract from the value of an instance variable.
+  </string>
+  <string id="-12-p0">
+   Instance variable
+  </string>
+  <string id="-12-p0-desc">
+   Choose the instance variable to change.
+  </string>
+  <string id="-12-p1">
+   Value
+  </string>
+  <string id="-12-p1-desc">
+   Value to subtract from this instance variable.
+  </string>
+  <string id="-13">
+   Set boolean
+  </string>
+  <string id="-13-display">
+   Set [b]{0}[/b] to [i]{1}[/i]
+  </string>
+  <string id="-13-desc">
+   Set the value of a boolean instance variable.
+  </string>
+  <string id="-13-p0">
+   Instance variable
+  </string>
+  <string id="-13-p0-desc">
+   Choose the instance variable to change.
+  </string>
+  <string id="-13-p1">
+   Value
+  </string>
+  <string id="-13-p1-desc">
+   Value to store in this instance variable.
+  </string>
+  <string id="-13-p1-opt0">
+   False
+  </string>
+  <string id="-13-p1-opt1">
+   True
+  </string>
+  <string id="-14">
+   Toggle boolean
+  </string>
+  <string id="-14-display">
+   Toggle [b]{0}[/b]
+  </string>
+  <string id="-14-desc">
+   Invert the value of a boolean instance variable.
+  </string>
+  <string id="-14-p0">
+   Instance variable
+  </string>
+  <string id="-14-p0-desc">
+   Choose the instance variable to toggle.
+  </string>
+  <string id="-9">
+   Destroy
+  </string>
+  <string id="-9-display">
+   Destroy
+  </string>
+  <string id="-9-desc">
+   Destroy the object.
+  </string>
+  <string id="-15">
+   Set visible
+  </string>
+  <string id="-15-display">
+   Set {0}
+  </string>
+  <string id="-15-desc">
+   Set whether the object is hidden or shown.
+  </string>
+  <string id="-15-p0">
+   Visibility
+  </string>
+  <string id="-15-p0-desc">
+   Choose whether the object is hidden or shown.
+  </string>
+  <string id="-15-p0-opt0">
+   Invisible
+  </string>
+  <string id="-15-p0-opt1">
+   Visible
+  </string>
+  <string id="-16">
+   Set opacity
+  </string>
+  <string id="-16-display">
+   Set opacity to [i]{0}[/i]
+  </string>
+  <string id="-16-desc">
+   Set how transparent the object appears.
+  </string>
+  <string id="-16-p0">
+   Opacity
+  </string>
+  <string id="-16-p0-desc">
+   Choose the object opacity, from 0 (transparent) to 100 (opaque).
+  </string>
+  <string id="-24">
+   Move to top
+  </string>
+  <string id="-24-display">
+   Move to top of layer
+  </string>
+  <string id="-24-desc">
+   Place the object at the top of its layer.
+  </string>
+  <string id="-25">
+   Move to bottom
+  </string>
+  <string id="-25-display">
+   Move to bottom of layer
+  </string>
+  <string id="-25-desc">
+   Place the object at the bottom of its layer.
+  </string>
+  <string id="-26">
+   Move to layer
+  </string>
+  <string id="-26-display">
+   Move to layer [b]{0}[/b]
+  </string>
+  <string id="-26-desc">
+   Change the object's layer.
+  </string>
+  <string id="-26-p0">
+   Layer
+  </string>
+  <string id="-26-p0-desc">
+   Layer name or number to move this object to.  The object will be placed at the top of this layer.
+  </string>
+ </group>
+ <!-- acts -->
+ <!-- Common plugin expressions -->
+ <group name="exps">
+  <string id="-1">
+   X
+  </string>
+  <string id="-1-desc">
+   Get the object's X co-ordinate, in pixels.
+  </string>
+  <string id="-2">
+   Y
+  </string>
+  <string id="-2-desc">
+   Get the object's Y co-ordinate, in pixels.
+  </string>
+  <string id="-8">
+   dt
+  </string>
+  <string id="-8-desc">
+   Get delta-time for this object (in case it has its own timescale).
+  </string>
+  <string id="-3">
+   Width
+  </string>
+  <string id="-3-desc">
+   Get the object's width, in pixels.
+  </string>
+  <string id="-4">
+   Height
+  </string>
+  <string id="-4-desc">
+   Get the object's height, in pixels.
+  </string>
+  <string id="-5">
+   Angle
+  </string>
+  <string id="-5-desc">
+   Get the object's current angle, in degrees.
+  </string>
+  <string id="-7">
+   Opacity
+  </string>
+  <string id="-7-desc">
+   Get the object's current opacity, from 0 (transparent) to 100 (opaque).
+  </string>
+  <string id="-6">
+   Count
+  </string>
+  <string id="-6-desc">
+   Get the number of instances of this object type.
+  </string>
+  <string id="-9">
+   UID
+  </string>
+  <string id="-9-desc">
+   Get the instance's unique ID (UID).
+  </string>
+  <string id="-13">
+   IID
+  </string>
+  <string id="-13-desc">
+   Get the instance's index ID (IID).
+  </string>
+  <string id="-10">
+   LayerNumber
+  </string>
+  <string id="-10-desc">
+   Get the layer number this object is on.
+  </string>
+  <string id="-11">
+   LayerName
+  </string>
+  <string id="-11-desc">
+   Get the name of the layer this object is on.
+  </string>
+  <string id="-12">
+   ZIndex
+  </string>
+  <string id="-12-desc">
+   Get the Z index of this object on its current layer.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

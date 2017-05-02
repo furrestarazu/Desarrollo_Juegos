@@ -1,0 +1,51 @@
+<group name="misc">
+ <string id="newfolder">
+  Nueva Carpeta
+ </string>
+ <!-- When hovering a tab, these appear for the tooltip saying 'Project: My project - File: C:\...\file.capx' -->
+ <string id="projecttooltip">
+  Proyecto
+ </string>
+ <string id="filetooltip">
+  Archivo
+ </string>
+ <string id="foldertooltip">
+  Carpeta
+ </string>
+ <string id="notyetsaved">
+  &lt;todavía no guardado&gt;
+ </string>
+ <!-- Title bar suffix when running the free edition -->
+ <string id="freeedition-suffix">
+  (edición gratuita)
+ </string>
+ <!-- Title bar suffix for beta releases. {0} replaced with release number e.g. r123	-->
+ <string id="betarelease-suffix">
+  beta release r{0}
+ </string>
+ <!-- Title bar suffix when running as administrator -->
+ <string id="admin-suffix">
+  (Administrador)
+ </string>
+ <!-- Shown when trying to close or save with the image/animations editor up. -->
+ <string id="closeimageeditor">
+  Cierre el editor de imágenes primero.
+ </string>
+ <!-- Status texts -->
+ <string id="savingstatus">
+  Guardando...
+ </string>
+ <string id="autobackupstatus">
+  Guardando copiar de seguridad automática...
+ </string>
+ <string id="backupstatus">
+  Copia de seguridad...
+ </string>
+ <string id="backupstatus2">
+  Guardando en ubicaciones de copia de seguridad...
+ </string>
+ <!-- Error when writing a backup -->
+ <string id="backuperror">
+  Fallo al guardar la copia de seguridad a '{0}'.  Compruebe que la carpeta de backup pueda ser accesada.
+ </string>
+</group>

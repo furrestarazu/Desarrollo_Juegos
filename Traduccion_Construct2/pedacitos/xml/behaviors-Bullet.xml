@@ -1,0 +1,194 @@
+<group name="Bullet">
+ <string id="name">
+  Bullet
+ </string>
+ <string id="category">
+  Movements
+ </string>
+ <string id="description">
+  Move an object ahead at its current angle.  Typically used for bullets and projectiles.
+ </string>
+ <group name="properties">
+  <string id="speed">
+   Speed
+  </string>
+  <string id="speed-desc">
+   The speed, in pixels per second, the object travels at.
+  </string>
+  <string id="acceleration">
+   Acceleration
+  </string>
+  <string id="acceleration-desc">
+   The rate of acceleration, in pixels per second per second.  Negative values decelerate.
+  </string>
+  <string id="gravity">
+   Gravity
+  </string>
+  <string id="gravity-desc">
+   Gravity on the bullet, in pixels per second per second.
+  </string>
+  <string id="bounceoffsolids">
+   Bounce off solids
+  </string>
+  <string id="bounceoffsolids-desc">
+   Make the object bounce off solid objects when it collides with them.
+  </string>
+  <string id="bounceoffsolids-options">
+   No|Yes
+  </string>
+  <string id="setangle">
+   Set angle
+  </string>
+  <string id="setangle-desc">
+   Set the object's angle to the angle of motion.
+  </string>
+  <string id="setangle-options">
+   No|Yes
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Compare speed
+  </string>
+  <string id="0-display">
+   {my} speed {0} {1}
+  </string>
+  <string id="0-desc">
+   Compare the current speed of the object.
+  </string>
+  <string id="0-p0">
+   Comparison
+  </string>
+  <string id="0-p0-desc">
+   Choose the way to compare the current speed.
+  </string>
+  <string id="0-p1">
+   Speed
+  </string>
+  <string id="0-p1-desc">
+   The speed, in pixels per second, to compare the current speed to.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set speed
+  </string>
+  <string id="0-display">
+   Set {my} speed to [i]{0}[/i]
+  </string>
+  <string id="0-desc">
+   Set the object's current speed.
+  </string>
+  <string id="0-p0">
+   Speed
+  </string>
+  <string id="0-p0-desc">
+   The new speed of the object to set, in pixels per second.
+  </string>
+  <string id="1">
+   Set acceleration
+  </string>
+  <string id="1-display">
+   Set {my} acceleration to [i]{0}[/i]
+  </string>
+  <string id="1-desc">
+   Set the object's acceleration.
+  </string>
+  <string id="1-p0">
+   Acceleration
+  </string>
+  <string id="1-p0-desc">
+   The new acceleration of the object to set, in pixels per second per second.
+  </string>
+  <string id="2">
+   Set gravity
+  </string>
+  <string id="2-display">
+   Set {my} gravity to [i]{0}[/i]
+  </string>
+  <string id="2-desc">
+   Set the object's force of gravity.
+  </string>
+  <string id="2-p0">
+   Gravity
+  </string>
+  <string id="2-p0-desc">
+   The new acceleration caused by gravity, in pixels per second per second.
+  </string>
+  <string id="3">
+   Set angle of motion
+  </string>
+  <string id="3-display">
+   Set {my} angle of motion to [i]{0}[/i] degrees
+  </string>
+  <string id="3-desc">
+   Set the angle the object is moving at.
+  </string>
+  <string id="3-p0">
+   Angle
+  </string>
+  <string id="3-p0-desc">
+   The new angle of motion, in degrees.
+  </string>
+  <string id="4">
+   Bounce off object
+  </string>
+  <string id="4-display">
+   Bounce {my} off {0}
+  </string>
+  <string id="4-desc">
+   Bounce the object off an object it is currently touching.
+  </string>
+  <string id="4-p0">
+   Object
+  </string>
+  <string id="4-p0-desc">
+   The object to bounce off.
+  </string>
+  <string id="5">
+   Set enabled
+  </string>
+  <string id="5-display">
+   Set {my} [b]{0}[/b]
+  </string>
+  <string id="5-desc">
+   Set whether this behavior is enabled.
+  </string>
+  <string id="5-p0">
+   State
+  </string>
+  <string id="5-p0-desc">
+   Set whether to enable or disable the behavior.
+  </string>
+  <string id="5-p0-opt0">
+   Disabled
+  </string>
+  <string id="5-p0-opt1">
+   Enabled
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   Speed
+  </string>
+  <string id="0-desc">
+   The current object speed, in pixels per second.
+  </string>
+  <string id="1">
+   Acceleration
+  </string>
+  <string id="1-desc">
+   The acceleration setting, in pixels per second per second.
+  </string>
+  <string id="2">
+   AngleOfMotion
+  </string>
+  <string id="2-desc">
+   The angle the object is currently moving at, in degrees.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

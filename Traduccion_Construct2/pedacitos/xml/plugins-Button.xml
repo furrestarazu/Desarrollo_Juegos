@@ -1,0 +1,143 @@
+<group name="Button">
+ <string id="name">
+  Button
+ </string>
+ <string id="category">
+  Form controls
+ </string>
+ <string id="description">
+  A clickable push button.
+ </string>
+ <group name="properties">
+  <string id="text">
+   Text
+  </string>
+  <string id="text-desc">
+   The initial text for the text box.
+  </string>
+  <string id="tooltip">
+   Tooltip
+  </string>
+  <string id="tooltip-desc">
+   Display this text when hovering the mouse over the control.
+  </string>
+  <string id="initialvisibility">
+   Initial visibility
+  </string>
+  <string id="initialvisibility-desc">
+   Choose whether the text box is visible on startup.
+  </string>
+  <string id="initialvisibility-options">
+   Invisible|Visible
+  </string>
+  <string id="enabled">
+   Enabled
+  </string>
+  <string id="enabled-desc">
+   Choose whether the text box is enabled or disabled on startup.
+  </string>
+  <string id="enabled-options">
+   No|Yes
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   On clicked
+  </string>
+  <string id="0-display">
+   On clicked
+  </string>
+  <string id="0-desc">
+   Triggered when the button is clicked.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set text
+  </string>
+  <string id="0-display">
+   Set text to {0}
+  </string>
+  <string id="0-desc">
+   Set the button's text.
+  </string>
+  <string id="0-p0">
+   Text
+  </string>
+  <string id="0-p0-desc">
+   The text to set in the button.
+  </string>
+  <string id="1">
+   Set tooltip
+  </string>
+  <string id="1-display">
+   Set tooltip to {0}
+  </string>
+  <string id="1-desc">
+   Set the button's tooltip.
+  </string>
+  <string id="1-p0">
+   Tooltip
+  </string>
+  <string id="1-p0-desc">
+   The tooltip to set on the button.
+  </string>
+  <string id="2">
+   Set visible
+  </string>
+  <string id="2-display">
+   Set [b]{0}[/b]
+  </string>
+  <string id="2-desc">
+   Hide or show the button.
+  </string>
+  <string id="2-p0">
+   Visibility
+  </string>
+  <string id="2-p0-desc">
+   Choose whether to hide or show the button.
+  </string>
+  <string id="2-p0-opt0">
+   Invisible
+  </string>
+  <string id="2-p0-opt1">
+   Visible
+  </string>
+  <string id="3">
+   Set enabled
+  </string>
+  <string id="3-display">
+   Set [b]{0}[/b]
+  </string>
+  <string id="3-desc">
+   Disable or enable the button.
+  </string>
+  <string id="3-p0">
+   Mode
+  </string>
+  <string id="3-p0-desc">
+   Choose whether to enable or disable the button.
+  </string>
+  <string id="3-p0-opt0">
+   Disabled
+  </string>
+  <string id="3-p0-opt1">
+   Enabled
+  </string>
+  <string id="4">
+   Set focused
+  </string>
+  <string id="4-display">
+   Set focused
+  </string>
+  <string id="4-desc">
+   Set the input focus to the button.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

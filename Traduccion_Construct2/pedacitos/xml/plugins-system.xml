@@ -1,0 +1,1581 @@
+<group name="system">
+ <!-- Translate the system object name here -->
+ <string id="name">
+  System
+ </string>
+ <group name="cnds">
+  <string id="-1">
+   Every tick
+  </string>
+  <string id="-1-display">
+   Every tick
+  </string>
+  <string id="-1-desc">
+   Run the actions once every tick, a.k.a. 'Always'.
+  </string>
+  <string id="-2">
+   On start of layout
+  </string>
+  <string id="-2-display">
+   On start of layout
+  </string>
+  <string id="-2-desc">
+   Triggered at the start of the current layout.
+  </string>
+  <string id="-3">
+   On end of layout
+  </string>
+  <string id="-3-display">
+   On end of layout
+  </string>
+  <string id="-3-desc">
+   Triggered at the end of the current layout.
+  </string>
+  <string id="-4">
+   Trigger once while true
+  </string>
+  <string id="-4-display">
+   Trigger once
+  </string>
+  <string id="-4-desc">
+   Make a continuously true event trigger once only, when it first becomes true.  Place as the last condition.
+  </string>
+  <string id="-6">
+   Every X seconds
+  </string>
+  <string id="-6-display">
+   Every [b]{0}[/b] seconds
+  </string>
+  <string id="-6-desc">
+   Run the actions at a regular time interval.
+  </string>
+  <string id="-6-p0">
+   Interval (seconds)
+  </string>
+  <string id="-6-p0-desc">
+   Specify time, in seconds, between running the actions.  Interval is limited by the framerate (actions will not run more than once per tick).
+  </string>
+  <string id="-7">
+   Compare time
+  </string>
+  <string id="-7-display">
+   Time {0} [b]{1}[/b] seconds
+  </string>
+  <string id="-7-desc">
+   Compare the current time (seconds since startup)
+  </string>
+  <string id="-7-p0">
+   Comparison
+  </string>
+  <string id="-7-p0-desc">
+   Choose the way to compare the current time.
+  </string>
+  <string id="-7-p1">
+   Time (seconds)
+  </string>
+  <string id="-7-p1-desc">
+   The time (seconds since starting) to compare to.
+  </string>
+  <string id="-8">
+   Compare two values
+  </string>
+  <string id="-8-display">
+   {0} {1} {2}
+  </string>
+  <string id="-8-desc">
+   Compare two arbitrary values.  This condition does not pick any objects.
+  </string>
+  <string id="-8-p0">
+   First value
+  </string>
+  <string id="-8-p0-desc">
+   Enter the first value to compare.  This condition does not pick any objects - it is a simple value comparison.
+  </string>
+  <string id="-8-p1">
+   Comparison
+  </string>
+  <string id="-8-p1-desc">
+   Select the way to compare the values.
+  </string>
+  <string id="-8-p2">
+   Second value
+  </string>
+  <string id="-8-p2-desc">
+   Enter the second value to compare.  This condition does not pick any objects - it is a simple value comparison.
+  </string>
+  <string id="-9">
+   Layer is visible
+  </string>
+  <string id="-9-display">
+   Layer [b]{0}[/b] is visible
+  </string>
+  <string id="-9-desc">
+   Test if a layer is currently visible.
+  </string>
+  <string id="-9-p0">
+   Layer
+  </string>
+  <string id="-9-p0-desc">
+   Name or number of layer to check visibility for.
+  </string>
+  <string id="-17">
+   Compare opacity
+  </string>
+  <string id="-17-display">
+   Layer [b]{0}[/b] opacity {1} {2}
+  </string>
+  <string id="-17-desc">
+   Compare the opacity of a layer.
+  </string>
+  <string id="-17-p0">
+   Layer
+  </string>
+  <string id="-17-p0-desc">
+   Name or number of layer to compare opacity.
+  </string>
+  <string id="-17-p1">
+   Comparison
+  </string>
+  <string id="-17-p1-desc">
+   Select the way to compare the layer opacity.
+  </string>
+  <string id="-17-p2">
+   Opacity
+  </string>
+  <string id="-17-p2-desc">
+   The opacity to compare to, from 0 (transparent) to 100 (opaque).
+  </string>
+  <string id="-10">
+   For
+  </string>
+  <string id="-10-display">
+   For [b]{0}[/b] from [i]{1}[/i] to [i]{2}[/i]
+  </string>
+  <string id="-10-desc">
+   Repeat actions with an index variable.
+  </string>
+  <string id="-10-p0">
+   Name
+  </string>
+  <string id="-10-p0-desc">
+   Choose the name of the loop.  This can be an empty string.
+  </string>
+  <string id="-10-p1">
+   Start index
+  </string>
+  <string id="-10-p1-desc">
+   Start index of the loop range (inclusive).
+  </string>
+  <string id="-10-p2">
+   End index
+  </string>
+  <string id="-10-p2-desc">
+   End index of the loop range (inclusive).
+  </string>
+  <string id="-11">
+   For Each
+  </string>
+  <string id="-11-display">
+   For each {0}
+  </string>
+  <string id="-11-desc">
+   Repeat actions once for each instance of an object.
+  </string>
+  <string id="-11-p0">
+   Object
+  </string>
+  <string id="-11-p0-desc">
+   Choose the object for the loop.  The actions will repeat once for each instance of the object.
+  </string>
+  <string id="-12">
+   Repeat
+  </string>
+  <string id="-12-display">
+   Repeat [b]{0}[/b] times
+  </string>
+  <string id="-12-desc">
+   Repeat actions a certain number of times.
+  </string>
+  <string id="-12-p0">
+   Count
+  </string>
+  <string id="-12-p0-desc">
+   Number of times to repeat the actions.
+  </string>
+  <string id="-13">
+   Pick nth instance
+  </string>
+  <string id="-13-display">
+   Pick {0} instance {1}
+  </string>
+  <string id="-13-desc">
+   Pick just the nth instance from the currently picked instances of an object.
+  </string>
+  <string id="-13-p0">
+   Object
+  </string>
+  <string id="-13-p0-desc">
+   Choose the object to pick an instance from.
+  </string>
+  <string id="-13-p1">
+   Instance
+  </string>
+  <string id="-13-p1-desc">
+   Index of the instance to pick (0-based).
+  </string>
+  <string id="-16">
+   Pick random instance
+  </string>
+  <string id="-16-display">
+   Pick a random {0} instance
+  </string>
+  <string id="-16-desc">
+   Pick a single random instance from the currently picked instances of an object.
+  </string>
+  <string id="-16-p0">
+   Object
+  </string>
+  <string id="-16-p0-desc">
+   Choose the object to pick a random instance from.
+  </string>
+  <string id="-14">
+   Compare variable
+  </string>
+  <string id="-14-display">
+   [b]{0}[/b] {1} {2}
+  </string>
+  <string id="-14-desc">
+   Compare the value of a global or local variable.
+  </string>
+  <string id="-14-p0">
+   Variable
+  </string>
+  <string id="-14-p0-desc">
+   Choose the variable to compare.
+  </string>
+  <string id="-14-p1">
+   Comparison
+  </string>
+  <string id="-14-p1-desc">
+   How to compare the variable.
+  </string>
+  <string id="-14-p2">
+   Value
+  </string>
+  <string id="-14-p2-desc">
+   Value to compare to the variable.
+  </string>
+  <string id="-15">
+   Is group active
+  </string>
+  <string id="-15-display">
+   Group [b]{0}[/b] is active
+  </string>
+  <string id="-15-desc">
+   Test if an event group is currently active.
+  </string>
+  <string id="-15-p0">
+   Group name
+  </string>
+  <string id="-15-p0-desc">
+   The name of the event group to test if active.
+  </string>
+  <string id="-18">
+   Is in preview
+  </string>
+  <string id="-18-display">
+   Is in preview
+  </string>
+  <string id="-18-desc">
+   True if the project is running as a preview rather than as an exported project.
+  </string>
+  <string id="-19">
+   Pick all
+  </string>
+  <string id="-19-display">
+   Pick all {0}
+  </string>
+  <string id="-19-desc">
+   Reset the picked instances to select all of them again.
+  </string>
+  <string id="-19-p0">
+   Object
+  </string>
+  <string id="-19-p0-desc">
+   Choose the object to reset to pick all instances.
+  </string>
+  <string id="-20">
+   Is on mobile device
+  </string>
+  <string id="-20-display">
+   Is on mobile device
+  </string>
+  <string id="-20-desc">
+   True if being viewed on a mobile device.  This is an estimate and may not be perfectly accurate.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="-2">
+   Go to layout
+  </string>
+  <string id="-2-display">
+   Go to [b]{0}[/b]
+  </string>
+  <string id="-2-desc">
+   Jump to another layout in the project.
+  </string>
+  <string id="-2-p0">
+   Layout
+  </string>
+  <string id="-2-p0-desc">
+   Choose the layout to go to.
+  </string>
+  <string id="-3">
+   Create object
+  </string>
+  <string id="-3-display">
+   Create object {0} on layer [b]{1}[/b] at ([i]{2}[/i], [i]{3}[/i])
+  </string>
+  <string id="-3-desc">
+   Create a new instance of an object in the current layout.
+  </string>
+  <string id="-3-p0">
+   Object to create
+  </string>
+  <string id="-3-p0-desc">
+   Choose the object type of the new instance to create.
+  </string>
+  <string id="-3-p1">
+   Layer
+  </string>
+  <string id="-3-p1-desc">
+   Name or number of the layer to create the instance on.
+  </string>
+  <string id="-3-p2">
+   X
+  </string>
+  <string id="-3-p2-desc">
+   X co-ordinate at which to place the created instance.
+  </string>
+  <string id="-3-p3">
+   Y
+  </string>
+  <string id="-3-p3-desc">
+   Y co-ordinate at which to place the created instance.
+  </string>
+  <string id="-4">
+   Set visible
+  </string>
+  <string id="-4-display">
+   Set layer [b]{0}[/b] [i]{1}[/i]
+  </string>
+  <string id="-4-desc">
+   Set the visiblity of a layer.
+  </string>
+  <string id="-4-p0">
+   Layer
+  </string>
+  <string id="-4-p0-desc">
+   Name or number of the layer to set visible.
+  </string>
+  <string id="-4-p1">
+   Visibility
+  </string>
+  <string id="-4-p1-desc">
+   Choose whether the layer is drawn or not.
+  </string>
+  <string id="-4-p1-opt0">
+   Invisible
+  </string>
+  <string id="-4-p1-opt1">
+   Visible
+  </string>
+  <string id="-5">
+   Scroll to X
+  </string>
+  <string id="-5-display">
+   Set scroll X to [i]{0}[/i]
+  </string>
+  <string id="-5-desc">
+   Scroll to an X co-ordinate.
+  </string>
+  <string id="-5-p0">
+   X
+  </string>
+  <string id="-5-p0-desc">
+   X co-ordinate to scroll to, in pixels.
+  </string>
+  <string id="-6">
+   Scroll to Y
+  </string>
+  <string id="-6-display">
+   Set scroll Y to [i]{0}[/i]
+  </string>
+  <string id="-6-desc">
+   Scroll to an Y co-ordinate.
+  </string>
+  <string id="-6-p0">
+   Y
+  </string>
+  <string id="-6-p0-desc">
+   Y co-ordinate to scroll to, in pixels.
+  </string>
+  <string id="-7">
+   Scroll to position
+  </string>
+  <string id="-7-display">
+   Scroll to ([i]{0}[/i], [i]{1}[/i])
+  </string>
+  <string id="-7-desc">
+   Scroll to a co-ordinate.
+  </string>
+  <string id="-7-p0">
+   X
+  </string>
+  <string id="-7-p0-desc">
+   X co-ordinate to scroll to, in pixels.
+  </string>
+  <string id="-7-p1">
+   Y
+  </string>
+  <string id="-7-p1-desc">
+   Y co-ordinate to scroll to, in pixels.
+  </string>
+  <string id="-8">
+   Scroll to object
+  </string>
+  <string id="-8-display">
+   Scroll to {0}
+  </string>
+  <string id="-8-desc">
+   Scroll to an object.
+  </string>
+  <string id="-8-p0">
+   Object
+  </string>
+  <string id="-8-p0-desc">
+   Object to scroll to.
+  </string>
+  <string id="-9">
+   Set value
+  </string>
+  <string id="-9-display">
+   Set [b]{0}[/b] to [i]{1}[/i]
+  </string>
+  <string id="-9-desc">
+   Set the value of a global or local variable.
+  </string>
+  <string id="-9-p0">
+   Variable
+  </string>
+  <string id="-9-p0-desc">
+   Choose the variable to change.
+  </string>
+  <string id="-9-p1">
+   Value
+  </string>
+  <string id="-9-p1-desc">
+   Value to store in this variable.
+  </string>
+  <string id="-10">
+   Add to
+  </string>
+  <string id="-10-display">
+   Add [i]{1}[/i] to [b]{0}[/b]
+  </string>
+  <string id="-10-desc">
+   Add to the value of a global or local variable.
+  </string>
+  <string id="-10-p0">
+   Variable
+  </string>
+  <string id="-10-p0-desc">
+   Choose the variable to change.
+  </string>
+  <string id="-10-p1">
+   Value
+  </string>
+  <string id="-10-p1-desc">
+   Value to add to this variable.
+  </string>
+  <string id="-11">
+   Subtract from
+  </string>
+  <string id="-11-display">
+   Subtract [i]{1}[/i] from [b]{0}[/b]
+  </string>
+  <string id="-11-desc">
+   Subtract from the value of a global or local variable.
+  </string>
+  <string id="-11-p0">
+   Variable
+  </string>
+  <string id="-11-p0-desc">
+   Choose the variable to change.
+  </string>
+  <string id="-11-p1">
+   Value
+  </string>
+  <string id="-11-p1-desc">
+   Value to subtract from this variable.
+  </string>
+  <string id="-12">
+   Set group active
+  </string>
+  <string id="-12-display">
+   Set group [b]{0}[/b] {1}
+  </string>
+  <string id="-12-desc">
+   Activate or deactivate an event group.
+  </string>
+  <string id="-12-p0">
+   Group name
+  </string>
+  <string id="-12-p0-desc">
+   The name of the event group to set active.
+  </string>
+  <string id="-12-p1">
+   State
+  </string>
+  <string id="-12-p1-desc">
+   Choose whether to activate or deactivate the group.
+  </string>
+  <string id="-12-p1-opt0">
+   Deactivated
+  </string>
+  <string id="-12-p1-opt1">
+   Activated
+  </string>
+  <string id="-12-p1-opt2">
+   Toggle active
+  </string>
+  <string id="-13">
+   Set time scale
+  </string>
+  <string id="-13-display">
+   Set time scale to [i]{0}[/i]
+  </string>
+  <string id="-13-desc">
+   Change the rate time passes in the game, for slow-motion or pause effects.
+  </string>
+  <string id="-13-p0">
+   Time scale
+  </string>
+  <string id="-13-p0-desc">
+   The new time scale: 1.0 = normal speed, 0.5 = half speed, 2.0 = double speed, 0 = pause, etc.
+  </string>
+  <string id="-14">
+   Set object time scale
+  </string>
+  <string id="-14-display">
+   Set {0} time scale to [i]{1}[/i]
+  </string>
+  <string id="-14-desc">
+   Change the rate time passes for a specific object.  Overrides the game time scale.
+  </string>
+  <string id="-14-p0">
+   Object
+  </string>
+  <string id="-14-p0-desc">
+   The object to change timescale for.
+  </string>
+  <string id="-14-p1">
+   Time scale
+  </string>
+  <string id="-14-p1-desc">
+   The new time scale for the object (1.0 = normal speed, 0.5 = half speed, etc).
+  </string>
+  <string id="-15">
+   Restore object time scale
+  </string>
+  <string id="-15-display">
+   Restore {0} time scale
+  </string>
+  <string id="-15-desc">
+   Restore an object's time scale back to game time.
+  </string>
+  <string id="-15-p0">
+   Object
+  </string>
+  <string id="-15-p0-desc">
+   The object to restore timescale for.
+  </string>
+  <string id="-16">
+   Wait
+  </string>
+  <string id="-16-display">
+   Wait [b]{0}[/b] seconds
+  </string>
+  <string id="-16-desc">
+   Wait a number of seconds before running the next action.
+  </string>
+  <string id="-16-p0">
+   Seconds
+  </string>
+  <string id="-16-p0-desc">
+   The number of seconds to wait before running the next action.
+  </string>
+  <string id="-17">
+   Set scale
+  </string>
+  <string id="-17-display">
+   Set layer [b]{0}[/b] scale to [i]{1}[/i]
+  </string>
+  <string id="-17-desc">
+   Set an individual layer's scale (or 'zoom') to make it appear larger or smaller.
+  </string>
+  <string id="-17-p0">
+   Layer
+  </string>
+  <string id="-17-p0-desc">
+   Name or number of the layer to set the scale for.
+  </string>
+  <string id="-17-p1">
+   Scale
+  </string>
+  <string id="-17-p1-desc">
+   The layer scale (or 'zoom').  1.0 for original size, 2.0 for double size, etc.
+  </string>
+  <string id="-18">
+   Set opacity
+  </string>
+  <string id="-18-display">
+   Set layer [b]{0}[/b] opacity to [i]{1}[/i]
+  </string>
+  <string id="-18-desc">
+   Set an individual layer's opacity.
+  </string>
+  <string id="-18-p0">
+   Layer
+  </string>
+  <string id="-18-p0-desc">
+   Name or number of the layer to set opacity for.
+  </string>
+  <string id="-18-p1">
+   Opacity
+  </string>
+  <string id="-18-p1-desc">
+   The layer opacity, from 0 (transparent) to 100 (opaque).
+  </string>
+  <string id="-19">
+   Set scale rate
+  </string>
+  <string id="-19-display">
+   Set layer [b]{0}[/b] scale rate to [i]{1}[/i]
+  </string>
+  <string id="-19-desc">
+   Set an individual layer's scale rate.
+  </string>
+  <string id="-19-p0">
+   Layer
+  </string>
+  <string id="-19-p0-desc">
+   Name or number of the layer to set the scale rate for.
+  </string>
+  <string id="-19-p1">
+   Scale rate
+  </string>
+  <string id="-19-p1-desc">
+   The scale rate to set.  1.0 for ordinary zoom, 2.0 for twice as much zoom, 0 for no zoom etc.
+  </string>
+  <string id="-20">
+   Set layout scale
+  </string>
+  <string id="-20-display">
+   Set layout scale to [b]{0}[/b]
+  </string>
+  <string id="-20-desc">
+   Set the scale of the entire layout.
+  </string>
+  <string id="-20-p0">
+   Scale
+  </string>
+  <string id="-20-p0-desc">
+   The overall scale of the layout.  1.0 for original size, 2.0 for double size, etc.
+  </string>
+  <string id="-21">
+   Reset global variables
+  </string>
+  <string id="-21-display">
+   Reset global variables to default
+  </string>
+  <string id="-21-desc">
+   Reset all global variables in the project to their initial values.
+  </string>
+  <string id="-22">
+   Set layout angle
+  </string>
+  <string id="-22-display">
+   Set layout angle to [b]{0}[/b]
+  </string>
+  <string id="-22-desc">
+   Set the angle of the entire layout.
+  </string>
+  <string id="-22-p0">
+   Angle
+  </string>
+  <string id="-22-p0-desc">
+   The angle to rotate the canvas view to, in degrees.
+  </string>
+  <string id="-23">
+   Set layer angle
+  </string>
+  <string id="-23-display">
+   Set layer [b]{0}[/b] angle to [i]{1}[/i] degrees
+  </string>
+  <string id="-23-desc">
+   Set an individual layer's angle.
+  </string>
+  <string id="-23-p0">
+   Layer
+  </string>
+  <string id="-23-p0-desc">
+   Name or number of the layer to set the angle for.
+  </string>
+  <string id="-23-p1">
+   Angle
+  </string>
+  <string id="-23-p1-desc">
+   The angle to rotate the layer to, in degrees.
+  </string>
+  <string id="-24">
+   Stop loop
+  </string>
+  <string id="-24-display">
+   Stop loop
+  </string>
+  <string id="-24-desc">
+   Stop any currently running loop (for, for each, repeat).
+  </string>
+  <string id="-25">
+   Go to layout (by name)
+  </string>
+  <string id="-25-display">
+   Go to layout [b]{0}[/b]
+  </string>
+  <string id="-25-desc">
+   Jump to another layout in the project, using a string for the layout name.
+  </string>
+  <string id="-25-p0">
+   Layout
+  </string>
+  <string id="-25-p0-desc">
+   The name of the layout to go to.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="-1">
+   int
+  </string>
+  <string id="-1-desc">
+   Convert a string or float to an integer.
+  </string>
+  <string id="-1-p0">
+   Value
+  </string>
+  <string id="-1-p0-desc">
+   Value to convert to integer
+  </string>
+  <string id="-2">
+   float
+  </string>
+  <string id="-2-desc">
+   Convert a string or integer to a float.
+  </string>
+  <string id="-2-p0">
+   Value
+  </string>
+  <string id="-2-p0-desc">
+   Value to convert to float
+  </string>
+  <string id="-3">
+   str
+  </string>
+  <string id="-3-desc">
+   Convert an integer or float to a string. You can also use the &amp; operator for concatenation.
+  </string>
+  <string id="-3-p0">
+   Value
+  </string>
+  <string id="-3-p0-desc">
+   Value to convert to string
+  </string>
+  <string id="-4">
+   len
+  </string>
+  <string id="-4-desc">
+   Get the number of characters in a text string.
+  </string>
+  <string id="-4-p0">
+   String
+  </string>
+  <string id="-4-p0-desc">
+   String to get length from.
+  </string>
+  <string id="-5">
+   random
+  </string>
+  <string id="-5-desc">
+   Generate a random number.  Pass two numbers to generate within a range.
+  </string>
+  <string id="-5-p0">
+   Range
+  </string>
+  <string id="-5-p0-desc">
+   Range of random numbers to generate, from 0 to one less than this value.
+  </string>
+  <string id="-6">
+   sqrt
+  </string>
+  <string id="-6-desc">
+   Calculate square root of a number.
+  </string>
+  <string id="-6-p0">
+   Number
+  </string>
+  <string id="-6-p0-desc">
+   Number to take square root of
+  </string>
+  <string id="-7">
+   abs
+  </string>
+  <string id="-7-desc">
+   Calculate absolute (positive) value of a number.
+  </string>
+  <string id="-7-p0">
+   Number
+  </string>
+  <string id="-7-p0-desc">
+   Number to determine absolute (positive) value for.
+  </string>
+  <string id="-8">
+   round
+  </string>
+  <string id="-8-desc">
+   Round number to the nearest integer.
+  </string>
+  <string id="-8-p0">
+   Number
+  </string>
+  <string id="-8-p0-desc">
+   Number to round to nearest integer.
+  </string>
+  <string id="-9">
+   floor
+  </string>
+  <string id="-9-desc">
+   Round number down to an integer.
+  </string>
+  <string id="-9-p0">
+   Number
+  </string>
+  <string id="-9-p0-desc">
+   Number to round down to integer.
+  </string>
+  <string id="-10">
+   ceil
+  </string>
+  <string id="-10-desc">
+   Round number up to an integer.
+  </string>
+  <string id="-10-p0">
+   Number
+  </string>
+  <string id="-10-p0-desc">
+   Number to round up to integer.
+  </string>
+  <string id="-11">
+   sin
+  </string>
+  <string id="-11-desc">
+   Calculate sine of a number (in degrees).
+  </string>
+  <string id="-11-p0">
+   Number
+  </string>
+  <string id="-11-p0-desc">
+   Number (degrees) to calculate sine of.
+  </string>
+  <string id="-12">
+   cos
+  </string>
+  <string id="-12-desc">
+   Calculate cosine of a number (in degrees).
+  </string>
+  <string id="-12-p0">
+   Number
+  </string>
+  <string id="-12-p0-desc">
+   Number (degrees) to calculate cosine of.
+  </string>
+  <string id="-13">
+   tan
+  </string>
+  <string id="-13-desc">
+   Calculate tangent of a number (in degrees).
+  </string>
+  <string id="-13-p0">
+   Number
+  </string>
+  <string id="-13-p0-desc">
+   Number (degrees) to calculate tangent of.
+  </string>
+  <string id="-14">
+   asin
+  </string>
+  <string id="-14-desc">
+   Calculate arcsine of a number (in degrees).
+  </string>
+  <string id="-14-p0">
+   Number
+  </string>
+  <string id="-14-p0-desc">
+   Number (degrees) to calculate arcsine of.
+  </string>
+  <string id="-15">
+   acos
+  </string>
+  <string id="-15-desc">
+   Calculate arccosine of a number (in degrees).
+  </string>
+  <string id="-15-p0">
+   Number
+  </string>
+  <string id="-15-p0-desc">
+   Number (degrees) to calculate arccosine of.
+  </string>
+  <string id="-16">
+   atan
+  </string>
+  <string id="-16-desc">
+   Calculate arctangent of a number (in degrees).
+  </string>
+  <string id="-16-p0">
+   Number
+  </string>
+  <string id="-16-p0-desc">
+   Number (degrees) to calculate arctangent of.
+  </string>
+  <string id="-17">
+   exp
+  </string>
+  <string id="-17-desc">
+   Calculate e raised to the power of a number.
+  </string>
+  <string id="-17-p0">
+   Number
+  </string>
+  <string id="-17-p0-desc">
+   Number to raise e to the power.
+  </string>
+  <string id="-18">
+   ln
+  </string>
+  <string id="-18-desc">
+   Calculate logarithm to base e of a number.
+  </string>
+  <string id="-18-p0">
+   Number
+  </string>
+  <string id="-18-p0-desc">
+   Number to calculate natural logarithm of.
+  </string>
+  <string id="-19">
+   log10
+  </string>
+  <string id="-19-desc">
+   Calculate logarithm to base 10 of a number.
+  </string>
+  <string id="-19-p0">
+   Number
+  </string>
+  <string id="-19-p0-desc">
+   Number to calculate logarithm of.
+  </string>
+  <string id="-20">
+   max
+  </string>
+  <string id="-20-desc">
+   Calculate maximum of a set of numbers.
+  </string>
+  <string id="-20-p0">
+   Number
+  </string>
+  <string id="-20-p0-desc">
+   Numbers to calculate maximum from.
+  </string>
+  <string id="-20-p1">
+   Number
+  </string>
+  <string id="-20-p1-desc">
+   Numbers to calculate maximum from.
+  </string>
+  <string id="-21">
+   min
+  </string>
+  <string id="-21-desc">
+   Calculate minimum of a set of numbers.
+  </string>
+  <string id="-21-p0">
+   Number
+  </string>
+  <string id="-21-p0-desc">
+   Numbers to calculate minimum from.
+  </string>
+  <string id="-21-p1">
+   Number
+  </string>
+  <string id="-21-p1-desc">
+   Numbers to calculate minimum from.
+  </string>
+  <string id="-22">
+   dt
+  </string>
+  <string id="-22-desc">
+   Retrieve the time, in seconds, since the last tick (a.k.a. time delta)
+  </string>
+  <string id="-23">
+   timescale
+  </string>
+  <string id="-23-desc">
+   Retrieve the time scaling factor.
+  </string>
+  <string id="-24">
+   time
+  </string>
+  <string id="-24-desc">
+   Time in seconds since the game began, taking in to account the time scale.
+  </string>
+  <string id="-25">
+   tickcount
+  </string>
+  <string id="-25-desc">
+   Retrieve the number of ticks elapsed since the start of the application.
+  </string>
+  <string id="-26">
+   objectcount
+  </string>
+  <string id="-26-desc">
+   Retrieve the total number of objects in the application.
+  </string>
+  <string id="-27">
+   fps
+  </string>
+  <string id="-27-desc">
+   Retrieve the current frames per second rate.
+  </string>
+  <string id="-28">
+   loopindex
+  </string>
+  <string id="-28-desc">
+   Retrieve the index of a currently running loop.
+  </string>
+  <string id="-29">
+   distance
+  </string>
+  <string id="-29-desc">
+   Calculate the distance between two points.
+  </string>
+  <string id="-29-p0">
+   x1
+  </string>
+  <string id="-29-p0-desc">
+   X position of first point.
+  </string>
+  <string id="-29-p1">
+   y1
+  </string>
+  <string id="-29-p1-desc">
+   Y position of first point.
+  </string>
+  <string id="-29-p2">
+   x2
+  </string>
+  <string id="-29-p2-desc">
+   X position of second point.
+  </string>
+  <string id="-29-p3">
+   y2
+  </string>
+  <string id="-29-p3-desc">
+   Y position of second point.
+  </string>
+  <string id="-30">
+   angle
+  </string>
+  <string id="-30-desc">
+   Calculate the angle, in degrees, between two points.
+  </string>
+  <string id="-30-p0">
+   x1
+  </string>
+  <string id="-30-p0-desc">
+   X position of first point.
+  </string>
+  <string id="-30-p1">
+   y1
+  </string>
+  <string id="-30-p1-desc">
+   Y position of first point.
+  </string>
+  <string id="-30-p2">
+   x2
+  </string>
+  <string id="-30-p2-desc">
+   X position of second point.
+  </string>
+  <string id="-30-p3">
+   y2
+  </string>
+  <string id="-30-p3-desc">
+   Y position of second point.
+  </string>
+  <string id="-31">
+   scrollx
+  </string>
+  <string id="-31-desc">
+   X co-ordinate of current scroll location.
+  </string>
+  <string id="-32">
+   scrolly
+  </string>
+  <string id="-32-desc">
+   Y co-ordinate of current scroll location.
+  </string>
+  <string id="-33">
+   newline
+  </string>
+  <string id="-33-desc">
+   A text string with a line break.
+  </string>
+  <string id="-34">
+   lerp
+  </string>
+  <string id="-34-desc">
+   Linearly interpolate a to b by x.
+  </string>
+  <string id="-34-p0">
+   a
+  </string>
+  <string id="-34-p0-desc">
+   First number.
+  </string>
+  <string id="-34-p1">
+   b
+  </string>
+  <string id="-34-p1-desc">
+   Second number.
+  </string>
+  <string id="-34-p2">
+   x
+  </string>
+  <string id="-34-p2-desc">
+   Interpolation factor.
+  </string>
+  <string id="-35">
+   WindowWidth
+  </string>
+  <string id="-35-desc">
+   Width of the window area (viewport).
+  </string>
+  <string id="-36">
+   WindowHeight
+  </string>
+  <string id="-36-desc">
+   Height of the window area (viewport).
+  </string>
+  <string id="-37">
+   wallclocktime
+  </string>
+  <string id="-37-desc">
+   Real-world time in seconds since the game began (i.e. not affected by the time scale).
+  </string>
+  <string id="-38">
+   uppercase
+  </string>
+  <string id="-38-desc">
+   Convert some text to uppercase ("TeXt" -&gt; "TEXT").
+  </string>
+  <string id="-38-p0">
+   Text
+  </string>
+  <string id="-38-p0-desc">
+   Text to convert to uppercase
+  </string>
+  <string id="-39">
+   lowercase
+  </string>
+  <string id="-39-desc">
+   Convert some text to lowercase ("TeXt" -&gt; "text").
+  </string>
+  <string id="-39-p0">
+   Text
+  </string>
+  <string id="-39-p0-desc">
+   Text to convert to lowercase
+  </string>
+  <string id="-40">
+   clamp
+  </string>
+  <string id="-40-desc">
+   Return x if between two numbers, else the upper or lower bound.
+  </string>
+  <string id="-40-p0">
+   x
+  </string>
+  <string id="-40-p0-desc">
+   Number to clamp.
+  </string>
+  <string id="-40-p1">
+   lower
+  </string>
+  <string id="-40-p1-desc">
+   Lower bound.
+  </string>
+  <string id="-40-p2">
+   upper
+  </string>
+  <string id="-40-p2-desc">
+   Upper bound.
+  </string>
+  <string id="-41">
+   LayerScale
+  </string>
+  <string id="-41-desc">
+   Get the current scale of a layer (by name or number).
+  </string>
+  <string id="-41-p0">
+   layer
+  </string>
+  <string id="-41-p0-desc">
+   Layer to get scale for.
+  </string>
+  <string id="-42">
+   LayoutWidth
+  </string>
+  <string id="-42-desc">
+   Width of the current layout.
+  </string>
+  <string id="-43">
+   LayoutHeight
+  </string>
+  <string id="-43-desc">
+   Height of the current layout.
+  </string>
+  <string id="-44">
+   find
+  </string>
+  <string id="-44-desc">
+   Find the index a string occurs inside another string.
+  </string>
+  <string id="-44-p0">
+   Text
+  </string>
+  <string id="-44-p0-desc">
+   Text to be searched.
+  </string>
+  <string id="-44-p1">
+   Find
+  </string>
+  <string id="-44-p1-desc">
+   Text to search for.
+  </string>
+  <string id="-45">
+   left
+  </string>
+  <string id="-45-desc">
+   Return the first N characters of a string.
+  </string>
+  <string id="-45-p0">
+   Text
+  </string>
+  <string id="-45-p0-desc">
+   Source text.
+  </string>
+  <string id="-45-p1">
+   Count
+  </string>
+  <string id="-45-p1-desc">
+   Number of characters at beginning of string to return.
+  </string>
+  <string id="-46">
+   right
+  </string>
+  <string id="-46-desc">
+   Return the last N characters of a string.
+  </string>
+  <string id="-46-p0">
+   Text
+  </string>
+  <string id="-46-p0-desc">
+   Source text.
+  </string>
+  <string id="-46-p1">
+   Count
+  </string>
+  <string id="-46-p1-desc">
+   Number of characters at end of string to return.
+  </string>
+  <string id="-47">
+   mid
+  </string>
+  <string id="-47-desc">
+   Return N characters starting at an index in a string.
+  </string>
+  <string id="-47-p0">
+   Text
+  </string>
+  <string id="-47-p0-desc">
+   Source text.
+  </string>
+  <string id="-47-p1">
+   Index
+  </string>
+  <string id="-47-p1-desc">
+   Index at which to start substring.
+  </string>
+  <string id="-47-p2">
+   Length
+  </string>
+  <string id="-47-p2-desc">
+   Number of characters to return.
+  </string>
+  <string id="-48">
+   tokenat
+  </string>
+  <string id="-48-desc">
+   Return the Nth token from a string.
+  </string>
+  <string id="-48-p0">
+   Text
+  </string>
+  <string id="-48-p0-desc">
+   Text to get a token from.
+  </string>
+  <string id="-48-p1">
+   Index
+  </string>
+  <string id="-48-p1-desc">
+   0-based index of the token to get.
+  </string>
+  <string id="-48-p2">
+   Separator
+  </string>
+  <string id="-48-p2-desc">
+   Character or string to separate tokens.
+  </string>
+  <string id="-49">
+   tokencount
+  </string>
+  <string id="-49-desc">
+   Return the number of tokens in a string.
+  </string>
+  <string id="-49-p0">
+   Text
+  </string>
+  <string id="-49-p0-desc">
+   Text to count tokens in.
+  </string>
+  <string id="-49-p1">
+   Separator
+  </string>
+  <string id="-49-p1-desc">
+   Character or string to separate tokens.
+  </string>
+  <string id="-50">
+   replace
+  </string>
+  <string id="-50-desc">
+   Replace all instances of a string within a string.
+  </string>
+  <string id="-50-p0">
+   Text
+  </string>
+  <string id="-50-p0-desc">
+   Source text.
+  </string>
+  <string id="-50-p1">
+   Find
+  </string>
+  <string id="-50-p1-desc">
+   Text to search for.
+  </string>
+  <string id="-50-p2">
+   Replace
+  </string>
+  <string id="-50-p2-desc">
+   Text to replace search string with.
+  </string>
+  <string id="-51">
+   trim
+  </string>
+  <string id="-51-desc">
+   Remove whitespace from the beginning and end of a string.
+  </string>
+  <string id="-51-p0">
+   Text
+  </string>
+  <string id="-51-p0-desc">
+   Source text.
+  </string>
+  <string id="-52">
+   pi
+  </string>
+  <string id="-52-desc">
+   The mathematical constant pi (3.14159...)
+  </string>
+  <string id="-53">
+   LayerOpacity
+  </string>
+  <string id="-53-desc">
+   Get the current opacity of a layer (by name or number).
+  </string>
+  <string id="-53-p0">
+   layer
+  </string>
+  <string id="-53-p0-desc">
+   Layer to get opacity for.
+  </string>
+  <string id="-54">
+   LayerScaleRate
+  </string>
+  <string id="-54-desc">
+   Get the current scale rate of a layer (by name or number).
+  </string>
+  <string id="-54-p0">
+   layer
+  </string>
+  <string id="-54-p0-desc">
+   Layer to get scale rate for.
+  </string>
+  <string id="-55">
+   LayoutScale
+  </string>
+  <string id="-55-desc">
+   Get the current scale of the entire layout.
+  </string>
+  <string id="-56">
+   LayoutName
+  </string>
+  <string id="-56-desc">
+   Get the name of the current layout.
+  </string>
+  <string id="-57">
+   renderer
+  </string>
+  <string id="-57-desc">
+   Get a string describing the renderer (returns "canvas2d" or "webgl").
+  </string>
+  <string id="-58">
+   anglediff
+  </string>
+  <string id="-58-desc">
+   Get the smallest difference between two angles in degrees.
+  </string>
+  <string id="-58-p0">
+   Angle1
+  </string>
+  <string id="-58-p0-desc">
+   First angle in degrees.
+  </string>
+  <string id="-58-p1">
+   Angle2
+  </string>
+  <string id="-58-p1-desc">
+   Second angle in degrees.
+  </string>
+  <string id="-59">
+   choose
+  </string>
+  <string id="-59-desc">
+   Randomly choose one of the parameters.
+  </string>
+  <string id="-59-p0">
+   Value
+  </string>
+  <string id="-59-p0-desc">
+   A random value to choose from.
+  </string>
+  <string id="-59-p1">
+   Value
+  </string>
+  <string id="-59-p1-desc">
+   Another random value to choose from.
+  </string>
+  <string id="-60">
+   rgb
+  </string>
+  <string id="-60-desc">
+   Generate an RGB value (number representing a color).
+  </string>
+  <string id="-60-p0">
+   Red
+  </string>
+  <string id="-60-p0-desc">
+   Red value, 0-255
+  </string>
+  <string id="-60-p1">
+   Green
+  </string>
+  <string id="-60-p1-desc">
+   Green value, 0-255
+  </string>
+  <string id="-60-p2">
+   Blue
+  </string>
+  <string id="-60-p2-desc">
+   Blue value, 0-255
+  </string>
+  <string id="-61">
+   LayoutAngle
+  </string>
+  <string id="-61-desc">
+   Get the current angle of the layout, in degrees.
+  </string>
+  <string id="-62">
+   LayerAngle
+  </string>
+  <string id="-62-desc">
+   Get the current angle of a layer in degrees (by name or number).
+  </string>
+  <string id="-62-p0">
+   layer
+  </string>
+  <string id="-62-p0-desc">
+   Layer to get angle for.
+  </string>
+  <string id="-63">
+   projectversion
+  </string>
+  <string id="-63-desc">
+   Return the version from project properties.
+  </string>
+  <string id="-64">
+   anglelerp
+  </string>
+  <string id="-64-desc">
+   Linearly interpolate angles a to b (in degrees) by x.
+  </string>
+  <string id="-64-p0">
+   a
+  </string>
+  <string id="-64-p0-desc">
+   First angle in degrees.
+  </string>
+  <string id="-64-p1">
+   b
+  </string>
+  <string id="-64-p1-desc">
+   Second angle in degrees.
+  </string>
+  <string id="-64-p2">
+   x
+  </string>
+  <string id="-64-p2-desc">
+   Interpolation factor.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

@@ -1,0 +1,257 @@
+<group name="Mouse">
+ <string id="name">
+  Mouse
+ </string>
+ <string id="category">
+  Input
+ </string>
+ <string id="description">
+  Retrieve input from the mouse.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   On click
+  </string>
+  <string id="0-display">
+   On [b]{0}[/b] button [b]{1}[/b]
+  </string>
+  <string id="0-desc">
+   Triggered when a mouse button clicked or double-clicked.
+  </string>
+  <string id="0-p0">
+   Mouse button
+  </string>
+  <string id="0-p0-desc">
+   Select the mouse button to check.
+  </string>
+  <string id="0-p0-opt0">
+   Left
+  </string>
+  <string id="0-p0-opt1">
+   Middle
+  </string>
+  <string id="0-p0-opt2">
+   Right
+  </string>
+  <string id="0-p1">
+   Click type
+  </string>
+  <string id="0-p1-desc">
+   Select which kind of click to check for.
+  </string>
+  <string id="0-p1-opt0">
+   Clicked
+  </string>
+  <string id="0-p1-opt1">
+   Double-clicked
+  </string>
+  <string id="1">
+   On any click
+  </string>
+  <string id="1-display">
+   On any click
+  </string>
+  <string id="1-desc">
+   Triggered when any mouse button clicked or double-clicked.
+  </string>
+  <string id="2">
+   Mouse button is down
+  </string>
+  <string id="2-display">
+   [b]{0}[/b] button is down
+  </string>
+  <string id="2-desc">
+   Test if a mouse button is currently held down.
+  </string>
+  <string id="2-p0">
+   Mouse button
+  </string>
+  <string id="2-p0-desc">
+   Select the mouse button to check.
+  </string>
+  <string id="2-p0-opt0">
+   Left
+  </string>
+  <string id="2-p0-opt1">
+   Middle
+  </string>
+  <string id="2-p0-opt2">
+   Right
+  </string>
+  <string id="3">
+   On button released
+  </string>
+  <string id="3-display">
+   On [b]{0}[/b] button released
+  </string>
+  <string id="3-desc">
+   Triggered when a mouse button released.
+  </string>
+  <string id="3-p0">
+   Mouse button
+  </string>
+  <string id="3-p0-desc">
+   Select the mouse button to check.
+  </string>
+  <string id="3-p0-opt0">
+   Left
+  </string>
+  <string id="3-p0-opt1">
+   Middle
+  </string>
+  <string id="3-p0-opt2">
+   Right
+  </string>
+  <string id="6">
+   On object clicked
+  </string>
+  <string id="6-display">
+   On [b]{0}[/b] button [b]{1}[/b] on {2}
+  </string>
+  <string id="6-desc">
+   Triggered when a mouse button clicked or double-clicked on an object.
+  </string>
+  <string id="6-p0">
+   Mouse button
+  </string>
+  <string id="6-p0-desc">
+   Select the mouse button to check.
+  </string>
+  <string id="6-p0-opt0">
+   Left
+  </string>
+  <string id="6-p0-opt1">
+   Middle
+  </string>
+  <string id="6-p0-opt2">
+   Right
+  </string>
+  <string id="6-p1">
+   Click type
+  </string>
+  <string id="6-p1-desc">
+   Select which kind of click to check for.
+  </string>
+  <string id="6-p1-opt0">
+   Clicked
+  </string>
+  <string id="6-p1-opt1">
+   Double-clicked
+  </string>
+  <string id="6-p2">
+   Object clicked
+  </string>
+  <string id="6-p2-desc">
+   Choose the object to check for a click on.
+  </string>
+  <string id="7">
+   Cursor is over object
+  </string>
+  <string id="7-display">
+   Cursor is over {0}
+  </string>
+  <string id="7-desc">
+   Check if the mouse cursor is over an object.
+  </string>
+  <string id="7-p0">
+   Object
+  </string>
+  <string id="7-p0-desc">
+   Choose the object to check for mouse over.
+  </string>
+  <string id="8">
+   On mouse wheel
+  </string>
+  <string id="8-display">
+   On mouse wheel {0}
+  </string>
+  <string id="8-desc">
+   Triggered when the mouse wheel is scrolled.
+  </string>
+  <string id="8-p0">
+   Direction
+  </string>
+  <string id="8-p0-desc">
+   Select which direction to detect the mouse wheel scrolling.
+  </string>
+  <string id="8-p0-opt0">
+   down
+  </string>
+  <string id="8-p0-opt1">
+   up
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set cursor style
+  </string>
+  <string id="0-display">
+   Set cursor to [b]{0}[/b]
+  </string>
+  <string id="0-desc">
+   Change the style of the mouse cursor.
+  </string>
+  <string id="0-p0">
+   Cursor style
+  </string>
+  <string id="0-p0-desc">
+   Choose the cursor style to set.
+  </string>
+  <string id="0-p0-opt0">
+   Normal
+  </string>
+  <string id="0-p0-opt1">
+   Hand
+  </string>
+  <string id="0-p0-opt2">
+   Text select
+  </string>
+  <string id="0-p0-opt3">
+   Crosshair
+  </string>
+  <string id="0-p0-opt4">
+   Move
+  </string>
+  <string id="0-p0-opt5">
+   Help
+  </string>
+  <string id="0-p0-opt6">
+   Wait
+  </string>
+  <string id="0-p0-opt7">
+   None
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   X
+  </string>
+  <string id="0-desc">
+   Get the mouse cursor X co-ordinate in the layout.
+  </string>
+  <string id="1">
+   Y
+  </string>
+  <string id="1-desc">
+   Get the mouse cursor Y co-ordinate in the layout.
+  </string>
+  <string id="2">
+   AbsoluteX
+  </string>
+  <string id="2-desc">
+   Get the mouse cursor X co-ordinate on the canvas.
+  </string>
+  <string id="3">
+   AbsoluteY
+  </string>
+  <string id="3-desc">
+   Get the mouse cursor Y co-ordinate on the canvas.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

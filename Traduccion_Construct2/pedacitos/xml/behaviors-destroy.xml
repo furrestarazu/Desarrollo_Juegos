@@ -1,0 +1,23 @@
+<group name="destroy">
+ <string id="name">
+  Destroy outside layout
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Automatically destroy the object if it leaves the layout area.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

@@ -1,0 +1,245 @@
+<group name="ribbon">
+ <!-- ribbon File menu (top left button) -->
+ <group name="filemenu">
+  <string id="file">
+   Archivo
+  </string>
+  <!-- \n is a shortcut separator, so this specifies 'f' as the shortcut for File -->
+  <string id="fileshortcut">
+   File\nf
+  </string>
+  <!-- &amp; is another shortcut indicator -->
+  <string id="new">
+   &amp;Nuevo
+  </string>
+  <string id="open">
+   &amp;Abrir...
+  </string>
+  <string id="save">
+   &amp;Guardar
+  </string>
+  <string id="saveproject">
+   Guardar como Pro&amp;yecto...
+  </string>
+  <string id="savecapx">
+   Guardar como  &amp;archivo simple...
+  </string>
+  <string id="export">
+   Exportar proyecto...
+  </string>
+  <string id="closetab">
+   Cerrar &amp;tab
+  </string>
+  <string id="closeproject">
+   &amp;Cerrar proyecto
+  </string>
+  <string id="recentprojects">
+   Proyectos Recientes
+  </string>
+  <string id="help">
+   Ayuda\nh
+  </string>
+  <string id="about">
+   Acerca de...
+  </string>
+  <string id="preferences">
+   &amp;Preferencias
+  </string>
+  <string id="exit">
+   Salir
+  </string>
+ </group>
+ <!-- filemenu -->
+ <!-- Ribbon 'Home' tab -->
+ <group name="home">
+  <string id="home">
+   &amp;Inicio
+  </string>
+  <string id="clipboard">
+   Portapapeles\nd
+  </string>
+  <string id="paste">
+   Pegar\nv
+  </string>
+  <string id="cut">
+   Cortar\nx
+  </string>
+  <string id="copy">
+   Copiar\nc
+  </string>
+  <string id="undocat">
+   Deshacer\nu
+  </string>
+  <string id="undo">
+   Deshacer\nu
+  </string>
+  <string id="redo">
+   Rehacer\nr
+  </string>
+  <string id="selection">
+   Selección\ns
+  </string>
+  <string id="delete">
+   Borrar\nd
+  </string>
+  <string id="selectall">
+   Seleccionar todo\na
+  </string>
+  <string id="selectnone">
+   Quitar selección\nn
+  </string>
+  <!-- 'Active configurations: ' can be followed by '(none)', 'All' or 'X of Y' (e.g. '1 of 3') -->
+  <string id="configurations">
+   Configuraciones\nc
+  </string>
+  <string id="activeconfigs">
+   Configuraciones activas
+  </string>
+  <string id="confignone">
+   (ninguna)
+  </string>
+  <string id="configall">
+   Todas
+  </string>
+  <string id="configof">
+   de
+  </string>
+  <string id="displayconfig">
+   Displaying
+  </string>
+  <string id="online">
+   Online\no
+  </string>
+  <string id="forums">
+   Foros\nf
+  </string>
+  <string id="help">
+   Ayuda\nh
+  </string>
+  <string id="preview">
+   Vista Previa\np
+  </string>
+  <string id="runlayout">
+   Ejecutar capa
+  </string>
+  <string id="exportproject">
+   Exportar proeycto
+  </string>
+ </group>
+ <!-- home -->
+ <!-- Ribbon 'View' tab -->
+ <group name="view">
+  <string id="view">
+   &amp;Vista
+  </string>
+  <string id="bars">
+   Barras\nb
+  </string>
+  <string id="statusbar">
+   Ver Estado\ns
+  </string>
+  <string id="propertiesbar">
+   Ver Propiedades\np
+  </string>
+  <string id="projectbar">
+   Ver Proyecto\nj
+  </string>
+  <string id="layerbar">
+   Ver Capas\nl
+  </string>
+  <string id="objectbar">
+   Ver Objetos\nb
+  </string>
+  <string id="configbar">
+   Ver Configuración\nc
+  </string>
+  <string id="zoom">
+   Zoom\nz
+  </string>
+  <string id="zoomin">
+   Zoom in\ni
+  </string>
+  <string id="zoomout">
+   Zoom out\no
+  </string>
+  <string id="zoom100">
+   Zoom al 100%\nr
+  </string>
+  <string id="layoutgrid">
+   Grilla\ng
+  </string>
+  <string id="snaptogrid">
+   Ajustar a la grilla
+  </string>
+  <string id="gridwidth">
+   Ancho grilla
+  </string>
+  <string id="gridheight">
+   Alto grilla
+  </string>
+  <string id="theme">
+   Tema
+  </string>
+  <string id="style">
+   Estilo
+  </string>
+  <string id="styletooltip">
+   Modificar estilo visual
+  </string>
+  <string id="styledesc">
+   Click para elegir el tema de interfaz.
+  </string>
+ </group>
+ <!-- view -->
+ <!-- Ribbon 'Events' tab -->
+ <group name="events">
+  <string id="events">
+   &amp;Eventos
+  </string>
+  <string id="eventscat">
+   Eventos\nes\ne
+  </string>
+  <string id="addevent">
+   Agregar Evento\ne
+  </string>
+  <string id="addcondition">
+   Agregar Condición\nc
+  </string>
+  <string id="addaction">
+   Agregar Acción\na
+  </string>
+  <string id="addsubevent">
+   Agregar Sub Evento\ns
+  </string>
+  <string id="addgroup">
+   Agregar Grupo\ng
+  </string>
+  <string id="addvariable">
+   Agregar variable\nv
+  </string>
+  <string id="addinclude">
+   Agregar include\ni
+  </string>
+  <string id="addcomment">
+   Agregar comentario\nm
+  </string>
+  <string id="disable">
+   Deshabilitar\nd
+  </string>
+  <string id="searchcat">
+   Buscar\ns
+  </string>
+  <string id="search">
+   Buscar
+  </string>
+  <string id="clearsearch">
+   Limpar Búsqueda\nx
+  </string>
+  <string id="display">
+   Mostrar\nd
+  </string>
+  <string id="showlinks">
+   Mostrar agregar links de acción
+  </string>
+ </group>
+</group>

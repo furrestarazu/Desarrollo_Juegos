@@ -1,0 +1,448 @@
+<group name="undo">
+ <!-- Used for any property edited via the Properties Bar.  {0} is the name of the property that was changed -->
+ <string id="editproperty">
+  Editar la propiedad '{0}'
+ </string>
+ <string id="editpropertyglobal">
+  Editar la propiedad 'Global'
+ </string>
+ <string id="renameproject">
+  Renombrar el proyecto
+ </string>
+ <string id="renameconfig">
+  Renombrar la configuración
+ </string>
+ <string id="deleteconfig">
+  Borrar la configuración
+ </string>
+ <string id="addlayer">
+  Agregar capa '{0}'
+ </string>
+ <string id="deletelayer">
+  Borrar capa '{0}'
+ </string>
+ <string id="movelayer">
+  Mover capa '{0}'
+ </string>
+ <string id="renamelayer">
+  Renombrar capa
+ </string>
+ <!-- e.g. Move 5 instances to 'Layer 1' -->
+ <string id="changeinstlayer1">
+  Mover 1 instancia a '{0}'
+ </string>
+ <string id="changeinstlayerN">
+  Mover {0} instancias a '{1}'
+ </string>
+ <!-- e.g. Modify 5 instances -->
+ <string id="modifyinst1">
+  Modificar 1 instancia
+ </string>
+ <string id="modifyinstN">
+  Modificar {0} instancias
+ </string>
+ <string id="modifyinstvar">
+  Modificar la variable de instancia '{0}'
+ </string>
+ <string id="createtype">
+  Crear tipo de objeto '{0}'
+ </string>
+ <string id="clonetype">
+  Clonar tipo de objeto '{0}'
+ </string>
+ <string id="deletetype">
+  Borrar tipo de objeto '{0}'
+ </string>
+ <string id="deletetypefolder">
+  Borrar carpeta ed objeto '{0}'
+ </string>
+ <string id="addtypefolder">
+  Agregar carpeta de objeto
+ </string>
+ <string id="renametypefolder">
+  Renombrar carpeta de objeto
+ </string>
+ <string id="renameobject">
+  Renombrar objeto
+ </string>
+ <string id="moveobjfolder">
+  Mover carpeta de objeto
+ </string>
+ <string id="moveobjtofolder">
+  Mover objeto a la carpeta
+ </string>
+ <string id="addeventsheet">
+  Agregar hoja de eventos '{0}'
+ </string>
+ <string id="renameeventsheet">
+  Renombrar hoja de evento
+ </string>
+ <string id="addeventsheetfolder">
+  Agregar carpeta de hoja de eventos '{0}'
+ </string>
+ <string id="renameeventsheetfolder">
+  Denombrar carpeta de hoja de eventos
+ </string>
+ <string id="deleteeventsheetfolder">
+  Borrar carpeta de hoja de eventos '{0}'
+ </string>
+ <string id="deleteeventsheet">
+  Borrar hoja de eventos '{0}'
+ </string>
+ <string id="movesheetfolder">
+  Mover carpeta de hoja de eventos
+ </string>
+ <string id="movesheet">
+  Mover hoja de eventos
+ </string>
+ <string id="createfamily">
+  Crear familia
+ </string>
+ <string id="editfamily">
+  Editar familia '{0}'
+ </string>
+ <string id="renamefamily">
+  Renombrar familia '{0}'
+ </string>
+ <string id="deletefamily">
+  Borrar familia '{0}'
+ </string>
+ <string id="importaudiofiles">
+  Importar archivos de audio
+ </string>
+ <string id="renamefile">
+  Renombrar archivo
+ </string>
+ <string id="addfilefolder">
+  Agregar carpeta de archivos
+ </string>
+ <string id="renamefilefolder">
+  Renombrar carpetas de archivo
+ </string>
+ <string id="deletefilefolder">
+  Borrar carpeta de archivos '{0}'
+ </string>
+ <string id="deletefile">
+  Borrar archivo'{0}'
+ </string>
+ <string id="movefilefolder">
+  Mover carpeta de archivos
+ </string>
+ <string id="movefiletofolder">
+  Mover archivo a la carpeta
+ </string>
+ <string id="addlayout">
+  Agregar diseño '{0}'
+ </string>
+ <string id="renamelayout">
+  Renombrar diseño
+ </string>
+ <string id="deletelayout">
+  Borrar diseño '{0}'
+ </string>
+ <string id="duplicatelayout">
+  Duplicar diseño '{0}'
+ </string>
+ <string id="addlayoutfolder">
+  Agregar carpeta de diseño '{0}'
+ </string>
+ <string id="renamelayoutfolder">
+  Renombrar carpeta de diseño
+ </string>
+ <string id="deletelayoutfolder">
+  Borrar carpeta de diseño '{0}'
+ </string>
+ <string id="sendtofront">
+  Enviar selección al frente
+ </string>
+ <string id="sendtoback">
+  Enviar selección al fondo
+ </string>
+ <string id="addanimframe">
+  Agregar fotograma de animación
+ </string>
+ <string id="duplicateanimframe">
+  Duplicar fotograma de animación
+ </string>
+ <string id="deleteanimframe">
+  Borrar fotograma de animación
+ </string>
+ <string id="reorderanimframes">
+  Reordenar fotogramas de animación
+ </string>
+ <string id="addanim">
+  Agregar animación
+  <string>
+   <string id="renameanim">
+    Renombrar Animación
+   </string>
+   <string id="addanimfolder">
+    Agregar carpeta de animación
+   </string>
+   <string id="renameanimfolder">
+    Renombrar carpeta de animación
+   </string>
+   <string id="duplicateanim">
+    Duplicar animación
+   </string>
+   <string id="deleteanim">
+    Borrar animación
+   </string>
+   <string id="deleteanimfolder">
+    Borrar carpeta de animación
+   </string>
+   <string id="addbehavior">
+    Agregar comportamiento
+   </string>
+   <string id="renamebehavior">
+    Renombrar comportamiento
+   </string>
+   <string id="deletebehavior">
+    Borrar comportamiento
+   </string>
+   <string id="movebehavior">
+    Mover comportamiento
+   </string>
+   <string id="addinstvar">
+    Agregar variable de instancia
+   </string>
+   <string id="renameinstvar">
+    Renombrar variable de instancia
+   </string>
+   <string id="deleteinstvar">
+    Borrar variable de instancia
+   </string>
+   <string id="editinstvar">
+    Editar variable de instancia
+   </string>
+   <string id="moveinstvar">
+    Mover variable de instancia
+   </string>
+   <string id="addaction">
+    Agregar acción
+   </string>
+   <string id="editaction">
+    Editar acción
+   </string>
+   <string id="replaceaction">
+    Reemplazar acción
+   </string>
+   <string id="duplicateaction1">
+    Duplicar 1 acción
+   </string>
+   <string id="duplicateactionN">
+    Duplicar {0} acciones
+   </string>
+   <string id="moveaction1">
+    Mover 1 acción
+   </string>
+   <string id="moveactionN">
+    Move {0} acciones
+   </string>
+   <string id="deleteaction1">
+    Borrar 1 acción
+   </string>
+   <string id="deleteactionN">
+    Borrar {0} acciones
+   </string>
+   <string id="pasteaction1">
+    Pegar 1 acción
+   </string>
+   <string id="pasteactionN">
+    Pegar {0} acciones
+   </string>
+   <string id="addcondition">
+    Agregar condición
+   </string>
+   <string id="editcondition">
+    Editar condición
+   </string>
+   <string id="replacecondition">
+    Reemplazar condición
+   </string>
+   <string id="duplicatecondition1">
+    Ducplicar 1 condición
+   </string>
+   <string id="duplicateconditionN">
+    Duplicar {0} condiciones
+   </string>
+   <string id="movecondition1">
+    Mover 1 condición
+   </string>
+   <string id="moveconditionN">
+    Mover {0} condiciones
+   </string>
+   <string id="deletecondition1">
+    Borrar 1 condición
+   </string>
+   <string id="deleteconditionN">
+    Borrar {0} condiciones
+   </string>
+   <string id="pastecondition1">
+    Pegar 1 condición
+   </string>
+   <string id="pasteconditionN">
+    Pegar {0} condiciones
+   </string>
+   <string id="invertcondition1">
+    Invertir condición
+   </string>
+   <string id="invertconditionN">
+    Invertir {0} condiciones
+   </string>
+   <string id="addevent">
+    Agregar evento
+   </string>
+   <string id="addcomment">
+    Agregar comentario
+   </string>
+   <string id="editcomment">
+    Editar comentario
+   </string>
+   <string id="deletecomment">
+    Borrar comentario
+   </string>
+   <string id="addgroup">
+    Agregar grupo
+   </string>
+   <string id="editgroup">
+    Editar grupo
+   </string>
+   <string id="addsubevent">
+    Agregar sub-evento
+   </string>
+   <string id="insertevent">
+    Insertar evento
+   </string>
+   <string id="insertinclude">
+    Insertar inclusión
+   </string>
+   <string id="changeinclude">
+    Cambiar la inclusión de la hoja de eventos
+   </string>
+   <string id="moveevent1">
+    Mover 1 evento
+   </string>
+   <string id="moveeventN">
+    Mover {0} eventos
+   </string>
+   <string id="duplicateevent1">
+    Duplicar 1 evento
+   </string>
+   <string id="duplicateeventN">
+    Duplicar {0} eventos
+   </string>
+   <string id="deleteevent1">
+    Borrar 1 evento
+   </string>
+   <string id="deleteeventN">
+    Borrar {0} eventos
+   </string>
+   <string id="pasteevent1">
+    Pegar 1 evento
+   </string>
+   <string id="pasteeventN">
+    Pegar {0} eventos
+   </string>
+   <string id="toggleaction1">
+    Activar una acción deshabilitada
+   </string>
+   <string id="toggleactionN">
+    Activar {0} acciones deshabilitadas
+   </string>
+   <string id="togglecondition1">
+    Activar 1 condición deshabilitada
+   </string>
+   <string id="toggleconditionN">
+    Activar {0} condiciones deshabilitadas
+   </string>
+   <string id="toggleevent1">
+    Activar 1 evento deshabilitado
+   </string>
+   <string id="toggleeventN">
+    Activar {0} eventos deshabilitados
+   </string>
+   <string id="addglobalvar">
+    Agregar variable global
+   </string>
+   <string id="addlocalvar">
+    Agregar variable local
+   </string>
+   <string id="editglobalvar">
+    Editar variable global
+   </string>
+   <string id="editlocalvar">
+    Editar varbiable local
+   </string>
+   <string id="moveinstance1">
+    Mover 1 instancia
+   </string>
+   <string id="moveinstanceN">
+    Mover {0} instancia
+   </string>
+   <string id="nudgeinstance1">
+    Empujar 1 instancia
+   </string>
+   <string id="nudgeinstanceN">
+    Empujar {0} instancias
+   </string>
+   <string id="rotateinstance1">
+    Rotar 1 instancia
+   </string>
+   <string id="rotateinstanceN">
+    Rotar {0} instancias
+   </string>
+   <string id="resizeinstance1">
+    Redimensionar  1 instancia
+   </string>
+   <string id="resizeinstanceN">
+    Redimensionar {0} instancias
+   </string>
+   <string id="cloneinstance1">
+    Clonar 1 instancia
+   </string>
+   <string id="cloneinstanceN">
+    Clonar {0} instancias
+   </string>
+   <string id="deleteinstance1">
+    Borrar 1 instancia
+   </string>
+   <string id="deleteinstanceN">
+    Borrar {0} instancias
+   </string>
+   <string id="pasteinstance1">
+    Pegar 1 instancia
+   </string>
+   <string id="pasteinstanceN">
+    Pegar {0} instancias
+   </string>
+   <string id="insertinstance">
+    Insertar '{0}' instancia
+   </string>
+   <!-- e.g. "Insert 'Sprite' instance" -->
+   <string id="dropinobject">
+    Pasar objeto
+   </string>
+   <!-- when dragging and dropping image file in to C2 -->
+   <string id="clonetype">
+    Clonar tipo de objeto '{0}'
+   </string>
+   <string id="editimage">
+    Editar '{0}' imagen
+   </string>
+   <!-- e.g. "Edit 'Sprite' image" -->
+   <string id="moveanimfolder">
+    Mover carpeta de animación
+   </string>
+   <string id="moveanim">
+    Mover animación
+   </string>
+   <string id="movelayout">
+    Mover diseño
+   </string>
+   <string id="movelayoutfolder">
+    Mover carpeta de diseño
+   </string>
+  </string>
+ </string>
+</group>

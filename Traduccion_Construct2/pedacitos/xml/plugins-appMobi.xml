@@ -1,0 +1,596 @@
+<group name="appMobi">
+ <string id="name">
+  appMobi
+ </string>
+ <string id="category">
+  Web
+ </string>
+ <string id="description">
+  Integrate your game with appMobi.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Caching enabled
+  </string>
+  <string id="0-display">
+   Caching enabled
+  </string>
+  <string id="0-desc">
+   Test if caching has been enabled for this application.
+  </string>
+  <string id="1">
+   Push enabled
+  </string>
+  <string id="1-display">
+   Push enabled
+  </string>
+  <string id="1-desc">
+   Test if pushMobi has been enabled for this application.
+  </string>
+  <string id="2">
+   Streaming enabled
+  </string>
+  <string id="2-display">
+   Streaming enabled
+  </string>
+  <string id="2-desc">
+   Test if streaming has been enabled for this application.
+  </string>
+  <string id="3">
+   Updates enabled
+  </string>
+  <string id="3-display">
+   Updates enabled
+  </string>
+  <string id="3-desc">
+   Test if Live Update has been enabled for this application.
+  </string>
+  <string id="4">
+   Is in AppMobi
+  </string>
+  <string id="4-display">
+   Is in AppMobi
+  </string>
+  <string id="4-desc">
+   Test if running via AppMobi.
+  </string>
+  <string id="5">
+   Compare orientation
+  </string>
+  <string id="5-display">
+   Orientation is {0}
+  </string>
+  <string id="5-desc">
+   Test the current orientation of the device.
+  </string>
+  <string id="5-p0">
+   Orientation
+  </string>
+  <string id="5-p0-desc">
+   Select the orientation to compare to.
+  </string>
+  <string id="5-p0-opt0">
+   Portrait (0)
+  </string>
+  <string id="5-p0-opt1">
+   Landscape left (-90)
+  </string>
+  <string id="5-p0-opt2">
+   Landscape right (90)
+  </string>
+  <string id="5-p0-opt3">
+   Upside-down portrait (180)
+  </string>
+  <string id="6">
+   Compare initial orientation
+  </string>
+  <string id="6-display">
+   Initial orientation was {0}
+  </string>
+  <string id="6-desc">
+   Test the initial orientation of the device.
+  </string>
+  <string id="6-p0">
+   Orientation
+  </string>
+  <string id="6-p0-desc">
+   Select the initial orientation to compare to.
+  </string>
+  <string id="6-p0-opt0">
+   Portrait (0)
+  </string>
+  <string id="6-p0-opt1">
+   Landscape left (-90)
+  </string>
+  <string id="6-p0-opt2">
+   Landscape right (90)
+  </string>
+  <string id="6-p0-opt3">
+   Upside-down portrait (180)
+  </string>
+  <string id="7">
+   On barcode scanned
+  </string>
+  <string id="7-display">
+   On barcode scanned
+  </string>
+  <string id="7-desc">
+   Triggered when a barcode scanned.
+  </string>
+  <string id="8">
+   On remote site closed
+  </string>
+  <string id="8-display">
+   On remote site closed
+  </string>
+  <string id="8-desc">
+   Triggered when the user closes a site opened with 'Show remote site'.
+  </string>
+  <string id="9">
+   On remote data
+  </string>
+  <string id="9-display">
+   On remote data
+  </string>
+  <string id="9-desc">
+   Triggered when remote data requested with 'Get remote data' is received.
+  </string>
+  <string id="10">
+   On 'back' button pressed
+  </string>
+  <string id="10-display">
+   On 'back' button pressed
+  </string>
+  <string id="10-desc">
+   Triggered when the 'back' button (if any) is pressed after adding a virtual page.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Close remote site
+  </string>
+  <string id="0-display">
+   Close remote site
+  </string>
+  <string id="0-desc">
+   Force a remote site opened with 'Show remote site' to close.
+  </string>
+  <string id="1">
+   Get remote data
+  </string>
+  <string id="1-display">
+   {0} remote data from {1} with body {2} (ID [i]{3}[/i])
+  </string>
+  <string id="1-desc">
+   Make background POST/GET requests.
+  </string>
+  <string id="1-p0">
+   Method
+  </string>
+  <string id="1-p0-desc">
+   The method to use for the request. This parameter should be either &amp;quot;GET&amp;quot; or &amp;quot;POST&amp;quot;. Default is &amp;quot;GET&amp;quot;.
+  </string>
+  <string id="1-p1">
+   URL
+  </string>
+  <string id="1-p1-desc">
+   URL to call.
+  </string>
+  <string id="1-p2">
+   Body
+  </string>
+  <string id="1-p2-desc">
+   Post data for a &amp;quot;POST&amp;quot; method request in name=value format separated by ampersands
+  </string>
+  <string id="1-p3">
+   ID
+  </string>
+  <string id="1-p3-desc">
+   ID that correlates the request to the event
+  </string>
+  <string id="2">
+   Hide Splash Screen
+  </string>
+  <string id="2-display">
+   Hide Splash Screen
+  </string>
+  <string id="2-desc">
+   This method will hide the application splash screen earlier than it automatically does.
+  </string>
+  <string id="3">
+   Install update
+  </string>
+  <string id="3-display">
+   Install update
+  </string>
+  <string id="3-desc">
+   Immediately install a waiting Live Update. Following the install, the application will restart itself with the new code. If no update is waiting, this command is ignored.
+  </string>
+  <string id="4">
+   Launch external site
+  </string>
+  <string id="4-display">
+   Launch external site {0}
+  </string>
+  <string id="4-desc">
+   This function will open a URL in the device's native browser application.
+  </string>
+  <string id="4-p0">
+   URL
+  </string>
+  <string id="4-p0-desc">
+   URL to launch.
+  </string>
+  <string id="5">
+   Execute In Main View
+  </string>
+  <string id="5-display">
+   Execute In Main View
+  </string>
+  <string id="5-desc">
+   Call this command from within a new web view created by the showRemoteSite or showRemoteSiteExt command to execute JavaScript commands within the main web view.
+  </string>
+  <string id="5-p0">
+   Command
+  </string>
+  <string id="5-p0-desc">
+   Command to execute
+  </string>
+  <string id="6">
+   Scan barcode
+  </string>
+  <string id="6-display">
+   Scan barcode
+  </string>
+  <string id="6-desc">
+   Open a full-scren QR code reader.
+  </string>
+  <string id="7">
+   Set auto-rotate
+  </string>
+  <string id="7-display">
+   {0}
+  </string>
+  <string id="7-desc">
+   Set whether the device should automatically rotate when changing device orientation.
+  </string>
+  <string id="7-p0">
+   Mode
+  </string>
+  <string id="7-p0-desc">
+   Whether the device should automatically handle rotation or not.
+  </string>
+  <string id="7-p0-opt0">
+   Prevent auto-rotate
+  </string>
+  <string id="7-p0-opt1">
+   Allow auto-rotate
+  </string>
+  <string id="8">
+   Set orientation
+  </string>
+  <string id="8-display">
+   Set orientation to {0}
+  </string>
+  <string id="8-desc">
+   Lock the orientation of the device to portrait or landscape.
+  </string>
+  <string id="8-p0">
+   Orientation
+  </string>
+  <string id="8-p0-desc">
+   Choose the orientation to set.
+  </string>
+  <string id="8-p0-opt0">
+   Portrait
+  </string>
+  <string id="8-p0-opt1">
+   Lanscape
+  </string>
+  <string id="9">
+   Update connection
+  </string>
+  <string id="9-display">
+   Update connection
+  </string>
+  <string id="9-desc">
+   Query the device to determine its current connection to the internet.
+  </string>
+  <string id="10">
+   Show remote site
+  </string>
+  <string id="10-display">
+   Show remote site {0} (close icon {1}x{2} at ({3}, {4}) in portrait, ({5}, {6}) in landscape)
+  </string>
+  <string id="10-desc">
+   Show a remote web site in a new web view. Touching the close icon will shut down the web view and return the user to the application.
+  </string>
+  <string id="10-p0">
+   URL
+  </string>
+  <string id="10-p0-desc">
+   URL to show.
+  </string>
+  <string id="10-p1">
+   Close icon width
+  </string>
+  <string id="10-p1-desc">
+   The width of the button to close the web view, in pixels.
+  </string>
+  <string id="10-p2">
+   Close icon height
+  </string>
+  <string id="10-p2-desc">
+   The height of the button to close the web view, in pixels.
+  </string>
+  <string id="10-p3">
+   Close icon X (portrait)
+  </string>
+  <string id="10-p3-desc">
+   The position of the button to close the web view from the left edge in pixels when the device is in the portrait orientation.
+  </string>
+  <string id="10-p4">
+   Close icon Y (portrait)
+  </string>
+  <string id="10-p4-desc">
+   The position of the button to close the web view from the top edge in pixels when the device is in the portrait orientation.
+  </string>
+  <string id="10-p5">
+   Close icon X (landscape)
+  </string>
+  <string id="10-p5-desc">
+   The position of the button to close the web view from the left edge in pixels when the device is in the Landscape orientation.
+  </string>
+  <string id="10-p6">
+   Close icon Y (landscape)
+  </string>
+  <string id="10-p6-desc">
+   The position of the button to close the web view from the top edge in pixels when the device is in the Landscape orientation.
+  </string>
+  <string id="11">
+   Log event
+  </string>
+  <string id="11-display">
+   Log event [b]{0}[/b] with parameters [i]{1}[/i]
+  </string>
+  <string id="11-desc">
+   Log an event for statMobi Analytics.
+  </string>
+  <string id="11-p0">
+   Event
+  </string>
+  <string id="11-p0-desc">
+   The name of the event you wish to record.
+  </string>
+  <string id="11-p1">
+   Parameters (optional)
+  </string>
+  <string id="11-p1-desc">
+   Data for the tracked statMobi event in name=value format separated by ampersands (e.g. &amp;quot;foo=5&amp;bar=10&amp;quot;).
+  </string>
+  <string id="12">
+   Add to media cache
+  </string>
+  <string id="12-display">
+   Add {0} to media cache
+  </string>
+  <string id="12-desc">
+   This command will get a file from the Internet and cache it locally on the device.
+  </string>
+  <string id="12-p0">
+   URL
+  </string>
+  <string id="12-p0-desc">
+   The url of the file to cache.
+  </string>
+  <string id="13">
+   Clear all cookies
+  </string>
+  <string id="13-display">
+   Clear all cookies
+  </string>
+  <string id="13-desc">
+   This method will clear all data stored using the 'Set cookie' action.
+  </string>
+  <string id="14">
+   Clear media cache
+  </string>
+  <string id="14-display">
+   Remove all files from the local cache on the device.
+  </string>
+  <string id="14-desc">
+   cacheClearMediaCache
+  </string>
+  <string id="15">
+   Remove cookie
+  </string>
+  <string id="15-display">
+   Remove cookie {0}
+  </string>
+  <string id="15-desc">
+   This method will clear data previously saved using the setCookie method.
+  </string>
+  <string id="15-p0">
+   Name
+  </string>
+  <string id="15-p0-desc">
+   The name of the data to remove.
+  </string>
+  <string id="16">
+   Remove from media cache
+  </string>
+  <string id="16-display">
+   Remove {0} from media cache
+  </string>
+  <string id="16-desc">
+   Remove a file from the local cache on the device.
+  </string>
+  <string id="16-p0">
+   URL
+  </string>
+  <string id="16-p0-desc">
+   The url of the file to remove from the local cache.
+  </string>
+  <string id="17">
+   Set cookie
+  </string>
+  <string id="17-display">
+   Set cookie {0} to [i]{1}[/i] (expiring in {2} days)
+  </string>
+  <string id="17-desc">
+   Save a string in a cookie that can persist between sessions.
+  </string>
+  <string id="17-p0">
+   Name
+  </string>
+  <string id="17-p0-desc">
+   The name for the data to set.  Must not contain periods or underscores.
+  </string>
+  <string id="17-p1">
+   Value
+  </string>
+  <string id="17-p1-desc">
+   A string to save in the cookie.
+  </string>
+  <string id="17-p2">
+   Expires (days)
+  </string>
+  <string id="17-p2-desc">
+   The number of days the cookie will last before being removed.  -1 indicates &amp;quot;never&amp;quot;.
+  </string>
+  <string id="18">
+   Add virtual page
+  </string>
+  <string id="18-display">
+   Add virtual page
+  </string>
+  <string id="18-desc">
+   Add a virtual page, allowing the next press of the 'back' button (if present) to be intercepted.
+  </string>
+  <string id="19">
+   Remove virtual page
+  </string>
+  <string id="19-display">
+   Remove virtual page
+  </string>
+  <string id="19-desc">
+   Remove a virtual page, reverting the 'back' button to its default action.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   AppMobiVersion
+  </string>
+  <string id="0-desc">
+   The version of the appMobi container software that the application is using.
+  </string>
+  <string id="1">
+   DeviceConnection
+  </string>
+  <string id="1-desc">
+   The best type of internet connection available (&amp;quot;wifi&amp;quot;, &amp;quot;cell&amp;quot; or &amp;quot;none&amp;quot;).
+  </string>
+  <string id="2">
+   InitialOrientation
+  </string>
+  <string id="2-desc">
+   The initial orientation of the device (0, -90, 90 or 180).
+  </string>
+  <string id="3">
+   DeviceLastStation
+  </string>
+  <string id="3-desc">
+   The NetStationID or ShoutcastURL of the station that is currently playing.
+  </string>
+  <string id="4">
+   DeviceModel
+  </string>
+  <string id="4-desc">
+   The model of the device that the application is running on, e.g. &amp;quot;iPhone 4&amp;quot; or &amp;quot;Motorola Droid&amp;quot;.
+  </string>
+  <string id="5">
+   Orientation
+  </string>
+  <string id="5-desc">
+   The current orientation of the device (0, -90, 90 or 180).
+  </string>
+  <string id="6">
+   DeviceOSVersion
+  </string>
+  <string id="6-desc">
+   The device’s current operating system version information.
+  </string>
+  <string id="7">
+   DevicePhonegapVersion
+  </string>
+  <string id="7-desc">
+   This property returns the version of phonegap running below the AppMobi layer.
+  </string>
+  <string id="8">
+   DevicePlatform
+  </string>
+  <string id="8-desc">
+   A string identifying the platform that appMobi is running on, e.g. &amp;quot;iOS&amp;quot; or &amp;quot;Android&amp;quot;.
+  </string>
+  <string id="9">
+   DeviceQueryString
+  </string>
+  <string id="9-desc">
+   Returns any query string parameters passed along with a protocol handler call to start an application.
+  </string>
+  <string id="10">
+   DeviceUUID
+  </string>
+  <string id="10-desc">
+   The device’s unique identification id.
+  </string>
+  <string id="11">
+   DeviceRemoteData
+  </string>
+  <string id="11-desc">
+   The response data from 'Get Remote Data'.
+  </string>
+  <string id="12">
+   DeviceBarcodeData
+  </string>
+  <string id="12-desc">
+   The response data from 'Scan Barcode'.
+  </string>
+  <string id="13">
+   DeviceRemoteStatus
+  </string>
+  <string id="13-desc">
+   One of &amp;quot;open&amp;quot;, &amp;quot;closed&amp;quot; or &amp;quot;idle&amp;quot;.
+  </string>
+  <string id="14">
+   Cookie
+  </string>
+  <string id="14-desc">
+   Retrieve a string saved with the 'Set Cookie' action.
+  </string>
+  <string id="14-p0">
+   Name
+  </string>
+  <string id="14-p0-desc">
+   The name of the cookie to retrieve.
+  </string>
+  <string id="15">
+   LocalMediaCacheURL
+  </string>
+  <string id="15-desc">
+   Return a local URL for a cached media file.
+  </string>
+  <string id="15-p0">
+   URL
+  </string>
+  <string id="15-p0-desc">
+   URL of the resource to retrieve.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

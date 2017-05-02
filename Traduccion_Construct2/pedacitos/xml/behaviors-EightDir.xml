@@ -1,0 +1,287 @@
+<group name="EightDir">
+ <string id="name">
+  8 Direction
+ </string>
+ <string id="category">
+  Movements
+ </string>
+ <string id="description">
+  Moves an object up, down, left, right and on diagonals.
+ </string>
+ <group name="properties">
+  <string id="maxspeed">
+   Max speed
+  </string>
+  <string id="maxspeed-desc">
+   The maximum speed, in pixels per second, the object can travel at.
+  </string>
+  <string id="acceleration">
+   Acceleration
+  </string>
+  <string id="acceleration-desc">
+   The rate of acceleration, in pixels per second per second.
+  </string>
+  <string id="deceleration">
+   Deceleration
+  </string>
+  <string id="deceleration-desc">
+   The rate of deceleration, in pixels per second per second.
+  </string>
+  <string id="directions">
+   Directions
+  </string>
+  <string id="directions-desc">
+   The number of directions of movement available.
+  </string>
+  <string id="directions-options">
+   Up &amp; down|Left &amp; right|4 directions|8 directions
+  </string>
+  <string id="setangle">
+   Set angle
+  </string>
+  <string id="setangle-desc">
+   How to set the object's angle while moving.
+  </string>
+  <string id="setangle-options">
+   No|90-degree intervals|45-degree intervals|360 degree (smooth)
+  </string>
+  <string id="defaultcontrols">
+   Default controls
+  </string>
+  <string id="defaultcontrols-desc">
+   If enabled, arrow keys control movement.  Otherwise, use the 'simulate control' action.
+  </string>
+  <string id="defaultcontrols-options">
+   No|Yes
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is moving
+  </string>
+  <string id="0-display">
+   {my} is moving
+  </string>
+  <string id="0-desc">
+   True when the object is moving.
+  </string>
+  <string id="1">
+   Compare speed
+  </string>
+  <string id="1-display">
+   {my} speed {0} {1}
+  </string>
+  <string id="1-desc">
+   Compare the current speed of the object.
+  </string>
+  <string id="1-p0">
+   Comparison
+  </string>
+  <string id="1-p0-desc">
+   Choose the way to compare the current speed.
+  </string>
+  <string id="1-p1">
+   Speed
+  </string>
+  <string id="1-p1-desc">
+   The speed, in pixels per second, to compare the current speed to.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Stop
+  </string>
+  <string id="0-display">
+   Stop {my}
+  </string>
+  <string id="0-desc">
+   Set the speed to zero.
+  </string>
+  <string id="1">
+   Reverse
+  </string>
+  <string id="1-display">
+   Reverse {my}
+  </string>
+  <string id="1-desc">
+   Invert the direction of motion.
+  </string>
+  <string id="2">
+   Set ignoring input
+  </string>
+  <string id="2-display">
+   {0} {my} user input
+  </string>
+  <string id="2-desc">
+   Set whether to ignore the controls for this movement.
+  </string>
+  <string id="2-p0">
+   Input
+  </string>
+  <string id="2-p0-desc">
+   Set whether to ignore the controls for this movement.
+  </string>
+  <string id="2-p0-opt0">
+   Stop ignoring
+  </string>
+  <string id="2-p0-opt1">
+   Start ignoring
+  </string>
+  <string id="3">
+   Set speed
+  </string>
+  <string id="3-display">
+   Set {my} speed to [i]{0}[/i]
+  </string>
+  <string id="3-desc">
+   Set the object's current speed.
+  </string>
+  <string id="3-p0">
+   Speed
+  </string>
+  <string id="3-p0-desc">
+   The new speed of the object to set, in pixels per second.
+  </string>
+  <string id="4">
+   Set max speed
+  </string>
+  <string id="4-display">
+   Set {my} maximum speed to [i]{0}[/i]
+  </string>
+  <string id="4-desc">
+   Set the object's maximum speed.
+  </string>
+  <string id="4-p0">
+   Max Speed
+  </string>
+  <string id="4-p0-desc">
+   The new maximum speed of the object to set, in pixels per second.
+  </string>
+  <string id="5">
+   Set acceleration
+  </string>
+  <string id="5-display">
+   Set {my} acceleration to [i]{0}[/i]
+  </string>
+  <string id="5-desc">
+   Set the object's acceleration.
+  </string>
+  <string id="5-p0">
+   Acceleration
+  </string>
+  <string id="5-p0-desc">
+   The new acceleration of the object to set, in pixels per second per second.
+  </string>
+  <string id="6">
+   Set deceleration
+  </string>
+  <string id="6-display">
+   Set {my} deceleration to [i]{0}[/i]
+  </string>
+  <string id="6-desc">
+   Set the object's deceleration.
+  </string>
+  <string id="6-p0">
+   Deceleration
+  </string>
+  <string id="6-p0-desc">
+   The new deceleration of the object to set, in pixels per second per second.
+  </string>
+  <string id="7">
+   Simulate control
+  </string>
+  <string id="7-display">
+   Simulate {my} pressing {0}
+  </string>
+  <string id="7-desc">
+   Control the movement by events.
+  </string>
+  <string id="7-p0">
+   Control
+  </string>
+  <string id="7-p0-desc">
+   The movement control to simulate pressing.
+  </string>
+  <string id="7-p0-opt0">
+   Left
+  </string>
+  <string id="7-p0-opt1">
+   Right
+  </string>
+  <string id="7-p0-opt2">
+   Up
+  </string>
+  <string id="7-p0-opt3">
+   Down
+  </string>
+  <string id="8">
+   Set enabled
+  </string>
+  <string id="8-display">
+   Set {my} [b]{0}[/b]
+  </string>
+  <string id="8-desc">
+   Set whether this behavior is enabled.
+  </string>
+  <string id="8-p0">
+   State
+  </string>
+  <string id="8-p0-desc">
+   Set whether to enable or disable the behavior.
+  </string>
+  <string id="8-p0-opt0">
+   Disabled
+  </string>
+  <string id="8-p0-opt1">
+   Enabled
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   Speed
+  </string>
+  <string id="0-desc">
+   The current object speed, in pixels per second.
+  </string>
+  <string id="1">
+   MaxSpeed
+  </string>
+  <string id="1-desc">
+   The maximum speed setting, in pixels per second.
+  </string>
+  <string id="2">
+   Acceleration
+  </string>
+  <string id="2-desc">
+   The acceleration setting, in pixels per second per second.
+  </string>
+  <string id="3">
+   Deceleration
+  </string>
+  <string id="3-desc">
+   The deceleration setting, in pixels per second per second.
+  </string>
+  <string id="4">
+   MovingAngle
+  </string>
+  <string id="4-desc">
+   The current angle of motion, in degrees.
+  </string>
+  <string id="5">
+   VectorX
+  </string>
+  <string id="5-desc">
+   The current X component of motion, in pixels.
+  </string>
+  <string id="6">
+   VectorY
+  </string>
+  <string id="6-desc">
+   The current Y component of motion, in pixels.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

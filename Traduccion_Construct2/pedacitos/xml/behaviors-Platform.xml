@@ -1,0 +1,452 @@
+<group name="Platform">
+ <string id="name">
+  Platform
+ </string>
+ <string id="category">
+  Movements
+ </string>
+ <string id="description">
+  Jump and run between platforms (solid objects).
+ </string>
+ <group name="properties">
+  <string id="maxspeed">
+   Max speed
+  </string>
+  <string id="maxspeed-desc">
+   The maximum speed, in pixels per second, the object can accelerate to.
+  </string>
+  <string id="acceleration">
+   Acceleration
+  </string>
+  <string id="acceleration-desc">
+   The rate of acceleration, in pixels per second per second.
+  </string>
+  <string id="deceleration">
+   Deceleration
+  </string>
+  <string id="deceleration-desc">
+   The rate of deceleration, in pixels per second per second.
+  </string>
+  <string id="jumpstrength">
+   Jump strength
+  </string>
+  <string id="jumpstrength-desc">
+   Speed at which jumps start, in pixels per second.
+  </string>
+  <string id="gravity">
+   Gravity
+  </string>
+  <string id="gravity-desc">
+   Acceleration from gravity, in pixels per second per second.
+  </string>
+  <string id="maxfallspeed">
+   Max fall speed
+  </string>
+  <string id="maxfallspeed-desc">
+   Maximum speed object can reach in freefall, in pixels per second.
+  </string>
+  <string id="defaultcontrols">
+   Default controls
+  </string>
+  <string id="defaultcontrols-desc">
+   If enabled, arrow keys control movement.  Otherwise, use the 'simulate control' action.
+  </string>
+  <string id="defaultcontrols-options">
+   No|Yes
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is moving
+  </string>
+  <string id="0-display">
+   {my} is moving
+  </string>
+  <string id="0-desc">
+   True when the object is moving.
+  </string>
+  <string id="1">
+   Compare speed
+  </string>
+  <string id="1-display">
+   {my} speed {0} {1}
+  </string>
+  <string id="1-desc">
+   Compare the current speed of the object.
+  </string>
+  <string id="1-p0">
+   Comparison
+  </string>
+  <string id="1-p0-desc">
+   Choose the way to compare the current speed.
+  </string>
+  <string id="1-p1">
+   Speed
+  </string>
+  <string id="1-p1-desc">
+   The speed, in pixels per second, to compare the current speed to.
+  </string>
+  <string id="2">
+   Is on floor
+  </string>
+  <string id="2-display">
+   {my} is on floor
+  </string>
+  <string id="2-desc">
+   True when the object is on top of a solid or platform.
+  </string>
+  <string id="3">
+   Is jumping
+  </string>
+  <string id="3-display">
+   {my} is jumping
+  </string>
+  <string id="3-desc">
+   True when the object is moving upwards (i.e. jumping).
+  </string>
+  <string id="4">
+   Is falling
+  </string>
+  <string id="4-display">
+   {my} is falling
+  </string>
+  <string id="4-desc">
+   True when the object is moving downwards (i.e. falling).
+  </string>
+  <string id="5">
+   On jump
+  </string>
+  <string id="5-display">
+   {my} On jump
+  </string>
+  <string id="5-desc">
+   Triggered when jumping.
+  </string>
+  <string id="6">
+   On fall
+  </string>
+  <string id="6-display">
+   {my} On fall
+  </string>
+  <string id="6-desc">
+   Triggered when falling.
+  </string>
+  <string id="7">
+   On stopped
+  </string>
+  <string id="7-display">
+   {my} On stopped
+  </string>
+  <string id="7-desc">
+   Triggered when stopped moving.
+  </string>
+  <string id="8">
+   On moved
+  </string>
+  <string id="8-display">
+   {my} On moved
+  </string>
+  <string id="8-desc">
+   Triggered when starting to move.
+  </string>
+  <string id="9">
+   On landed
+  </string>
+  <string id="9-display">
+   {my} On landed
+  </string>
+  <string id="9-desc">
+   Triggered when first hitting the floor.
+  </string>
+  <string id="10">
+   Is by wall
+  </string>
+  <string id="10-display">
+   {my} has wall to {0}
+  </string>
+  <string id="10-desc">
+   Test if the object has a wall to the left or right.
+  </string>
+  <string id="10-p0">
+   Side
+  </string>
+  <string id="10-p0-desc">
+   Select the side to test for a wall.
+  </string>
+  <string id="10-p0-opt0">
+   left
+  </string>
+  <string id="10-p0-opt1">
+   right
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set ignoring input
+  </string>
+  <string id="0-display">
+   {0} {my} user input
+  </string>
+  <string id="0-desc">
+   Set whether to ignore the controls for this movement.
+  </string>
+  <string id="0-p0">
+   Input
+  </string>
+  <string id="0-p0-desc">
+   Set whether to ignore the controls for this movement.
+  </string>
+  <string id="0-p0-opt0">
+   Stop ignoring
+  </string>
+  <string id="0-p0-opt1">
+   Start ignoring
+  </string>
+  <string id="1">
+   Set max speed
+  </string>
+  <string id="1-display">
+   Set {my} maximum speed to [i]{0}[/i]
+  </string>
+  <string id="1-desc">
+   Set the object's maximum speed.
+  </string>
+  <string id="1-p0">
+   Max Speed
+  </string>
+  <string id="1-p0-desc">
+   The new maximum speed of the object to set, in pixels per second.
+  </string>
+  <string id="2">
+   Set acceleration
+  </string>
+  <string id="2-display">
+   Set {my} acceleration to [i]{0}[/i]
+  </string>
+  <string id="2-desc">
+   Set the object's acceleration.
+  </string>
+  <string id="2-p0">
+   Acceleration
+  </string>
+  <string id="2-p0-desc">
+   The new acceleration of the object to set, in pixels per second per second.
+  </string>
+  <string id="3">
+   Set deceleration
+  </string>
+  <string id="3-display">
+   Set {my} deceleration to [i]{0}[/i]
+  </string>
+  <string id="3-desc">
+   Set the object's deceleration.
+  </string>
+  <string id="3-p0">
+   Deceleration
+  </string>
+  <string id="3-p0-desc">
+   The new deceleration of the object to set, in pixels per second per second.
+  </string>
+  <string id="4">
+   Set jump strength
+  </string>
+  <string id="4-display">
+   Set {my} jump strength to [i]{0}[/i]
+  </string>
+  <string id="4-desc">
+   Set the object's jump strength.
+  </string>
+  <string id="4-p0">
+   Jump strength
+  </string>
+  <string id="4-p0-desc">
+   The new speed at which jumps start, in pixels per second.
+  </string>
+  <string id="5">
+   Set gravity
+  </string>
+  <string id="5-display">
+   Set {my} gravity to [i]{0}[/i]
+  </string>
+  <string id="5-desc">
+   Set the object's gravity.
+  </string>
+  <string id="5-p0">
+   Gravity
+  </string>
+  <string id="5-p0-desc">
+   The new acceleration from gravity, in pixels per second per second.
+  </string>
+  <string id="6">
+   Set max fall speed
+  </string>
+  <string id="6-display">
+   Set {my} max fall speed to [i]{0}[/i]
+  </string>
+  <string id="6-desc">
+   Set the object's maximum fall speed.
+  </string>
+  <string id="6-p0">
+   Max fall speed
+  </string>
+  <string id="6-p0-desc">
+   The new maximum speed object can reach in freefall, in pixels per second.
+  </string>
+  <string id="7">
+   Simulate control
+  </string>
+  <string id="7-display">
+   Simulate {my} pressing {0}
+  </string>
+  <string id="7-desc">
+   Control the movement by events.
+  </string>
+  <string id="7-p0">
+   Control
+  </string>
+  <string id="7-p0-desc">
+   The movement control to simulate pressing.
+  </string>
+  <string id="7-p0-opt0">
+   Left
+  </string>
+  <string id="7-p0-opt1">
+   Right
+  </string>
+  <string id="7-p0-opt2">
+   Jump
+  </string>
+  <string id="8">
+   Set vector X
+  </string>
+  <string id="8-display">
+   Set {my} vector X to [i]{0}[/i]
+  </string>
+  <string id="8-desc">
+   Set the X component of motion.
+  </string>
+  <string id="8-p0">
+   Vector X
+  </string>
+  <string id="8-p0-desc">
+   The new horizontal movement vector, in pixels per second.
+  </string>
+  <string id="9">
+   Set vector Y
+  </string>
+  <string id="9-display">
+   Set {my} vector Y to [i]{0}[/i]
+  </string>
+  <string id="9-desc">
+   Set the Y component of motion.
+  </string>
+  <string id="9-p0">
+   Vector Y
+  </string>
+  <string id="9-p0-desc">
+   The new vertical movement vector, in pixels per second.
+  </string>
+  <string id="10">
+   Set angle of gravity
+  </string>
+  <string id="10-display">
+   Set {my} angle of gravity to [i]{0}[/i] degrees
+  </string>
+  <string id="10-desc">
+   Change the angle the player falls at.
+  </string>
+  <string id="10-p0">
+   Angle
+  </string>
+  <string id="10-p0-desc">
+   The angle of gravity in degrees.
+  </string>
+  <string id="11">
+   Set enabled
+  </string>
+  <string id="11-display">
+   Set {my} [b]{0}[/b]
+  </string>
+  <string id="11-desc">
+   Set whether this behavior is enabled.
+  </string>
+  <string id="11-p0">
+   State
+  </string>
+  <string id="11-p0-desc">
+   Set whether to enable or disable the behavior.
+  </string>
+  <string id="11-p0-opt0">
+   Disabled
+  </string>
+  <string id="11-p0-opt1">
+   Enabled
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   Speed
+  </string>
+  <string id="0-desc">
+   The current object speed, in pixels per second.
+  </string>
+  <string id="1">
+   MaxSpeed
+  </string>
+  <string id="1-desc">
+   The maximum speed setting, in pixels per second.
+  </string>
+  <string id="2">
+   Acceleration
+  </string>
+  <string id="2-desc">
+   The acceleration setting, in pixels per second per second.
+  </string>
+  <string id="3">
+   Deceleration
+  </string>
+  <string id="3-desc">
+   The deceleration setting, in pixels per second per second.
+  </string>
+  <string id="4">
+   JumpStrength
+  </string>
+  <string id="4-desc">
+   The jump strength setting, in pixels per second.
+  </string>
+  <string id="5">
+   Gravity
+  </string>
+  <string id="5-desc">
+   The gravity setting, in pixels per second per second.
+  </string>
+  <string id="6">
+   MaxFallSpeed
+  </string>
+  <string id="6-desc">
+   The maximum fall speed setting, in pixels per second.
+  </string>
+  <string id="7">
+   MovingAngle
+  </string>
+  <string id="7-desc">
+   The current angle of motion, in degrees.
+  </string>
+  <string id="8">
+   VectorX
+  </string>
+  <string id="8-desc">
+   The current X component of motion, in pixels.
+  </string>
+  <string id="9">
+   VectorY
+  </string>
+  <string id="9-desc">
+   The current Y component of motion, in pixels.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

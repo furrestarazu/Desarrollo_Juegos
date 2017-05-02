@@ -1,0 +1,71 @@
+<group name="DragnDrop">
+ <string id="name">
+  Drag &amp; Drop
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Drag and drop objects either by mouse or touch.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is dragging
+  </string>
+  <string id="0-display">
+   {my} is dragging
+  </string>
+  <string id="0-desc">
+   True if the object is currently being dragged.
+  </string>
+  <string id="1">
+   On drag start
+  </string>
+  <string id="1-display">
+   On {my} drag start
+  </string>
+  <string id="1-desc">
+   Triggered when the object begins to be dragged.
+  </string>
+  <string id="2">
+   On drop
+  </string>
+  <string id="2-display">
+   On {my} drop
+  </string>
+  <string id="2-desc">
+   Triggered when the object is dropped (the drag stops).
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set enabled
+  </string>
+  <string id="0-display">
+   Set {my} {0}
+  </string>
+  <string id="0-desc">
+   Enable or disable the drag and drop behavior.
+  </string>
+  <string id="0-p0">
+   State
+  </string>
+  <string id="0-p0-desc">
+   Choose whether to enable or disable the behavior.
+  </string>
+  <string id="0-p0-opt0">
+   Disabled
+  </string>
+  <string id="0-p0-opt1">
+   Enabled
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

@@ -1,0 +1,21 @@
+<group name="statusbar">
+ <string id="ready">
+  Listo
+ </string>
+ <string id="zoom">
+  Zoom
+ </string>
+ <string id="size">
+  Tamaño
+ </string>
+ <!-- project data size, in kb -->
+ <string id="layer">
+  Capa
+ </string>
+ <string id="noactivelayer">
+  Sin capa activa
+ </string>
+ <string id="mouse">
+  Mouse
+ </string>
+</group>

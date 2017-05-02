@@ -1,0 +1,146 @@
+<group name="categories">
+ <string id="sizeposition">
+  Size &amp; Position
+ </string>
+ <string id="pick">
+  Pick
+ </string>
+ <string id="instancevariables">
+  Instance variables
+ </string>
+ <string id="appearance">
+  Appearance
+ </string>
+ <string id="misc">
+  Misc
+ </string>
+ <string id="angle">
+  Angle
+ </string>
+ <string id="zorder">
+  Z Order
+ </string>
+ <string id="analytics">
+  Analytics
+ </string>
+ <string id="animations">
+  Animations
+ </string>
+ <string id="cache">
+  Cache
+ </string>
+ <string id="collisions">
+  Collisions
+ </string>
+ <string id="creation">
+  Creation
+ </string>
+ <string id="cursor">
+  Cursor
+ </string>
+ <string id="device">
+  Device
+ </string>
+ <string id="display">
+  Display
+ </string>
+ <string id="document">
+  Document
+ </string>
+ <string id="foreach">
+  For Each
+ </string>
+ <string id="general">
+  General
+ </string>
+ <string id="globallocalvariables">
+  Global &amp; local variables
+ </string>
+ <string id="initialparticleproperties">
+  Initial particle properties
+ </string>
+ <string id="layers">
+  Layers
+ </string>
+ <string id="layerstransforms">
+  Layers &amp; transforms
+ </string>
+ <string id="layout">
+  Layout
+ </string>
+ <string id="local">
+  Local
+ </string>
+ <string id="loops">
+  Loops
+ </string>
+ <string id="math">
+  Math
+ </string>
+ <string id="navigation">
+  Navigation
+ </string>
+ <string id="offlinecache">
+  Offline cache
+ </string>
+ <string id="orientationmotion">
+  Orientation &amp; motion
+ </string>
+ <string id="page">
+  Page
+ </string>
+ <string id="particlelifetimeproperties">
+  Particle lifetime properties
+ </string>
+ <string id="particlespray">
+  Particle spray
+ </string>
+ <string id="pickinstances">
+  Pick instances
+ </string>
+ <string id="promptnopermissionsrequired">
+  Prompt (no permissions required)
+ </string>
+ <string id="publishtostreamwhenloggedinwithpermission">
+  Publish to stream (when logged in with permission)
+ </string>
+ <string id="rawinput">
+  Raw input
+ </string>
+ <string id="scoreswhenloggedinwithpermission">
+  Scores (when logged in with permission)
+ </string>
+ <string id="scrolling">
+  Scrolling
+ </string>
+ <string id="session">
+  Session
+ </string>
+ <string id="specialconditions">
+  Special conditions
+ </string>
+ <string id="startend">
+  Start &amp; end
+ </string>
+ <string id="statistics">
+  Statistics
+ </string>
+ <string id="time">
+  Time
+ </string>
+ <string id="triggers">
+  Triggers
+ </string>
+ <string id="user">
+  User
+ </string>
+ <string id="values">
+  Values
+ </string>
+ <string id="virtualpages">
+  Virtual pages
+ </string>
+ <string id="window">
+  Window
+ </string>
+</group>

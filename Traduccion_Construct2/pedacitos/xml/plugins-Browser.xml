@@ -1,0 +1,356 @@
+<group name="Browser">
+ <string id="name">
+  Browser
+ </string>
+ <string id="category">
+  Web
+ </string>
+ <string id="description">
+  Access the browser that is running the HTML5 application.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Cookies enabled
+  </string>
+  <string id="0-display">
+   Cookies are enabled
+  </string>
+  <string id="0-desc">
+   Browser has cookies enabled.
+  </string>
+  <string id="1">
+   Is online
+  </string>
+  <string id="1-display">
+   Is online
+  </string>
+  <string id="1-desc">
+   Browser is online (i.e. not in an offline browsing mode).
+  </string>
+  <string id="2">
+   Java supported
+  </string>
+  <string id="2-display">
+   Java is supported
+  </string>
+  <string id="2-desc">
+   Browser supports java.
+  </string>
+  <string id="3">
+   On went online
+  </string>
+  <string id="3-display">
+   On went online
+  </string>
+  <string id="3-desc">
+   Triggered when user is offline and a connection becomes available.
+  </string>
+  <string id="4">
+   On went offline
+  </string>
+  <string id="4-display">
+   On went offline
+  </string>
+  <string id="4-desc">
+   Triggered when user is online and the connection becomes unavailable.
+  </string>
+  <string id="5">
+   Is downloading update
+  </string>
+  <string id="5-display">
+   Is downloading update
+  </string>
+  <string id="5-desc">
+   True when the browser is running from the offline cache, but downloading an update in the background.
+  </string>
+  <string id="6">
+   On update ready
+  </string>
+  <string id="6-display">
+   On update ready
+  </string>
+  <string id="6-desc">
+   Triggered when an update has finished downloading.  You may want to prompt the user to reload the page.
+  </string>
+  <string id="7">
+   Page is visible
+  </string>
+  <string id="7-display">
+   Page is visible
+  </string>
+  <string id="7-desc">
+   True if the page is currently visible to the user, otherwise false (e.g. if in an inactive tab).
+  </string>
+  <string id="8">
+   On page visible
+  </string>
+  <string id="8-display">
+   On page visible
+  </string>
+  <string id="8-desc">
+   Triggers when the page becomes visible (e.g. user switches to the page's tab).
+  </string>
+  <string id="9">
+   On page hidden
+  </string>
+  <string id="9-display">
+   On page hidden
+  </string>
+  <string id="9-desc">
+   Triggers when the page becomes hidden (e.g. user switches to a different tab).
+  </string>
+  <string id="10">
+   Is fullscreen
+  </string>
+  <string id="10-display">
+   Is fullscreen
+  </string>
+  <string id="10-desc">
+   True if the page is currently in fullscreen mode.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Alert
+  </string>
+  <string id="0-display">
+   Alert {0}
+  </string>
+  <string id="0-desc">
+   Pop up a message box with a message and an OK button.
+  </string>
+  <string id="0-p0">
+   Message
+  </string>
+  <string id="0-p0-desc">
+   Enter the message to display in the alert.
+  </string>
+  <string id="1">
+   Close
+  </string>
+  <string id="1-display">
+   Close
+  </string>
+  <string id="1-desc">
+   Close the current browser window or tab.  The browser may prompt the user to confirm.
+  </string>
+  <string id="2">
+   Focus
+  </string>
+  <string id="2-display">
+   Focus
+  </string>
+  <string id="2-desc">
+   Focus the current browser window or tab.
+  </string>
+  <string id="3">
+   Blur
+  </string>
+  <string id="3-display">
+   Blur
+  </string>
+  <string id="3-desc">
+   Blur (unfocus) the current browser window or tab.
+  </string>
+  <string id="4">
+   Go back
+  </string>
+  <string id="4-display">
+   Go back
+  </string>
+  <string id="4-desc">
+   Go to the previous page in browser history.
+  </string>
+  <string id="5">
+   Go forward
+  </string>
+  <string id="5-display">
+   Go forward
+  </string>
+  <string id="5-desc">
+   Go to the next page in browser history.
+  </string>
+  <string id="6">
+   Go home
+  </string>
+  <string id="6-display">
+   Go home
+  </string>
+  <string id="6-desc">
+   Go to the browser homepage.
+  </string>
+  <string id="7">
+   Go to URL
+  </string>
+  <string id="7-display">
+   Go to {0}
+  </string>
+  <string id="7-desc">
+   Navigate to a URL.
+  </string>
+  <string id="7-p0">
+   URL
+  </string>
+  <string id="7-p0-desc">
+   Enter the full URL to navigate to.
+  </string>
+  <string id="8">
+   Open URL in new window
+  </string>
+  <string id="8-display">
+   Go to {0} in a new window ([i]{1}[/i])
+  </string>
+  <string id="8-desc">
+   Open a new window and navigate to a URL.
+  </string>
+  <string id="8-p0">
+   URL
+  </string>
+  <string id="8-p0-desc">
+   Enter the full URL to navigate to.
+  </string>
+  <string id="8-p1">
+   Tag
+  </string>
+  <string id="8-p1-desc">
+   A string to identify this window.  You can reuse an existing window by reusing its tag.
+  </string>
+  <string id="9">
+   Reload
+  </string>
+  <string id="9-display">
+   Reload
+  </string>
+  <string id="9-desc">
+   Reload the current page.  Also updates if an 'On update ready' event has triggered.
+  </string>
+  <string id="10">
+   Request fullscreen
+  </string>
+  <string id="10-display">
+   Request fullscreen
+  </string>
+  <string id="10-desc">
+   Request the user to enter fullscreen mode.
+  </string>
+  <string id="11">
+   Cancel fullscreen
+  </string>
+  <string id="11-display">
+   Cancel fullscreen
+  </string>
+  <string id="11-desc">
+   Exit fullscreen mode.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   URL
+  </string>
+  <string id="0-desc">
+   Get the current browser URL.
+  </string>
+  <string id="1">
+   Protocol
+  </string>
+  <string id="1-desc">
+   Get the current protocol, e.g. http:.
+  </string>
+  <string id="2">
+   Domain
+  </string>
+  <string id="2-desc">
+   Get the current domain, e.g. scirra.com.
+  </string>
+  <string id="3">
+   PathName
+  </string>
+  <string id="3-desc">
+   Get the path relative to domain.
+  </string>
+  <string id="4">
+   Hash
+  </string>
+  <string id="4-desc">
+   Get the hash from the URL, e.g. #myAnchor.
+  </string>
+  <string id="5">
+   Referrer
+  </string>
+  <string id="5-desc">
+   Get the referrer (the page that linked to this page).
+  </string>
+  <string id="6">
+   Title
+  </string>
+  <string id="6-desc">
+   Get the page title.
+  </string>
+  <string id="7">
+   Name
+  </string>
+  <string id="7-desc">
+   Get the browser application name.
+  </string>
+  <string id="8">
+   Version
+  </string>
+  <string id="8-desc">
+   Get the browser application version.
+  </string>
+  <string id="9">
+   Language
+  </string>
+  <string id="9-desc">
+   Get the browser language.
+  </string>
+  <string id="10">
+   Platform
+  </string>
+  <string id="10-desc">
+   Get the browser platform (e.g. Windows, Mac).
+  </string>
+  <string id="11">
+   Product
+  </string>
+  <string id="11-desc">
+   Get the browser product name (e.g. Gecko).
+  </string>
+  <string id="12">
+   Vendor
+  </string>
+  <string id="12-desc">
+   Get the browser vendor.
+  </string>
+  <string id="13">
+   UserAgent
+  </string>
+  <string id="13-desc">
+   Get the full browser user agent string.
+  </string>
+  <string id="14">
+   QueryString
+  </string>
+  <string id="14-desc">
+   Get the full query string, including the ?.
+  </string>
+  <string id="15">
+   QueryParam
+  </string>
+  <string id="15-desc">
+   Get a query string parameter by name.
+  </string>
+  <string id="15-p0">
+   name
+  </string>
+  <string id="15-p0-desc">
+   Query string parameter name.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

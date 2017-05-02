@@ -1,0 +1,93 @@
+<group name="project">
+ <string id="object">
+  Objeto
+ </string>
+ <!-- object type -->
+ <string id="family">
+  Familia
+ </string>
+ <!-- family of types -->
+ <string id="layer">
+  Capa
+ </string>
+ <string id="variable">
+  Variable
+ </string>
+ <string id="animation">
+  Animación
+ </string>
+ <string id="layout">
+  Diseño
+ </string>
+ <string id="eventsheet">
+  Hoja de Eventos
+ </string>
+ <!-- Variable types, in lowercase	-->
+ <string id="boolean">
+  booleano
+ </string>
+ <string id="number">
+  número
+ </string>
+ <string id="string">
+  texto
+ </string>
+ <!-- Event strings -->
+ <group name="events">
+  <!-- List of comparison options for comparison parameters, pipe | separated -->
+  <string id="comparison-options">
+   = Igual a|≠ Diferente a|&lt; Menos que|≤ Menos o igual|&gt; Mayor que|≥ Mayor o igual
+  </string>
+  <!-- The 3 lines of intro text for an empty event sheet. -->
+  <string id="intro1">
+   Para comenzar a agregar eventos, haga click derecho, doble click o click en el botón 'Agregar Evento'.
+  </string>
+  <string id="intro2">
+   Los eventos se ejecutan de arriba para abajo, uno a la vez (por ejemplo, los cuadros por segundo).
+  </string>
+  <string id="intro3">
+   Haga click derecho y seleccione 'Ayuda' para más información.
+  </string>
+  <!-- Add action and add event links in the event sheet. -->
+  <string id="addaction">
+   Agregar ación
+  </string>
+  <string id="addevent">
+   Agregar Evento
+  </string>
+ </group>
+ <!-- events -->
+ <!-- Name of the root animations folder -->
+ <string id="animationsroot">
+  Animaciones
+ </string>
+ <!-- Default name of a new animation -->
+ <string id="newanimationname">
+  por defecto
+ </string>
+ <!-- Miscellaneous project strings -->
+ <group name="misc">
+  <!-- Default names of new project items -->
+  <string id="newprojectname">
+   Nuevo Proyecto
+  </string>
+  <!-- Link texts from various plugins (these have to be here for technical reasons) -->
+  <string id="sprite-edit-link">
+   Editar
+  </string>
+  <string id="sprite-make11-link">
+   Poner 1:1
+  </string>
+  <string id="tiledbg-edit-link">
+   Editar
+  </string>
+  <string id="particles-edit-link">
+   Editar
+  </string>
+  <!-- Text object initial text -->
+  <string id="text-initialtext">
+   Texto
+  </string>
+ </group>
+ <!-- misc -->
+</group>

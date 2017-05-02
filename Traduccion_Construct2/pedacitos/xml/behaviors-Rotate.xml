@@ -1,0 +1,77 @@
+<group name="Rotate">
+ <string id="name">
+  Rotate
+ </string>
+ <string id="category">
+  Movements
+ </string>
+ <string id="description">
+  Make an object spin.
+ </string>
+ <group name="properties">
+  <string id="speed">
+   Speed
+  </string>
+  <string id="speed-desc">
+   The rotation speed, in degrees per second.  Positive is clockwise and negative is anticlockwise.
+  </string>
+  <string id="acceleration">
+   Acceleration
+  </string>
+  <string id="acceleration-desc">
+   Rotation acceleration in degrees per second per second (negative slows down).
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set speed
+  </string>
+  <string id="0-display">
+   Set {my} speed to {0} degrees per second
+  </string>
+  <string id="0-desc">
+   Set the rate the object spins at.
+  </string>
+  <string id="0-p0">
+   Speed
+  </string>
+  <string id="0-p0-desc">
+   The new rotation speed, in degrees per second.
+  </string>
+  <string id="1">
+   Set acceleration
+  </string>
+  <string id="1-display">
+   Set {my} acceleration to {0} degrees per second per second
+  </string>
+  <string id="1-desc">
+   Set the rate the object's spinning changes.
+  </string>
+  <string id="1-p0">
+   Acceleration
+  </string>
+  <string id="1-p0-desc">
+   The new rotation acceleration, in degrees per second per second.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   Speed
+  </string>
+  <string id="0-desc">
+   The current rotation speed in degrees per second.
+  </string>
+  <string id="1">
+   Acceleration
+  </string>
+  <string id="1-desc">
+   The current rotation acceleration in degrees per second per second.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

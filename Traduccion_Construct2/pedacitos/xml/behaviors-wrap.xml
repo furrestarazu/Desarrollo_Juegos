@@ -1,0 +1,23 @@
+<group name="wrap">
+ <string id="name">
+  Wrap
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Make an object leaving the layout reappear on the other side.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

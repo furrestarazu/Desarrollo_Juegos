@@ -1,0 +1,308 @@
+<group name="gamepad">
+ <string id="name">
+  Gamepad (beta)
+ </string>
+ <string id="category">
+  Input
+ </string>
+ <string id="description">
+  Receive input from a gamepad device, e.g. console controllers.  (BETA - not yet widely supported)
+ </string>
+ <group name="properties">
+  <string id="analogdeadzone">
+   Analog deadzone
+  </string>
+  <string id="analogdeadzone-desc">
+   Analog stick values (0-100) below this range are returned as zero to smooth the input.
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="1">
+   On gamepad connected
+  </string>
+  <string id="1-display">
+   On gamepad connected
+  </string>
+  <string id="1-desc">
+   Triggered when a gamepad device is connected to the computer.
+  </string>
+  <string id="2">
+   On gamepad disconnected
+  </string>
+  <string id="2-display">
+   On gamepad disconnected
+  </string>
+  <string id="2-desc">
+   Triggered when a gamepad device is disconnected from the computer.
+  </string>
+  <string id="3">
+   Is button down
+  </string>
+  <string id="3-display">
+   Gamepad {0} [b]{1}[/b] is down
+  </string>
+  <string id="3-desc">
+   Test if a gamepad button is currently held down.
+  </string>
+  <string id="3-p0">
+   Gamepad
+  </string>
+  <string id="3-p0-desc">
+   Enter the zero-based index of the gamepad to test.
+  </string>
+  <string id="3-p1">
+   Button
+  </string>
+  <string id="3-p1-desc">
+   Choose a gamepad button to test.
+  </string>
+  <string id="3-p1-opt0">
+   Button A
+  </string>
+  <string id="3-p1-opt1">
+   Button B
+  </string>
+  <string id="3-p1-opt2">
+   Button X
+  </string>
+  <string id="3-p1-opt3">
+   Button Y
+  </string>
+  <string id="3-p1-opt4">
+   Left shoulder button
+  </string>
+  <string id="3-p1-opt5">
+   Right shoulder button
+  </string>
+  <string id="3-p1-opt6">
+   Left shoulder trigger
+  </string>
+  <string id="3-p1-opt7">
+   Right shoulder trigger
+  </string>
+  <string id="3-p1-opt8">
+   Back
+  </string>
+  <string id="3-p1-opt9">
+   Start
+  </string>
+  <string id="3-p1-opt10">
+   Left analog button
+  </string>
+  <string id="3-p1-opt11">
+   Right analog button
+  </string>
+  <string id="3-p1-opt12">
+   D-pad up
+  </string>
+  <string id="3-p1-opt13">
+   D-pad down
+  </string>
+  <string id="3-p1-opt14">
+   D-pad left
+  </string>
+  <string id="3-p1-opt15">
+   D-pad right
+  </string>
+  <string id="4">
+   Has gamepads
+  </string>
+  <string id="4-display">
+   Has gamepads
+  </string>
+  <string id="4-desc">
+   Test if any gamepad is connected and active.
+  </string>
+  <string id="5">
+   Compare axis
+  </string>
+  <string id="5-display">
+   Gamepad {0} [b]{1}[/b] {2} {3}
+  </string>
+  <string id="5-desc">
+   Test the value of one of the gamepad's axes.
+  </string>
+  <string id="5-p0">
+   Gamepad
+  </string>
+  <string id="5-p0-desc">
+   Enter the zero-based index of the gamepad to test.
+  </string>
+  <string id="5-p1">
+   Axis
+  </string>
+  <string id="5-p1-desc">
+   Select the gamepad axis to test.
+  </string>
+  <string id="5-p1-opt0">
+   Left analog X axis
+  </string>
+  <string id="5-p1-opt1">
+   Left analog Y axis
+  </string>
+  <string id="5-p1-opt2">
+   Right analog X axis
+  </string>
+  <string id="5-p1-opt3">
+   Right analog Y axis
+  </string>
+  <string id="5-p2">
+   Comparison
+  </string>
+  <string id="5-p2-desc">
+   How to select the axis value (ranging from -100 to 100).
+  </string>
+  <string id="5-p3">
+   Value
+  </string>
+  <string id="5-p3-desc">
+   The value to compare to, from -100 to 100.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   GamepadCount
+  </string>
+  <string id="0-desc">
+   The number of currently connected and active gamepads.
+  </string>
+  <string id="1">
+   GamepadID
+  </string>
+  <string id="1-desc">
+   A string identifying the gamepad, e.g. manufacturer and model.
+  </string>
+  <string id="1-p0">
+   Gamepad
+  </string>
+  <string id="1-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="2">
+   GamepadAxes
+  </string>
+  <string id="2-desc">
+   (DEBUG) String listing all axis data
+  </string>
+  <string id="2-p0">
+   Gamepad
+  </string>
+  <string id="2-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="3">
+   GamepadButtons
+  </string>
+  <string id="3-desc">
+   (DEBUG) String listing all button data
+  </string>
+  <string id="3-p0">
+   Gamepad
+  </string>
+  <string id="3-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="4">
+   RawButton
+  </string>
+  <string id="4-desc">
+   Return raw button input from 0 to 100 for a button index.
+  </string>
+  <string id="4-p0">
+   Gamepad
+  </string>
+  <string id="4-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="4-p1">
+   Index
+  </string>
+  <string id="4-p1-desc">
+   Raw button index.
+  </string>
+  <string id="5">
+   RawAxis
+  </string>
+  <string id="5-desc">
+   Return raw axis input from -100 to 100 for an axis index.
+  </string>
+  <string id="5-p0">
+   Gamepad
+  </string>
+  <string id="5-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="5-p1">
+   Index
+  </string>
+  <string id="5-p1-desc">
+   Raw axis index.
+  </string>
+  <string id="6">
+   RawButtonCount
+  </string>
+  <string id="6-desc">
+   Return number of buttons in raw input.
+  </string>
+  <string id="6-p0">
+   Gamepad
+  </string>
+  <string id="6-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="7">
+   RawAxisCount
+  </string>
+  <string id="7-desc">
+   Return number of axes in raw input.
+  </string>
+  <string id="7-p0">
+   Gamepad
+  </string>
+  <string id="7-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="8">
+   Button
+  </string>
+  <string id="8-desc">
+   Return button input from 0 to 100 for a button index.
+  </string>
+  <string id="8-p0">
+   Gamepad
+  </string>
+  <string id="8-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="8-p1">
+   Index
+  </string>
+  <string id="8-p1-desc">
+   Button index.
+  </string>
+  <string id="9">
+   Axis
+  </string>
+  <string id="9-desc">
+   Return axis input from -100 to 100 for an axis index.
+  </string>
+  <string id="9-p0">
+   Gamepad
+  </string>
+  <string id="9-p0-desc">
+   Index of the gamepad.
+  </string>
+  <string id="9-p1">
+   Index
+  </string>
+  <string id="9-p1-desc">
+   Axis index.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

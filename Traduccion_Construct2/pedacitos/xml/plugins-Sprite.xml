@@ -1,0 +1,440 @@
+<group name="Sprite">
+ <string id="name">
+  Sprite
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  An animated object that is the building block of most projects.
+ </string>
+ <group name="properties">
+  <string id="animations">
+   Animations
+  </string>
+  <string id="animations-desc">
+   Click to edit the object's animations.
+  </string>
+  <string id="size">
+   Size
+  </string>
+  <string id="size-desc">
+   Click to set the object to the same size as its image.
+  </string>
+  <string id="initialvisibility">
+   Initial visibility
+  </string>
+  <string id="initialvisibility-desc">
+   Choose whether the object is visible when the layout starts.
+  </string>
+  <string id="initialvisibility-options">
+   Visible|Invisible
+  </string>
+  <string id="initialframe">
+   Initial frame
+  </string>
+  <string id="initialframe-desc">
+   The initial animation frame showing.
+  </string>
+  <string id="effect">
+   Effect
+  </string>
+  <string id="effect-desc">
+   Choose an effect for this object.  (This does not preview in the layout, only when you run.)
+  </string>
+  <string id="effect-options">
+   (none)|Additive|XOR|Copy|Destination over|Source in|Destination in|Source out|Destination out|Source atop|Destination atop
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   On collision with another object
+  </string>
+  <string id="0-display">
+   On collision with {0}
+  </string>
+  <string id="0-desc">
+   Triggered when the object collides with another object.
+  </string>
+  <string id="0-p0">
+   Object
+  </string>
+  <string id="0-p0-desc">
+   Select the object to test for a collision with.
+  </string>
+  <string id="1">
+   Is overlapping another object
+  </string>
+  <string id="1-display">
+   Is overlapping {0}
+  </string>
+  <string id="1-desc">
+   Test if the object is overlapping another object.
+  </string>
+  <string id="1-p0">
+   Object
+  </string>
+  <string id="1-p0-desc">
+   Select the object to test for overlap with.
+  </string>
+  <string id="2">
+   Is playing
+  </string>
+  <string id="2-display">
+   Is animation {0} playing
+  </string>
+  <string id="2-desc">
+   Test which of the object's animations is currently playing.
+  </string>
+  <string id="2-p0">
+   Animation
+  </string>
+  <string id="2-p0-desc">
+   Enter the name of the animation to check if playing.
+  </string>
+  <string id="3">
+   Compare frame
+  </string>
+  <string id="3-display">
+   Animation frame {0} {1}
+  </string>
+  <string id="3-desc">
+   Test which animation frame is currently showing.
+  </string>
+  <string id="3-p0">
+   Comparison
+  </string>
+  <string id="3-p0-desc">
+   How to compare the current animation frame number (0-based).
+  </string>
+  <string id="3-p1">
+   Number
+  </string>
+  <string id="3-p1-desc">
+   The animation frame number to compare to (0-based).
+  </string>
+  <string id="4">
+   On finished
+  </string>
+  <string id="4-display">
+   On animation {0} finished
+  </string>
+  <string id="4-desc">
+   Triggered when an animation has finished.
+  </string>
+  <string id="4-p0">
+   Animation
+  </string>
+  <string id="4-p0-desc">
+   Enter the name of the animation that has finished.
+  </string>
+  <string id="5">
+   On any finished
+  </string>
+  <string id="5-display">
+   On any animation finished
+  </string>
+  <string id="5-desc">
+   Triggered when any animation has finished.
+  </string>
+  <string id="6">
+   On frame changed
+  </string>
+  <string id="6-display">
+   On frame changed
+  </string>
+  <string id="6-desc">
+   Triggered when the current animation frame changes.
+  </string>
+  <string id="7">
+   Is mirrored
+  </string>
+  <string id="7-display">
+   Is mirrored
+  </string>
+  <string id="7-desc">
+   True if the object has been mirrored with the 'Set Mirrored' action.
+  </string>
+  <string id="8">
+   Is flipped
+  </string>
+  <string id="8-display">
+   Is flipped
+  </string>
+  <string id="8-desc">
+   True if the object has been flipped with the 'Set Flipped' action.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Spawn another object
+  </string>
+  <string id="0-display">
+   Spawn {0} on layer [b]{1}[/b] [i](image point {2})[/i]
+  </string>
+  <string id="0-desc">
+   Create another object at this object.
+  </string>
+  <string id="0-p0">
+   Object
+  </string>
+  <string id="0-p0-desc">
+   Choose the object type of the new instance to create.
+  </string>
+  <string id="0-p1">
+   Layer
+  </string>
+  <string id="0-p1-desc">
+   The layer name or number to create the instance on.
+  </string>
+  <string id="0-p2">
+   Image point
+  </string>
+  <string id="0-p2-desc">
+   Use 0 for the object's origin, or the name or number of an image point to spawn the object from.
+  </string>
+  <string id="1">
+   Set effect
+  </string>
+  <string id="1-display">
+   Set effect to [i]{0}[/i]
+  </string>
+  <string id="1-desc">
+   Set the rendering effect of this object.
+  </string>
+  <string id="1-p0">
+   Effect
+  </string>
+  <string id="1-p0-desc">
+   Choose the new effect for this object.
+  </string>
+  <string id="1-p0-opt0">
+   (none)
+  </string>
+  <string id="1-p0-opt1">
+   Additive
+  </string>
+  <string id="1-p0-opt2">
+   XOR
+  </string>
+  <string id="1-p0-opt3">
+   Copy
+  </string>
+  <string id="1-p0-opt4">
+   Destination over
+  </string>
+  <string id="1-p0-opt5">
+   Source in
+  </string>
+  <string id="1-p0-opt6">
+   Destination in
+  </string>
+  <string id="1-p0-opt7">
+   Source out
+  </string>
+  <string id="1-p0-opt8">
+   Destination out
+  </string>
+  <string id="1-p0-opt9">
+   Source atop
+  </string>
+  <string id="1-p0-opt10">
+   Destination atop
+  </string>
+  <string id="2">
+   Stop
+  </string>
+  <string id="2-display">
+   Stop animation
+  </string>
+  <string id="2-desc">
+   Stop the current animation from playing.
+  </string>
+  <string id="3">
+   Start
+  </string>
+  <string id="3-display">
+   Start animation from {0}
+  </string>
+  <string id="3-desc">
+   Start the current animation, if it was stopped.
+  </string>
+  <string id="3-p0">
+   From
+  </string>
+  <string id="3-p0-desc">
+   Choose whether to resume or rewind the animation back to the first frame.
+  </string>
+  <string id="3-p0-opt0">
+   current frame
+  </string>
+  <string id="3-p0-opt1">
+   beginning
+  </string>
+  <string id="4">
+   Set animation
+  </string>
+  <string id="4-display">
+   Set animation to {0} (play from {1})
+  </string>
+  <string id="4-desc">
+   Set the current animation
+  </string>
+  <string id="4-p0">
+   Animation
+  </string>
+  <string id="4-p0-desc">
+   The name of the animation to set.
+  </string>
+  <string id="4-p1">
+   From
+  </string>
+  <string id="4-p1-desc">
+   Choose whether to play from the same frame number or rewind the animation back to the first frame.
+  </string>
+  <string id="4-p1-opt0">
+   current frame
+  </string>
+  <string id="4-p1-opt1">
+   beginning
+  </string>
+  <string id="5">
+   Set frame
+  </string>
+  <string id="5-display">
+   Set animation frame to [b]{0}[/b]
+  </string>
+  <string id="5-desc">
+   Set the current animation frame number.
+  </string>
+  <string id="5-p0">
+   Frame number
+  </string>
+  <string id="5-p0-desc">
+   The animation frame number to set (0-based).
+  </string>
+  <string id="6">
+   Set speed
+  </string>
+  <string id="6-display">
+   Set animation speed to [b]{0}[/b]
+  </string>
+  <string id="6-desc">
+   Set the current animation speed.
+  </string>
+  <string id="6-p0">
+   Speed
+  </string>
+  <string id="6-p0-desc">
+   The new animation speed, in animation frames per second.
+  </string>
+  <string id="7">
+   Set mirrored
+  </string>
+  <string id="7-display">
+   Set [b]{0}[/b]
+  </string>
+  <string id="7-desc">
+   Set the object horizontally mirrored or back to normal.
+  </string>
+  <string id="7-p0">
+   State
+  </string>
+  <string id="7-p0-desc">
+   Choose whether to horizontally mirror the object or set it back to normal.
+  </string>
+  <string id="7-p0-opt0">
+   Mirrored
+  </string>
+  <string id="7-p0-opt1">
+   Not mirrored
+  </string>
+  <string id="8">
+   Set flipped
+  </string>
+  <string id="8-display">
+   Set [b]{0}[/b]
+  </string>
+  <string id="8-desc">
+   Set the object vertically flipped or back to normal.
+  </string>
+  <string id="8-p0">
+   State
+  </string>
+  <string id="8-p0-desc">
+   Choose whether to vertically flip the object or set it back to normal.
+  </string>
+  <string id="8-p0-opt0">
+   Flipped
+  </string>
+  <string id="8-p0-opt1">
+   Not flipped
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   AnimationFrame
+  </string>
+  <string id="0-desc">
+   The current animation frame number (0-based).
+  </string>
+  <string id="1">
+   AnimationFrameCount
+  </string>
+  <string id="1-desc">
+   The number of animation frames in the current animation.
+  </string>
+  <string id="2">
+   AnimationName
+  </string>
+  <string id="2-desc">
+   The name of the current animation.
+  </string>
+  <string id="3">
+   AnimationSpeed
+  </string>
+  <string id="3-desc">
+   The speed of the current animation, in animation frames per second.
+  </string>
+  <string id="4">
+   ImagePointX
+  </string>
+  <string id="4-desc">
+   The X position of one of the object's image points.
+  </string>
+  <string id="4-p0">
+   ImagePoint
+  </string>
+  <string id="4-p0-desc">
+   Name or number of image point to get.
+  </string>
+  <string id="5">
+   ImagePointY
+  </string>
+  <string id="5-desc">
+   The Y position of one of the object's image points.
+  </string>
+  <string id="5-p0">
+   ImagePoint
+  </string>
+  <string id="5-p0-desc">
+   Name or number of image point to get.
+  </string>
+  <string id="6">
+   ImageWidth
+  </string>
+  <string id="6-desc">
+   The width of the current animation frame image, in pixels.
+  </string>
+  <string id="7">
+   ImageHeight
+  </string>
+  <string id="7-desc">
+   The height of the current animation frame image, in pixels.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

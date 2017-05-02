@@ -1,0 +1,527 @@
+<group name="bars">
+ <!-- Strings in the Properties Bar (mostly property names) -->
+ <group name="properties">
+  <!-- Caption of the Properties bar -->
+  <string id="caption">
+   Propiedades
+  </string>
+  <!-- Project properties (when a project is selected) -->
+  <group name="project">
+   <!-- Group header -->
+   <string id="project-header">
+    Ajustes del proyecto
+   </string>
+   <string id="project-header-desc">
+    Ajustes generales para el proyecto.
+   </string>
+   <string id="name">
+    Nombre
+   </string>
+   <string id="name-desc">
+    Nombre del proyecto.
+   </string>
+   <string id="author">
+    Autor
+   </string>
+   <string id="author-desc">
+    Nombre de la organización o autor del proyecto.
+   </string>
+   <string id="description">
+    Descripción
+   </string>
+   <string id="description-desc">
+    Texto que describe el proyecto.
+   </string>
+   <string id="version">
+    Versión
+   </string>
+   <string id="version-desc">
+    Número que identifica la versión del proyecto.
+   </string>
+   <string id="firstlayout">
+    Primera Capa
+   </string>
+   <string id="firstlayout-desc">
+    La capa que será cargada inicialmente cuando el proyecto se ejecuta.
+   </string>
+   <!-- 'First layout' is a dropdown property with a list of all layout names, but (default) appears
+						 at the top to mean the first layout in the project. -->
+   <string id="firstlayout-default">
+    (default)
+   </string>
+   <string id="pixelrounding">
+    Pixel rounding
+   </string>
+   <string id="pixelrounding-desc">
+    Si está activa, los objetos siempre son dibujados en posiciones enteras. Si está inactiva, los objetos puede ser dibujados entre pixeles.
+   </string>
+   <string id="windowsize">
+    Tamaño de la ventana
+   </string>
+   <string id="windowsize-desc">
+    El tamaño del área de la ventana en tiempo de ejecución, en pixeles.
+   </string>
+   <string id="windowwidth-desc">
+    El ancho del área de la ventana en tiempo de ejecución, en pixeles.
+   </string>
+   <string id="windowheight-desc">
+    El alto del área de la ventana en tiempo de ejecución, en pixeles.
+   </string>
+   <!-- Group header -->
+   <string id="config-header">
+    Ajustes de la configuración
+   </string>
+   <string id="config-header-desc">
+    Ajustes específicos para la configuración activa.
+   </string>
+   <!-- Properties following here come from a specific exporter (see exporters\html5\properties) -->
+   <!-- Help link -->
+   <string id="moreinfo">
+    Más información
+   </string>
+   <string id="moreinfo-desc">
+    Ejecuta la ayuda para información acerca de las propiedades del proyecto.
+   </string>
+  </group>
+  <!-- project -->
+  <!-- Layout properties -->
+  <group name="layout">
+   <string id="layout-header">
+    Propiedades de la capa
+   </string>
+   <string id="layout-header-desc">
+    Ajustes para la capa seleccionada.
+   </string>
+   <string id="name">
+    Nombre
+   </string>
+   <string id="name-desc">
+    Nombre de la capa.
+   </string>
+   <string id="eventsheet">
+    Hoja de Eventos
+   </string>
+   <string id="eventsheet-desc">
+    Seleccione la hoja de eventos a ejecutarse para esta capa. Puede incluirse otras hojas de evento desde esta hoja de eventos.
+   </string>
+   <string id="eventsheet-none">
+    (ninguna)
+   </string>
+   <string id="activelayer">
+    Capa Activa
+   </string>
+   <string id="activelayer-desc">
+    La capa en la que se insertarán nuevos objetos.
+   </string>
+   <string id="unboundedscrolling">
+    Desplazamiento sin límites
+   </string>
+   <string id="unboundedscrolling-desc">
+    Permite hacer scroll pasados los límites de la capa.
+   </string>
+   <string id="layoutsize">
+    Tamaño de la Capa
+   </string>
+   <string id="layoutsize-desc">
+    Tamaño de la capa, en pixeles.
+   </string>
+   <string id="layoutsize-width-desc">
+    Ancho de la capa, en pixeles.
+   </string>
+   <string id="layoutsize-height-desc">
+    Alto de la capa, en pixeles.
+   </string>
+   <string id="margins">
+    Márgenes
+   </string>
+   <string id="margins-desc">
+    El tamaño del espacio libre fuera de la capa, en pixeles.
+   </string>
+   <string id="margins-width-desc">
+    Tamaño del margen horizontal, en pixeles.
+   </string>
+   <string id="margins-height-desc">
+    Tamaño del margen vertical, en pixeles.
+   </string>
+   <!-- Shortcut to Project Properties -->
+   <string id="projectproperties">
+    Propiedades del proyecto
+   </string>
+   <string id="projectproperties-desc">
+    Muestra las propiedades para esta capa del proyecto.
+   </string>
+   <string id="projectproperties-view">
+    Ver
+   </string>
+   <string id="moreinfo">
+    Más información
+   </string>
+   <string id="moreinfo-desc">
+    Ejecuta la ayuda para información acerca de las propiedades de la capa.
+   </string>
+  </group>
+  <!-- layout -->
+  <!-- Layer properties -->
+  <group name="layer">
+   <string id="layer-header">
+    Propiedades de la capa
+   </string>
+   <string id="layer-header-desc">
+    Ajustes para la capa seleccionada.
+   </string>
+   <string id="name">
+    Nombre
+   </string>
+   <string id="name-desc">
+    Nombre de la capa.
+   </string>
+   <string id="initvis">
+    Visualidad inicial
+   </string>
+   <string id="initvis-desc">
+    Muestra la capa se ejecuta el diseño.
+   </string>
+   <string id="initvis-visible">
+    Visible
+   </string>
+   <string id="initvis-invisible">
+    Invisible
+   </string>
+   <string id="bgcolor">
+    Color de fondo
+   </string>
+   <string id="bgcolor-desc">
+    Color de fondo de la capa, si no es transparente.
+   </string>
+   <string id="transparent">
+    Transparente
+   </string>
+   <string id="transparent-desc">
+    Ignora el color de fondo y usa un fondo transparente.
+   </string>
+   <string id="opacity">
+    Opacidad
+   </string>
+   <string id="opacity-desc">
+    Opacidad general. (0 para transparente, 100 para opaco).
+   </string>
+   <string id="forceowntexture">
+    Forzar textura propia
+   </string>
+   <string id="forceowntexture-desc">
+    Fuerza a la capa a renderizar una textura intermedia incluso cuando no se usaron efectos. El renderizado es más rápido cuando se configura en 'NO'.
+   </string>
+   <string id="scalerate">
+    Factor de escala
+   </string>
+   <string id="scalerate-desc">
+    La velocidad que la capa escala a medida que cambia la escala (utilice 0 para desactivar la escala).
+   </string>
+   <string id="parallax">
+    Parallax
+   </string>
+   <string id="parallax-desc">
+    La velocidad a la que la capa se desplaza en cada dirección, como porcentajes.
+   </string>
+   <string id="parallax-x-desc">
+    La velocidad de desplazamiento horizontal como un porcentaje (por ejemplo, 50 para la media velocidad).
+   </string>
+   <string id="parallax-y-desc">
+    La velocidad de desplazamiento vertical como un porcentaje (por ejemplo, 50 para la velocidad media).
+   </string>
+   <!-- Group header -->
+   <string id="editor-header">
+    Propiedades del editor
+   </string>
+   <string id="editor-header-desc">
+    Configuración de la capa seleccionada que sólo afecta a la forma en que se utiliza en el editor.
+   </string>
+   <string id="editorvis">
+    Visible en el editor
+   </string>
+   <string id="editorvis-desc">
+    Muestra la capa en la vista de diseño del editor.
+   </string>
+   <string id="locked">
+    Bloqueado
+   </string>
+   <string id="locked-desc">
+    Previene que cualquier objeto en esta capa sea seleccionado o cambiado.
+   </string>
+   <string id="editorparallax">
+    Parallax en el editor
+   </string>
+   <string id="editorparallax-desc">
+    Desplaza la capa de acuerdo con su configuración de paralaje en el editor.
+   </string>
+   <string id="moreinfo">
+    Más información
+   </string>
+   <string id="moreinfo-desc">
+    Lanza la ayuda para información sobre las propiedades de la capa.
+   </string>
+  </group>
+  <!-- layer -->
+  <!-- Properties when an object class (object type or family) is selected -->
+  <group name="objectclass">
+   <string id="typeheader">
+    Propiedades del tipo de objeto
+   </string>
+   <string id="typeheader-desc">
+    Ajustes para el tipo de objeto seleccionado.
+   </string>
+   <string id="familyheader">
+    Propiedades de familia
+   </string>
+   <string id="familyheader-desc">
+    Ajustes para la familia seleccionada.
+   </string>
+   <string id="name">
+    Nombre
+   </string>
+   <string id="name-desc">
+    Nombre del tipo de este objeto.
+   </string>
+   <string id="plugin">
+    Plugin
+   </string>
+   <string id="plugin-desc">
+    El tipo de plugin para este objeto.
+   </string>
+   <string id="global">
+    Global
+   </string>
+   <string id="global-desc">
+    Los objetos globales no se destruyen al final del diseño.
+   </string>
+   <string id="instancevars">
+    Variables de instancia
+   </string>
+   <string id="instancevars-desc">
+    Variables almacenadas en cada instancia de un objeto.
+   </string>
+   <string id="familyvars">
+    Variables de instancia de familia
+   </string>
+   <string id="familyvars-desc">
+    Variables de instancia heredadas por todos los objetos de esta familia.
+   </string>
+   <string id="instancevar-desc">
+    Una variable de instancia {0}, unica para cada instancia del objeto.
+   </string>
+   <string id="editvars">
+    Editar variables
+   </string>
+   <string id="editvars-desc">
+    Click para agregar, cambiar o eliminar variables de instancias.
+   </string>
+   <string id="moreinfo">
+    Más Información
+   </string>
+   <string id="moreinfo-desc">
+    Ejecuta la ayuda para más información sobre estas propiedades.
+   </string>
+  </group>
+  <!-- objectclass -->
+  <!-- Properties when an object instance is selected -->
+  <!-- (some strings are borrowed from the objectclass group) -->
+  <group name="instance">
+   <string id="commonheader">
+    Comunes
+   </string>
+   <string id="commonheader-desc">
+    Ajustes comunes para el diseño de los objetos.
+   </string>
+   <string id="layer">
+    Capa
+   </string>
+   <string id="layer-desc">
+    La capa de este objeto de instancia está actualmente activada.
+   </string>
+   <string id="position">
+    Posición
+   </string>
+   <string id="position-desc">
+    Coordenadas en el diseño donde se encuentra esta instancia de objeto, en píxeles.
+   </string>
+   <string id="position-x-desc">
+    Coordenada X de esta instancia en el diseño, en píxeles.
+   </string>
+   <string id="position-y-desc">
+    Coordenada Y de esta instancia en el diseño, en píxeles.
+   </string>
+   <string id="size">
+    Tamaño
+   </string>
+   <string id="size-desc">
+    Ancho y alto de este objeto de instancia, en pixeles.
+   </string>
+   <string id="size-w-desc">
+    Ancho de esta instancia, en pixeles.
+   </string>
+   <string id="size-h-desc">
+    Alto de esta instancia, en pixeles.
+   </string>
+   <string id="angle">
+    Ángulo
+   </string>
+   <string id="angle-desc">
+    Ángulo de esta instancia, en grador.
+   </string>
+   <string id="opacity">
+    Opacidad
+   </string>
+   <string id="opacity-desc">
+    Opacidad de esta instancia (0 para transparente, 100 para opaco).
+   </string>
+   <string id="behaviors">
+    Comportamientos
+   </string>
+   <string id="behaviors-desc">
+    Movimientos y otras caracterísicas adicionales.
+   </string>
+   <string id="beh-noprops">
+    (sin propiedades)
+   </string>
+   <string id="beh-noprops-desc">
+    Este comportamiento no tiene propiedades.
+   </string>
+   <string id="beh-props-desc">
+    Propiedades para este comportamiento.
+   </string>
+   <string id="editbehaviors">
+    Editar comportamientos
+   </string>
+   <string id="editbehaviors-desc">
+    Click para agregar, modificar o eliminar comportamientos.
+   </string>
+   <string id="properties">
+    Propiedades
+   </string>
+   <string id="properties-desc">
+    Propiedades para este tipo de objeto.
+   </string>
+   <string id="moreinfo">
+    Más información
+   </string>
+   <string id="moreinfo-desc">
+    Muestra más información sobre estas propiedades.
+   </string>
+  </group>
+  <!-- instance -->
+  <!-- Properties when an animation or animation frame is selected -->
+  <group name="animation">
+   <string id="animheader">
+    Propiedades de la animación '{0}'
+   </string>
+   <string id="animheader-desc">
+    Ajustes para la animación seleccionada.
+   </string>
+   <string id="speed">
+    Velocidad
+   </string>
+   <string id="speed-desc">
+    Velocidad de la animación, en fotogramas por segundo. Esta no puede ser mayor a los FPS del juego (generalmente 60)
+   </string>
+   <string id="loop">
+    Loop
+   </string>
+   <string id="loop-desc">
+    Repetir la animación por siempre.
+   </string>
+   <string id="repeatcount">
+    Contador de repetición
+   </string>
+   <string id="repeatcount-desc">
+    Número de veces a repetir la animación, si no se encuentra en loop.
+   </string>
+   <string id="repeatto">
+    Repetir a
+   </string>
+   <string id="repeatto-desc">
+    Número de fotograma a ir cuando la animación termina.
+   </string>
+   <string id="pingpong">
+    Ping-pong
+   </string>
+   <string id="pingpong-desc">
+    Invierte el flujo de la animación alternativamente.
+   </string>
+   <string id="moreinfo">
+    Más información
+   </string>
+   <string id="moreinfo-desc">
+    Ejecuta la yuda para más información acerca de las propiedades de la animación.
+   </string>
+   <!-- Animation frame properties -->
+   <string id="frameheader">
+    Propiedades del fotograma
+   </string>
+   <string id="frameheader-desc">
+    Ajustes para el fotograma de animación seleccionado.
+   </string>
+   <string id="framespeed">
+    Velocidad del fotograma
+   </string>
+   <string id="framespeed-desc">
+    Tiempo relativo a esperar en este fotograma (1 para normal, 2 para el doble de largo, etc).
+   </string>
+  </group>
+  <!-- animation -->
+ </group>
+ <!-- properties -->
+ <!-- Strings in the Project bar -->
+ <group name="project">
+  <!-- Caption of the Project bar -->
+  <string id="caption">
+   Proyectos
+  </string>
+  <!-- Name of root nodes in the project bar -->
+  <string id="layoutsroot">
+   Diseños
+  </string>
+  <string id="objectsroot">
+   Tipos de Objetos
+  </string>
+  <string id="eventsroot">
+   Hojas de Eventos
+  </string>
+  <string id="familiesroot">
+   Familias
+  </string>
+  <string id="soundsroot">
+   Sonidos
+  </string>
+  <string id="musicroot">
+   Música
+  </string>
+ </group>
+ <!-- project -->
+ <!-- Strings in the Object bar -->
+ <group name="object">
+  <!-- Caption of the Object bar -->
+  <string id="caption">
+   Objetos
+  </string>
+  <string id="gouptooltip">
+   Ir a la carpeta superior
+  </string>
+ </group>
+ <!-- object -->
+ <!-- Strings in the Layers bar -->
+ <group name="layer">
+  <!-- Caption of the Layers bar -->
+  <string id="caption">
+   Capas
+  </string>
+ </group>
+ <!-- layer -->
+ <!-- Strings in the Configurations bar -->
+ <group name="config">
+  <!-- Caption of the Configurations bar -->
+  <string id="caption">
+   Configuraciones
+  </string>
+ </group>
+ <!-- config -->
+</group>

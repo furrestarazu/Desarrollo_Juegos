@@ -1,0 +1,248 @@
+<group name="Text">
+ <string id="name">
+  Text
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Displays some text.
+ </string>
+ <group name="properties">
+  <string id="text">
+   Text
+  </string>
+  <string id="text-desc">
+   Text to display.
+  </string>
+  <string id="initialvisibility">
+   Initial visibility
+  </string>
+  <string id="initialvisibility-desc">
+   Choose whether the object is visible when the layout starts.
+  </string>
+  <string id="initialvisibility-options">
+   Visible|Invisible
+  </string>
+  <string id="font">
+   Font
+  </string>
+  <string id="font-desc">
+   Choose the font to display.  This applies to all instances of this type.
+  </string>
+  <string id="color">
+   Color
+  </string>
+  <string id="color-desc">
+   Color of the text.
+  </string>
+  <string id="horizontalalignment">
+   Horizontal alignment
+  </string>
+  <string id="horizontalalignment-desc">
+   Horizontal alignment of the text.
+  </string>
+  <string id="horizontalalignment-options">
+   Left|Center|Right
+  </string>
+  <string id="hotspot">
+   Hotspot
+  </string>
+  <string id="hotspot-desc">
+   Choose the location of the hot spot in the object.
+  </string>
+  <string id="hotspot-options">
+   Top-left|Center
+  </string>
+  <string id="wrapping">
+   Wrapping
+  </string>
+  <string id="wrapping-desc">
+   Wrap text by space-separated words or nearest character.
+  </string>
+  <string id="wrapping-options">
+   Word|Character
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Compare text
+  </string>
+  <string id="0-display">
+   Text is [b]{0}[/b] [i]({1})[/i]
+  </string>
+  <string id="0-desc">
+   Compare the text in this object.
+  </string>
+  <string id="0-p0">
+   Text to compare
+  </string>
+  <string id="0-p0-desc">
+   Enter the text to compare with the object's content.
+  </string>
+  <string id="0-p1">
+   Case sensitivity
+  </string>
+  <string id="0-p1-desc">
+   Choose whether capital letters count as different to lowercase.  If ignoring case, &amp;quot;ABC&amp;quot; matches &amp;quot;abc&amp;quot;.
+  </string>
+  <string id="0-p1-opt0">
+   Ignore case
+  </string>
+  <string id="0-p1-opt1">
+   Case sensitive
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set text
+  </string>
+  <string id="0-display">
+   Set text to [i]{0}[/i]
+  </string>
+  <string id="0-desc">
+   Set the text of this object.
+  </string>
+  <string id="0-p0">
+   Text
+  </string>
+  <string id="0-p0-desc">
+   Enter the text to set the object's content to.
+  </string>
+  <string id="1">
+   Append text
+  </string>
+  <string id="1-display">
+   Append [i]{0}[/i]
+  </string>
+  <string id="1-desc">
+   Add text to the end of the existing text.
+  </string>
+  <string id="1-p0">
+   Text
+  </string>
+  <string id="1-p0-desc">
+   Enter the text to append to the object's content.
+  </string>
+  <string id="2">
+   Set font face
+  </string>
+  <string id="2-display">
+   Set font face to [i]{0}[/i] ([i]{1}[/i])
+  </string>
+  <string id="2-desc">
+   Set the font face used to display text.
+  </string>
+  <string id="2-p0">
+   Font face
+  </string>
+  <string id="2-p0-desc">
+   The new font face name to set.
+  </string>
+  <string id="2-p1">
+   Style
+  </string>
+  <string id="2-p1-desc">
+   Choose the style for the given font face.
+  </string>
+  <string id="2-p1-opt0">
+   normal
+  </string>
+  <string id="2-p1-opt1">
+   bold
+  </string>
+  <string id="2-p1-opt2">
+   italic
+  </string>
+  <string id="2-p1-opt3">
+   bold and italic
+  </string>
+  <string id="3">
+   Set font size
+  </string>
+  <string id="3-display">
+   Set font size to [i]{0}[/i] pt
+  </string>
+  <string id="3-desc">
+   Set the font size.
+  </string>
+  <string id="3-p0">
+   Size (pt)
+  </string>
+  <string id="3-p0-desc">
+   The new font size.
+  </string>
+  <string id="4">
+   Set font color
+  </string>
+  <string id="4-display">
+   Set font color to [i]{0}[/i]
+  </string>
+  <string id="4-desc">
+   Set the font color.
+  </string>
+  <string id="4-p0">
+   Color
+  </string>
+  <string id="4-p0-desc">
+   The new font color, in the form rgb(r, g, b).
+  </string>
+  <string id="5">
+   Set web font
+  </string>
+  <string id="5-display">
+   Set web font [i]{0}[/i] from [i]{1}[/i]
+  </string>
+  <string id="5-desc">
+   Set the font face from an online web font.
+  </string>
+  <string id="5-p0">
+   Family name
+  </string>
+  <string id="5-p0-desc">
+   Enter the font family name.
+  </string>
+  <string id="5-p1">
+   CSS URL
+  </string>
+  <string id="5-p1-desc">
+   Enter the web URL to the CSS file referencing the web font.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   Text
+  </string>
+  <string id="0-desc">
+   Get the object's text.
+  </string>
+  <string id="1">
+   FaceName
+  </string>
+  <string id="1-desc">
+   Get the current font face name.
+  </string>
+  <string id="2">
+   FaceSize
+  </string>
+  <string id="2-desc">
+   Get the current font face size (pt).
+  </string>
+  <string id="3">
+   TextWidth
+  </string>
+  <string id="3-desc">
+   Get the width extent of the text in the object in pixels.
+  </string>
+  <string id="4">
+   TextHeight
+  </string>
+  <string id="4-desc">
+   Get the height extent of the text in the object in pixels.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

@@ -1,0 +1,44 @@
+<group name="solid">
+ <string id="name">
+  Solid
+ </string>
+ <string id="category">
+  Attributes
+ </string>
+ <string id="description">
+  Make the object impassable, so other objects cannot move or fall through it.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set enabled
+  </string>
+  <string id="0-display">
+   Set {my} [b]{0}[/b]
+  </string>
+  <string id="0-desc">
+   Set whether the object counts as solid or not.
+  </string>
+  <string id="0-p0">
+   State
+  </string>
+  <string id="0-p0-desc">
+   Set whether the object counts as solid or not.
+  </string>
+  <string id="0-p0-opt0">
+   Disabled
+  </string>
+  <string id="0-p0-opt1">
+   Enabled
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

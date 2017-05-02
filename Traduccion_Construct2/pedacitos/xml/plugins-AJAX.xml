@@ -1,0 +1,80 @@
+<group name="AJAX">
+ <string id="name">
+  AJAX
+ </string>
+ <string id="category">
+  Web
+ </string>
+ <string id="description">
+  Request and receive other web pages.  Note: most browsers don't execute requests locally (in preview mode).
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   On completed
+  </string>
+  <string id="0-display">
+   On [b]{0}[/b] completed
+  </string>
+  <string id="0-desc">
+   Triggered when an AJAX request completes successfully.
+  </string>
+  <string id="0-p0">
+   Tag
+  </string>
+  <string id="0-p0-desc">
+   A tag, which can be anything you like, to distinguish between different AJAX requests.
+  </string>
+  <string id="1">
+   On error
+  </string>
+  <string id="1-display">
+   On [b]{0}[/b] error
+  </string>
+  <string id="1-desc">
+   Triggered when an AJAX request fails.
+  </string>
+  <string id="1-p0">
+   Tag
+  </string>
+  <string id="1-p0-desc">
+   A tag, which can be anything you like, to distinguish between different AJAX requests.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Request
+  </string>
+  <string id="0-display">
+   Request {1} (tag [i]{0}[/i])
+  </string>
+  <string id="0-desc">
+   Request a URL and retrieve its contents.
+  </string>
+  <string id="0-p0">
+   Tag
+  </string>
+  <string id="0-p0-desc">
+   A tag, which can be anything you like, to distinguish between different AJAX requests.
+  </string>
+  <string id="0-p1">
+   URL
+  </string>
+  <string id="0-p1-desc">
+   The URL to request.  Note: most browsers prevent cross-domain requests.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   LastData
+  </string>
+  <string id="0-desc">
+   Get the data returned by the last successful request.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

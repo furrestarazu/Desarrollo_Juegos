@@ -1,0 +1,356 @@
+<group name="Arr">
+ <string id="name">
+  Array
+ </string>
+ <string id="category">
+  Data &amp; Storage
+ </string>
+ <string id="description">
+  Store an array of values in up to 3 dimensions.
+ </string>
+ <group name="properties">
+  <string id="width">
+   Width
+  </string>
+  <string id="width-desc">
+   Initial number of elements on the X axis.
+  </string>
+  <string id="height">
+   Height
+  </string>
+  <string id="height-desc">
+   Initial number of elements on the Y axis.
+  </string>
+  <string id="depth">
+   Depth
+  </string>
+  <string id="depth-desc">
+   Initial number of elements on the Z axis.
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Compare at X
+  </string>
+  <string id="0-display">
+   Value at [b]{0}[/b] {1} [b]{2}[/b]
+  </string>
+  <string id="0-desc">
+   Compare the value at an X position (1D) in the array.
+  </string>
+  <string id="0-p0">
+   X
+  </string>
+  <string id="0-p0-desc">
+   X index (0-based) of array value to compare.
+  </string>
+  <string id="0-p1">
+   Comparison
+  </string>
+  <string id="0-p1-desc">
+   How to compare the value.
+  </string>
+  <string id="0-p2">
+   Value
+  </string>
+  <string id="0-p2-desc">
+   The value to compare the array value to.
+  </string>
+  <string id="1">
+   Compare at XY
+  </string>
+  <string id="1-display">
+   Value at ([b]{0}[/b], [b]{1}[/b]) {2} [b]{3}[/b]
+  </string>
+  <string id="1-desc">
+   Compare the value at an X,Y position (2D) in the array.
+  </string>
+  <string id="1-p0">
+   X
+  </string>
+  <string id="1-p0-desc">
+   X index (0-based) of array value to compare.
+  </string>
+  <string id="1-p1">
+   Y
+  </string>
+  <string id="1-p1-desc">
+   Y index (0-based) of array value to compare.
+  </string>
+  <string id="1-p2">
+   Comparison
+  </string>
+  <string id="1-p2-desc">
+   How to compare the value.
+  </string>
+  <string id="1-p3">
+   Value
+  </string>
+  <string id="1-p3-desc">
+   The value to compare the array value to.
+  </string>
+  <string id="2">
+   Compare at XYZ
+  </string>
+  <string id="2-display">
+   Value at ([b]{0}[/b], [b]{1}[/b], [b]{2}[/b]) {3} [b]{4}[/b]
+  </string>
+  <string id="2-desc">
+   Compare the value at an X,Y,Z position (3D) in the array.
+  </string>
+  <string id="2-p0">
+   X
+  </string>
+  <string id="2-p0-desc">
+   X index (0-based) of array value to compare.
+  </string>
+  <string id="2-p1">
+   Y
+  </string>
+  <string id="2-p1-desc">
+   Y index (0-based) of array value to compare.
+  </string>
+  <string id="2-p2">
+   Z
+  </string>
+  <string id="2-p2-desc">
+   Z index (0-based) of array value to compare.
+  </string>
+  <string id="2-p3">
+   Comparison
+  </string>
+  <string id="2-p3-desc">
+   How to compare the value.
+  </string>
+  <string id="2-p4">
+   Value
+  </string>
+  <string id="2-p4-desc">
+   The value to compare the array value to.
+  </string>
+  <string id="3">
+   For each element
+  </string>
+  <string id="3-display">
+   For each {0} element
+  </string>
+  <string id="3-desc">
+   Repeat the event for each element in the array.
+  </string>
+  <string id="3-p0">
+   Axes
+  </string>
+  <string id="3-p0-desc">
+   Select which dimensions to iterate.  For example, if you have a 3D array, but only want to iterate in 2D, choose 'XY'.
+  </string>
+  <string id="3-p0-opt0">
+   XYZ
+  </string>
+  <string id="3-p0-opt1">
+   XY
+  </string>
+  <string id="3-p0-opt2">
+   X
+  </string>
+  <string id="4">
+   Compare current value
+  </string>
+  <string id="4-display">
+   Current value {0} [b]{1}[/b]
+  </string>
+  <string id="4-desc">
+   Compare the value of the current element in a for-each loop.
+  </string>
+  <string id="4-p0">
+   Comparison
+  </string>
+  <string id="4-p0-desc">
+   How to compare the current value in the for-each loop.
+  </string>
+  <string id="4-p1">
+   Value
+  </string>
+  <string id="4-p1-desc">
+   The value to compare the array value to.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Clear
+  </string>
+  <string id="0-display">
+   Clear
+  </string>
+  <string id="0-desc">
+   Reset all values to zero.
+  </string>
+  <string id="1">
+   Set size
+  </string>
+  <string id="1-display">
+   Set size to ([i]{0}[/i], [i]{1}[/i], [i]{2}[/i])
+  </string>
+  <string id="1-desc">
+   Set the number of elements on each axis of the array.
+  </string>
+  <string id="1-p0">
+   Width
+  </string>
+  <string id="1-p0-desc">
+   The new number of elements on the X axis.
+  </string>
+  <string id="1-p1">
+   Height
+  </string>
+  <string id="1-p1-desc">
+   The new number of elements on the Y axis.
+  </string>
+  <string id="1-p2">
+   Depth
+  </string>
+  <string id="1-p2-desc">
+   The new number of elements on the Z axis.
+  </string>
+  <string id="2">
+   Set at X
+  </string>
+  <string id="2-display">
+   Set value at [i]{0}[/i] to [i]{1}[/i]
+  </string>
+  <string id="2-desc">
+   Set the value at an X position (1D) in the array.
+  </string>
+  <string id="2-p0">
+   X
+  </string>
+  <string id="2-p0-desc">
+   The X index (0-based) of the array value to set.
+  </string>
+  <string id="2-p1">
+   Value
+  </string>
+  <string id="2-p1-desc">
+   The value to store in the array.
+  </string>
+  <string id="3">
+   Set at XY
+  </string>
+  <string id="3-display">
+   Set value at ([i]{0}[/i], [i]{1}[/i]) to [i]{2}[/i]
+  </string>
+  <string id="3-desc">
+   Set the value at an X,Y position (2D) in the array.
+  </string>
+  <string id="3-p0">
+   X
+  </string>
+  <string id="3-p0-desc">
+   The X index (0-based) of the array value to set.
+  </string>
+  <string id="3-p1">
+   Y
+  </string>
+  <string id="3-p1-desc">
+   The Y index (0-based) of the array value to set.
+  </string>
+  <string id="3-p2">
+   Value
+  </string>
+  <string id="3-p2-desc">
+   The value to store in the array.
+  </string>
+  <string id="4">
+   Set at XYZ
+  </string>
+  <string id="4-display">
+   Set value at ([i]{0}[/i], [i]{1}[/i], [i]{2}[/i]) to [i]{3}[/i]
+  </string>
+  <string id="4-desc">
+   Set the value at an X,Y,Z position (3D) in the array.
+  </string>
+  <string id="4-p0">
+   X
+  </string>
+  <string id="4-p0-desc">
+   The X index (0-based) of the array value to set.
+  </string>
+  <string id="4-p1">
+   Y
+  </string>
+  <string id="4-p1-desc">
+   The Y index (0-based) of the array value to set.
+  </string>
+  <string id="4-p2">
+   Z
+  </string>
+  <string id="4-p2-desc">
+   The Z index (0-based) of the array value to set.
+  </string>
+  <string id="4-p3">
+   Value
+  </string>
+  <string id="4-p3-desc">
+   The value to store in the array.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   At
+  </string>
+  <string id="0-desc">
+   Get value from the array.  Add second or third parameters to specify Y and Z indices.
+  </string>
+  <string id="0-p0">
+   X
+  </string>
+  <string id="0-p0-desc">
+   The X index (0-based) of the array value to get.
+  </string>
+  <string id="1">
+   Width
+  </string>
+  <string id="1-desc">
+   Get the number of elements on the X axis of the array.
+  </string>
+  <string id="2">
+   Height
+  </string>
+  <string id="2-desc">
+   Get the number of elements on the Y axis of the array.
+  </string>
+  <string id="3">
+   Depth
+  </string>
+  <string id="3-desc">
+   Get the number of elements on the Z axis of the array.
+  </string>
+  <string id="4">
+   CurX
+  </string>
+  <string id="4-desc">
+   Get the current X index in a For Each loop.
+  </string>
+  <string id="5">
+   CurY
+  </string>
+  <string id="5-desc">
+   Get the current Y index in a For Each loop.
+  </string>
+  <string id="6">
+   CurZ
+  </string>
+  <string id="6-desc">
+   Get the current Z index in a For Each loop.
+  </string>
+  <string id="7">
+   CurValue
+  </string>
+  <string id="7-desc">
+   Get the current value in a For Each loop.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

@@ -1,0 +1,692 @@
+<group name="Physics">
+ <string id="name">
+  Physics
+ </string>
+ <string id="category">
+  Movements
+ </string>
+ <string id="description">
+  Simulate realistic object physics, powered by Box2DWeb.
+ </string>
+ <group name="properties">
+  <string id="immovable">
+   Immovable
+  </string>
+  <string id="immovable-desc">
+   Enable to make object have infinite mass.  Ideal for scenery.
+  </string>
+  <string id="immovable-options">
+   No|Yes
+  </string>
+  <string id="collisionmask">
+   Collision mask
+  </string>
+  <string id="collisionmask-desc">
+   How the object collides in the physics simulation.
+  </string>
+  <string id="collisionmask-options">
+   Use collision polygon|Bounding box|Circle
+  </string>
+  <string id="preventrotation">
+   Prevent rotation
+  </string>
+  <string id="preventrotation-desc">
+   Prevent the object rotating when hit.
+  </string>
+  <string id="preventrotation-options">
+   No|Yes
+  </string>
+  <string id="density">
+   Density
+  </string>
+  <string id="density-desc">
+   The object density, if 'immovable' is 'no'.
+  </string>
+  <string id="friction">
+   Friction
+  </string>
+  <string id="friction-desc">
+   The object friction coefficient, between 0 and 1.
+  </string>
+  <string id="elasticity">
+   Elasticity
+  </string>
+  <string id="elasticity-desc">
+   The object elasticity (restitution or 'bounciness') coefficient, between 0 and 1.
+  </string>
+  <string id="lineardamping">
+   Linear damping
+  </string>
+  <string id="lineardamping-desc">
+   Coefficient to slow down motion over time, between 0 and 1.
+  </string>
+  <string id="angulardamping">
+   Angular damping
+  </string>
+  <string id="angulardamping-desc">
+   Coefficient to slow down rotations over time, between 0 and 1.
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Apply force
+  </string>
+  <string id="0-display">
+   Apply {my} force ([i]{0}[/i], [i]{1}[/i]) at image point {2}
+  </string>
+  <string id="0-desc">
+   Apply a force on the object.
+  </string>
+  <string id="0-p0">
+   Force X
+  </string>
+  <string id="0-p0-desc">
+   The horizontal force to apply.
+  </string>
+  <string id="0-p1">
+   Force Y
+  </string>
+  <string id="0-p1-desc">
+   The vertical force to apply.
+  </string>
+  <string id="0-p2">
+   Image point
+  </string>
+  <string id="0-p2-desc">
+   The name or number of the image point to apply the force at, or 0 for object's origin.
+  </string>
+  <string id="1">
+   Apply force towards position
+  </string>
+  <string id="1-display">
+   Apply {my} force {0} toward ([i]{1}[/i], [i]{2}[/i]) at image point {3}
+  </string>
+  <string id="1-desc">
+   Apply a force on the object towards a position in the layout.
+  </string>
+  <string id="1-p0">
+   Force
+  </string>
+  <string id="1-p0-desc">
+   The force to apply.
+  </string>
+  <string id="1-p1">
+   X
+  </string>
+  <string id="1-p1-desc">
+   The X co-ordinate to apply the force towards.
+  </string>
+  <string id="1-p2">
+   Y
+  </string>
+  <string id="1-p2-desc">
+   The Y co-ordinate to apply the force towards.
+  </string>
+  <string id="1-p3">
+   Image point
+  </string>
+  <string id="1-p3-desc">
+   The name or number of the image point to apply the force at, or 0 for object's origin.
+  </string>
+  <string id="2">
+   Apply force at angle
+  </string>
+  <string id="2-display">
+   Apply {my} force {0} at angle {1} at image point {2}
+  </string>
+  <string id="2-desc">
+   Apply a force on the object in a particular direction.
+  </string>
+  <string id="2-p0">
+   Force
+  </string>
+  <string id="2-p0-desc">
+   The force to apply.
+  </string>
+  <string id="2-p1">
+   Angle
+  </string>
+  <string id="2-p1-desc">
+   The angle, in degrees, to apply the force towards.
+  </string>
+  <string id="2-p2">
+   Image point
+  </string>
+  <string id="2-p2-desc">
+   The name or number of the image point to apply the force at, or 0 for object's origin.
+  </string>
+  <string id="3">
+   Apply impulse
+  </string>
+  <string id="3-display">
+   Apply {my} impulse ([i]{0}[/i], [i]{1}[/i]) at image point {2}
+  </string>
+  <string id="3-desc">
+   Apply an impulse to the object, as if it were suddenly struck.
+  </string>
+  <string id="3-p0">
+   Impulse X
+  </string>
+  <string id="3-p0-desc">
+   The horizontal impulse to apply.
+  </string>
+  <string id="3-p1">
+   Implulse Y
+  </string>
+  <string id="3-p1-desc">
+   The vertical impulse to apply.
+  </string>
+  <string id="3-p2">
+   Image point
+  </string>
+  <string id="3-p2-desc">
+   The name or number of the image point to apply the impulse at, or 0 for object's origin.
+  </string>
+  <string id="4">
+   Apply impulse towards position
+  </string>
+  <string id="4-display">
+   Apply {my} impulse {0} toward ([i]{1}[/i], [i]{2}[/i]) at image point {3}
+  </string>
+  <string id="4-desc">
+   Apply an impulse on the object as if it were suddenly struck towards a position in the layout.
+  </string>
+  <string id="4-p0">
+   Impulse
+  </string>
+  <string id="4-p0-desc">
+   The impulse to apply.
+  </string>
+  <string id="4-p1">
+   X
+  </string>
+  <string id="4-p1-desc">
+   The X co-ordinate to apply the impulse towards.
+  </string>
+  <string id="4-p2">
+   Y
+  </string>
+  <string id="4-p2-desc">
+   The Y co-ordinate to apply the impulse towards.
+  </string>
+  <string id="4-p3">
+   Image point
+  </string>
+  <string id="4-p3-desc">
+   The name or number of the image point to apply the impulse at, or 0 for object's origin.
+  </string>
+  <string id="5">
+   Apply impulse at angle
+  </string>
+  <string id="5-display">
+   Apply {my} impulse {0} at angle {1} at image point {2}
+  </string>
+  <string id="5-desc">
+   Apply an impulse on the object as if it were suddenly struck at an angle.
+  </string>
+  <string id="5-p0">
+   Impulse
+  </string>
+  <string id="5-p0-desc">
+   The impulse to apply.
+  </string>
+  <string id="5-p1">
+   Angle
+  </string>
+  <string id="5-p1-desc">
+   The angle, in degrees, to apply the impulse at.
+  </string>
+  <string id="5-p2">
+   Image point
+  </string>
+  <string id="5-p2-desc">
+   The name or number of the image point to apply the impulse at, or 0 for object's origin.
+  </string>
+  <string id="6">
+   Apply torque
+  </string>
+  <string id="6-display">
+   Apply {my} torque {0}
+  </string>
+  <string id="6-desc">
+   Apply a torque (i.e. angular acceleration).
+  </string>
+  <string id="6-p0">
+   Torque
+  </string>
+  <string id="6-p0-desc">
+   The torque to apply to the object.
+  </string>
+  <string id="7">
+   Apply torque towards angle
+  </string>
+  <string id="7-display">
+   Apply {my} torque {0} toward angle {1}
+  </string>
+  <string id="7-desc">
+   Apply a torque towards an angle.
+  </string>
+  <string id="7-p0">
+   Torque
+  </string>
+  <string id="7-p0-desc">
+   The magnitude of the torque to apply.
+  </string>
+  <string id="7-p1">
+   Angle
+  </string>
+  <string id="7-p1-desc">
+   The angle, in degrees, to apply torque towards.
+  </string>
+  <string id="8">
+   Apply torque towards position
+  </string>
+  <string id="8-display">
+   Apply {my} torque {0} toward ([i]{1}[/i], [i]{2}[/i])
+  </string>
+  <string id="8-desc">
+   Apply a torque towards a position in the layout.
+  </string>
+  <string id="8-p0">
+   Torque
+  </string>
+  <string id="8-p0-desc">
+   The magnitude of the torque to apply.
+  </string>
+  <string id="8-p1">
+   X
+  </string>
+  <string id="8-p1-desc">
+   The X co-ordinate in the layout to apply torque towards.
+  </string>
+  <string id="8-p2">
+   Y
+  </string>
+  <string id="8-p2-desc">
+   The Y co-ordinate in the layout to apply torque towards.
+  </string>
+  <string id="9">
+   Set angular velocity
+  </string>
+  <string id="9-display">
+   Set {my} angular velocity to {0}
+  </string>
+  <string id="9-desc">
+   Set the rate the object rotates at.
+  </string>
+  <string id="9-p0">
+   Angular velocity
+  </string>
+  <string id="9-p0-desc">
+   The angular velocity to set, in degrees per second.
+  </string>
+  <string id="10">
+   Create distance joint
+  </string>
+  <string id="10-display">
+   Create {my} distance joint from image point {0} to {1} image point {2}, damping ratio {3}, frequency {4}
+  </string>
+  <string id="10-desc">
+   Force this and another object to stay a fixed distance apart, as if connected by a pole.
+  </string>
+  <string id="10-p0">
+   This image point
+  </string>
+  <string id="10-p0-desc">
+   Name or number of image point on this object to attach joint to.
+  </string>
+  <string id="10-p1">
+   Object
+  </string>
+  <string id="10-p1-desc">
+   The object to attach to.
+  </string>
+  <string id="10-p2">
+   That image point
+  </string>
+  <string id="10-p2-desc">
+   Name or number of image point on other object to attach joint to.
+  </string>
+  <string id="10-p3">
+   Damping ratio
+  </string>
+  <string id="10-p3-desc">
+   The joint damping ratio, from 0 (no damping) to 1 (critical damping)
+  </string>
+  <string id="10-p4">
+   Spring frequency
+  </string>
+  <string id="10-p4-desc">
+   The mass-spring-damper frequency, in Hertz.
+  </string>
+  <string id="11">
+   Create revolute joint
+  </string>
+  <string id="11-display">
+   Create {my} revolute joint at image point {0} to {1}
+  </string>
+  <string id="11-desc">
+   Hinge another object to a point on this object.
+  </string>
+  <string id="11-p0">
+   This image point
+  </string>
+  <string id="11-p0-desc">
+   Name or number of image point on this object to hinge object to.
+  </string>
+  <string id="11-p1">
+   Object
+  </string>
+  <string id="11-p1-desc">
+   The object to attach.
+  </string>
+  <string id="12">
+   Set world gravity
+  </string>
+  <string id="12-display">
+   Set {my} world gravity to {0}
+  </string>
+  <string id="12-desc">
+   Set the force of gravity on all objects in the world.
+  </string>
+  <string id="12-p0">
+   Gravity
+  </string>
+  <string id="12-p0-desc">
+   The new force of gravity to set.
+  </string>
+  <string id="13">
+   Set stepping mode
+  </string>
+  <string id="13-display">
+   Set {my} world stepping mode to [b]{0}[/b]
+  </string>
+  <string id="13-desc">
+   Set the way the physics engine steps the simulation.
+  </string>
+  <string id="13-p0">
+   Mode
+  </string>
+  <string id="13-p0-desc">
+   The stepping mode.  'Fixed' guarantees same results every time but is not framerate independent; 'framerate independent' adjusts to the framerate but may give different results each time.
+  </string>
+  <string id="13-p0-opt0">
+   Fixed
+  </string>
+  <string id="13-p0-opt1">
+   Framerate independent
+  </string>
+  <string id="14">
+   Set stepping iterations
+  </string>
+  <string id="14-display">
+   Set {my} world stepping to {0} velocity iterations and {1} position iterations
+  </string>
+  <string id="14-desc">
+   Set the performance/accuracy trade-off.
+  </string>
+  <string id="14-p0">
+   Velocity iterations
+  </string>
+  <string id="14-p0-desc">
+   Iterations for the velocity constraint solver.  Lower is fast and inaccurate, higher is slow and accurate.
+  </string>
+  <string id="14-p1">
+   Position iterations
+  </string>
+  <string id="14-p1-desc">
+   Iterations for the position constraint solver.  Lower is fast and inaccurate, higher is slow and accurate.
+  </string>
+  <string id="15">
+   Set velocity
+  </string>
+  <string id="15-display">
+   Set {my} velocity to ([i]{0}[/i], [i]{1}[/i])
+  </string>
+  <string id="15-desc">
+   Set the current motion of the physics object.
+  </string>
+  <string id="15-p0">
+   X component
+  </string>
+  <string id="15-p0-desc">
+   The X component of the velocity to set, in pixels per second.
+  </string>
+  <string id="15-p1">
+   Y component
+  </string>
+  <string id="15-p1-desc">
+   The Y component of the velocity to set, in pixels per second.
+  </string>
+  <string id="16">
+   Set density
+  </string>
+  <string id="16-display">
+   Set {my} density to [b]{0}[/b]
+  </string>
+  <string id="16-desc">
+   Set the density of the physics object.
+  </string>
+  <string id="16-p0">
+   Density
+  </string>
+  <string id="16-p0-desc">
+   The new object density.  Only has effect when 'Immovable' is 'No'.
+  </string>
+  <string id="17">
+   Set friction
+  </string>
+  <string id="17-display">
+   Set {my} friction coefficient to [b]{0}[/b]
+  </string>
+  <string id="17-desc">
+   Set the friction coefficient.
+  </string>
+  <string id="17-p0">
+   Friction
+  </string>
+  <string id="17-p0-desc">
+   The new object friction coefficient, between 0 and 1.
+  </string>
+  <string id="18">
+   Set elasticity
+  </string>
+  <string id="18-display">
+   Set {my} elasticity to [b]{0}[/b]
+  </string>
+  <string id="18-desc">
+   Set the elasticity ('bounciness') coefficient.
+  </string>
+  <string id="18-p0">
+   Elasticity
+  </string>
+  <string id="18-p0-desc">
+   The new object elasticity (restitution or 'bounciness') coefficient, between 0 and 1.
+  </string>
+  <string id="19">
+   Set linear damping
+  </string>
+  <string id="19-display">
+   Set {my} linear damping to [b]{0}[/b]
+  </string>
+  <string id="19-desc">
+   Set the coefficient to slow down motion over time.
+  </string>
+  <string id="19-p0">
+   Linear damping
+  </string>
+  <string id="19-p0-desc">
+   The new object linear damping, between 0 and 1.
+  </string>
+  <string id="20">
+   Set angular damping
+  </string>
+  <string id="20-display">
+   Set {my} angular damping to [b]{0}[/b]
+  </string>
+  <string id="20-desc">
+   Set the coefficient to slow down rotations over time.
+  </string>
+  <string id="20-p0">
+   Angular damping
+  </string>
+  <string id="20-p0-desc">
+   The new object angular damping, between 0 and 1.
+  </string>
+  <string id="21">
+   Set immovable
+  </string>
+  <string id="21-display">
+   Set {my} [b]{0}[/b]
+  </string>
+  <string id="21-desc">
+   Set whether the object has infinite mass (immovable)
+  </string>
+  <string id="21-p0">
+   Setting
+  </string>
+  <string id="21-p0-desc">
+   Set whether the object has infinite mass (immovable).
+  </string>
+  <string id="21-p0-opt0">
+   Movable
+  </string>
+  <string id="21-p0-opt1">
+   Immovable
+  </string>
+  <string id="22">
+   Create limited revolute joint
+  </string>
+  <string id="22-display">
+   Create {my} limited revolute joint at image point {0} to {1}, from {2} to {3} degrees
+  </string>
+  <string id="22-desc">
+   Hinge another object to a point on this object and limit the range of rotation.
+  </string>
+  <string id="22-p0">
+   This image point
+  </string>
+  <string id="22-p0-desc">
+   Name or number of image point on this object to hinge object to.
+  </string>
+  <string id="22-p1">
+   Object
+  </string>
+  <string id="22-p1-desc">
+   The object to attach.
+  </string>
+  <string id="22-p2">
+   Lower angle
+  </string>
+  <string id="22-p2-desc">
+   The lower angle of rotation allowed, in degrees.
+  </string>
+  <string id="22-p3">
+   Upper angle
+  </string>
+  <string id="22-p3-desc">
+   The upper angle of rotation allowed, in degrees.
+  </string>
+  <string id="23">
+   Enable/disable collisions
+  </string>
+  <string id="23-display">
+   {1} {my} collisions with {0}
+  </string>
+  <string id="23-desc">
+   Enable or disable collisions with another object using the Physics behavior.
+  </string>
+  <string id="23-p0">
+   Object
+  </string>
+  <string id="23-p0-desc">
+   Choose another object type with the Physics behavior to enable or disable collisions for.
+  </string>
+  <string id="23-p1">
+   State
+  </string>
+  <string id="23-p1-desc">
+   Enable or disable collisions with the given object type.
+  </string>
+  <string id="23-p1-opt0">
+   Disable
+  </string>
+  <string id="23-p1-opt1">
+   Enable
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   VelocityX
+  </string>
+  <string id="0-desc">
+   The X component of the object's current velocity, in pixels per second.
+  </string>
+  <string id="1">
+   VelocityY
+  </string>
+  <string id="1-desc">
+   The Y component of the object's current velocity, in pixels per second.
+  </string>
+  <string id="2">
+   AngularVelocity
+  </string>
+  <string id="2-desc">
+   The object's current angular velocity, in degrees per second.
+  </string>
+  <string id="3">
+   Mass
+  </string>
+  <string id="3-desc">
+   The object's physics mass, which is its collision area multiplied by its density.
+  </string>
+  <string id="4">
+   CenterOfMassX
+  </string>
+  <string id="4-desc">
+   The X co-ordinate of the object's center of mass.
+  </string>
+  <string id="5">
+   CenterOfMassY
+  </string>
+  <string id="5-desc">
+   The Y co-ordinate of the object's center of mass.
+  </string>
+  <string id="6">
+   Density
+  </string>
+  <string id="6-desc">
+   The current density of the physics object.
+  </string>
+  <string id="7">
+   Friction
+  </string>
+  <string id="7-desc">
+   The current friction of the physics object.
+  </string>
+  <string id="8">
+   Elasticity
+  </string>
+  <string id="8-desc">
+   The current elasticity ('bounciness') of the physics object.
+  </string>
+  <string id="9">
+   LinearDamping
+  </string>
+  <string id="9-desc">
+   The current linear damping coefficient.
+  </string>
+  <string id="10">
+   AngularDamping
+  </string>
+  <string id="10-desc">
+   The current angular damping coefficient.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

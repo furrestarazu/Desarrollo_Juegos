@@ -1,0 +1,56 @@
+<group name="scrollto">
+ <string id="name">
+  Scroll To
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Always center the view on this object, or at the mid-point of multiple objects.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Shake
+  </string>
+  <string id="0-display">
+   Shake {my} with magnitude [i]{0}[/i] for [i]{1}[/i] seconds ({2})
+  </string>
+  <string id="0-desc">
+   Shake the screen for a duration of time.
+  </string>
+  <string id="0-p0">
+   Magnitude
+  </string>
+  <string id="0-p0-desc">
+   The strength of the shake, in maximum pixels to scroll away.
+  </string>
+  <string id="0-p1">
+   Duration
+  </string>
+  <string id="0-p1-desc">
+   The time the shake should last, in seconds.
+  </string>
+  <string id="0-p2">
+   Mode
+  </string>
+  <string id="0-p2-desc">
+   Select whether the magnitude gradually reduces to zero over the duration, or stays constant.
+  </string>
+  <string id="0-p2-opt0">
+   Reducing magnitude
+  </string>
+  <string id="0-p2-opt1">
+   Constant magnitude
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

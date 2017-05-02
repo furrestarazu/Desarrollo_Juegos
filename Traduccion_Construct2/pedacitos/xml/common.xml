@@ -1,0 +1,110 @@
+<group name="common">
+ <string id="yes">
+  Sí
+ </string>
+ <string id="no">
+  No
+ </string>
+ <string id="ok">
+  OK
+ </string>
+ <string id="cancel">
+  Cancelar
+ </string>
+ <string id="abort">
+  Abortar
+ </string>
+ <string id="retry">
+  Reintentar
+ </string>
+ <string id="fail">
+  Fallo
+ </string>
+ <string id="continue">
+  Continuar
+ </string>
+ <!-- Used as a button or link to open the manual -->
+ <string id="help">
+  Ayuda
+ </string>
+ <!-- For On/Off settings, like 'Pixel rounding' -->
+ <string id="on">
+  On
+ </string>
+ <string id="off">
+  Off
+ </string>
+ <!-- Alternative for On/Off -->
+ <string id="true">
+  Verdadeo
+ </string>
+ <string id="false">
+  Falso
+ </string>
+ <!-- For general enable/disable settings.  Need both tenses ('enable' and 'enabled') -->
+ <string id="enable">
+  Habilitar
+ </string>
+ <string id="enabled">
+  Habilitado
+ </string>
+ <string id="disable">
+  Deshabilitar
+ </string>
+ <string id="disabled">
+  Deshabilitado
+ </string>
+ <!-- General words for position, size and angle -->
+ <string id="x">
+  X
+ </string>
+ <string id="y">
+  Y
+ </string>
+ <string id="z">
+  Z
+ </string>
+ <string id="width">
+  Ancho
+ </string>
+ <string id="height">
+  Alto
+ </string>
+ <string id="depth">
+  Profundidad
+ </string>
+ <string id="angle">
+  Ángulo
+ </string>
+ <string id="degrees">
+  Grados
+ </string>
+ <!-- the unit of angles -->
+ <string id="opacity">
+  Opacidad
+ </string>
+ <!-- as in the semitransparency, from 0 (transparent) to 100 (opaque) -->
+ <!-- Miscellaneous words for the event system -->
+ <string id="comparison">
+  Comparación
+ </string>
+ <!-- used for comparison parameters (equal, less etc.) -->
+ <string id="value">
+  Valor
+ </string>
+ <!-- a value is either a number or a string -->
+ <!-- For wizard dialogs -->
+ <string id="next">
+  Siguiente
+ </string>
+ <string id="back">
+  Atrás
+ </string>
+ <string id="done">
+  Listo
+ </string>
+ <!-- For properties -->
+ <string id="addedit">
+  Agregar / editar
+ </string>
+</group>

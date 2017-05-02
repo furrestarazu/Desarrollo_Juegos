@@ -1,0 +1,59 @@
+<group name="Flash">
+ <string id="name">
+  Flash
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Make an object temporarily flash (blink).
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Flash
+  </string>
+  <string id="0-display">
+   {my}: Flash {0} on {1} off for [b]{2}[/b] seconds
+  </string>
+  <string id="0-desc">
+   Make the object flash for a period of time.
+  </string>
+  <string id="0-p0">
+   'On' time
+  </string>
+  <string id="0-p0-desc">
+   Duration in seconds the object is visible.
+  </string>
+  <string id="0-p1">
+   'Off' time
+  </string>
+  <string id="0-p1-desc">
+   Duration in seconds the object is invisible.
+  </string>
+  <string id="0-p2">
+   Duration
+  </string>
+  <string id="0-p2-desc">
+   Duration in seconds the object flashes for.
+  </string>
+  <string id="1">
+   Stop flashing
+  </string>
+  <string id="1-display">
+   {my}: Stop flashing
+  </string>
+  <string id="1-desc">
+   Stop the flashing and set the object visible.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

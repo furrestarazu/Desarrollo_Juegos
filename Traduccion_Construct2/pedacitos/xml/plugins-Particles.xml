@@ -1,0 +1,611 @@
+<group name="Particles">
+ <string id="name">
+  Particles
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Create a spray of particles.  Useful for visual effects.
+ </string>
+ <group name="properties">
+  <string id="rate">
+   Rate
+  </string>
+  <string id="rate-desc">
+   Number of particles to create per second, or total for one-shot.
+  </string>
+  <string id="spraycone">
+   Spray cone
+  </string>
+  <string id="spraycone-desc">
+   Number of degrees through which particles are created.
+  </string>
+  <string id="type">
+   Type
+  </string>
+  <string id="type-desc">
+   Either a spray or a one-shot blast of particles.
+  </string>
+  <string id="type-options">
+   Continuous spray|One-shot
+  </string>
+  <string id="image">
+   Image
+  </string>
+  <string id="image-desc">
+   Click to edit the particle image.
+  </string>
+  <string id="effect">
+   Effect
+  </string>
+  <string id="effect-desc">
+   Choose an effect for this object.  (This does not preview in the layout, only when you run.)
+  </string>
+  <string id="effect-options">
+   (none)|Additive|XOR|Copy|Destination over|Source in|Destination in|Source out|Destination out|Source atop|Destination atop
+  </string>
+  <string id="initialparticleproperties">
+   Initial particle properties
+  </string>
+  <string id="initialparticleproperties-desc">
+   Properties affecting the creation of each particle.
+  </string>
+  <string id="speed">
+   Speed
+  </string>
+  <string id="speed-desc">
+   Initial particle speed, in pixels per second.
+  </string>
+  <string id="size">
+   Size
+  </string>
+  <string id="size-desc">
+   Initial size of each particle, in pixels.
+  </string>
+  <string id="opacity">
+   Opacity
+  </string>
+  <string id="opacity-desc">
+   Initial opacity of each particle, from 0 (transparent) to 100 (opaque).
+  </string>
+  <string id="growrate">
+   Grow rate
+  </string>
+  <string id="growrate-desc">
+   Rate the size changes over time, in pixels per second.
+  </string>
+  <string id="xrandomiser">
+   X randomiser
+  </string>
+  <string id="xrandomiser-desc">
+   Random X co-ordinate offset on creation.
+  </string>
+  <string id="yrandomiser">
+   Y randomiser
+  </string>
+  <string id="yrandomiser-desc">
+   Random Y co-ordinate offset on creation.
+  </string>
+  <string id="speedrandomiser">
+   Speed randomiser
+  </string>
+  <string id="speedrandomiser-desc">
+   Random addition to particle speed on creation.
+  </string>
+  <string id="sizerandomiser">
+   Size randomiser
+  </string>
+  <string id="sizerandomiser-desc">
+   Random addition to particle size on creation.
+  </string>
+  <string id="growraterandomiser">
+   Grow rate randomiser
+  </string>
+  <string id="growraterandomiser-desc">
+   Random addition to particle grow rate on creation.
+  </string>
+  <string id="particlelifetimeproperties">
+   Particle lifetime properties
+  </string>
+  <string id="particlelifetimeproperties-desc">
+   Properties affecting the behavior of each particle.
+  </string>
+  <string id="acceleration">
+   Acceleration
+  </string>
+  <string id="acceleration-desc">
+   Acceleration of each particle, in pixels per second per second.
+  </string>
+  <string id="gravity">
+   Gravity
+  </string>
+  <string id="gravity-desc">
+   Force of gravity, in pixels per second per second.
+  </string>
+  <string id="anglerandomiser">
+   Angle randomiser
+  </string>
+  <string id="anglerandomiser-desc">
+   Maximum random angle deflection in degrees per second.
+  </string>
+  <string id="speedrandomiser">
+   Speed randomiser
+  </string>
+  <string id="speedrandomiser-desc">
+   Maximum random speed adjustment per second, in pixels per second per second.
+  </string>
+  <string id="opacityrandomiser">
+   Opacity randomiser
+  </string>
+  <string id="opacityrandomiser-desc">
+   Maximum random opacity adjustment per second.
+  </string>
+  <string id="destroymode">
+   Destroy mode
+  </string>
+  <string id="destroymode-desc">
+   Choose when each individual particle is destroyed.
+  </string>
+  <string id="destroymode-options">
+   Fade to invisible|Timeout expired|Particle stopped
+  </string>
+  <string id="timeout">
+   Timeout
+  </string>
+  <string id="timeout-desc">
+   Time in seconds for timeout or fade to invisible (depending on destroy mode).
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is spraying
+  </string>
+  <string id="0-display">
+   Is spraying
+  </string>
+  <string id="0-desc">
+   True if the continuous spray is currently enabled.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set spraying
+  </string>
+  <string id="0-display">
+   Set {0}
+  </string>
+  <string id="0-desc">
+   Enable or disable the continuous spray.
+  </string>
+  <string id="0-p0">
+   State
+  </string>
+  <string id="0-p0-desc">
+   Whether or not the spray is currently enabled.
+  </string>
+  <string id="0-p0-opt0">
+   not spraying
+  </string>
+  <string id="0-p0-opt1">
+   spraying
+  </string>
+  <string id="1">
+   Set rate
+  </string>
+  <string id="1-display">
+   Set rate to {0}
+  </string>
+  <string id="1-desc">
+   Set the number of particles created per second.
+  </string>
+  <string id="1-p0">
+   Rate
+  </string>
+  <string id="1-p0-desc">
+   Number of particles to create per second.
+  </string>
+  <string id="2">
+   Set spray cone
+  </string>
+  <string id="2-display">
+   Set spray cone to {0} degrees
+  </string>
+  <string id="2-desc">
+   Set the number of degrees through which particles are created.
+  </string>
+  <string id="2-p0">
+   Spray cone
+  </string>
+  <string id="2-p0-desc">
+   Number of degrees through which particles are created.
+  </string>
+  <string id="3">
+   Set effect
+  </string>
+  <string id="3-display">
+   Set effect to [i]{0}[/i]
+  </string>
+  <string id="3-desc">
+   Set the rendering effect of this object.
+  </string>
+  <string id="3-p0">
+   Effect
+  </string>
+  <string id="3-p0-desc">
+   Choose the new effect for this object.
+  </string>
+  <string id="3-p0-opt0">
+   (none)
+  </string>
+  <string id="3-p0-opt1">
+   Additive
+  </string>
+  <string id="3-p0-opt2">
+   XOR
+  </string>
+  <string id="3-p0-opt3">
+   Copy
+  </string>
+  <string id="3-p0-opt4">
+   Destination over
+  </string>
+  <string id="3-p0-opt5">
+   Source in
+  </string>
+  <string id="3-p0-opt6">
+   Destination in
+  </string>
+  <string id="3-p0-opt7">
+   Source out
+  </string>
+  <string id="3-p0-opt8">
+   Destination out
+  </string>
+  <string id="3-p0-opt9">
+   Source atop
+  </string>
+  <string id="3-p0-opt10">
+   Destination atop
+  </string>
+  <string id="4">
+   Set speed
+  </string>
+  <string id="4-display">
+   Set initial particle speed to {0}
+  </string>
+  <string id="4-desc">
+   Set the initial particle speed.
+  </string>
+  <string id="4-p0">
+   Speed
+  </string>
+  <string id="4-p0-desc">
+   Initial particle speed, in pixels per second.
+  </string>
+  <string id="5">
+   Set size
+  </string>
+  <string id="5-display">
+   Set initial particle size to {0}
+  </string>
+  <string id="5-desc">
+   Set the initial size of each particle.
+  </string>
+  <string id="5-p0">
+   Size
+  </string>
+  <string id="5-p0-desc">
+   Initial size of each particle, in pixels.
+  </string>
+  <string id="6">
+   Set opacity
+  </string>
+  <string id="6-display">
+   Set initial particle opacity to {0}
+  </string>
+  <string id="6-desc">
+   Set the initial particle opacity.
+  </string>
+  <string id="6-p0">
+   Opacity
+  </string>
+  <string id="6-p0-desc">
+   Initial opacity of each particle, from 0 (transparent) to 100 (opaque).
+  </string>
+  <string id="7">
+   Set grow rate
+  </string>
+  <string id="7-display">
+   Set grow rate to {0}
+  </string>
+  <string id="7-desc">
+   Set the initial particle grow rate.
+  </string>
+  <string id="7-p0">
+   Grow rate
+  </string>
+  <string id="7-p0-desc">
+   Rate the size changes over time, in pixels per second.
+  </string>
+  <string id="8">
+   Set X randomiser
+  </string>
+  <string id="8-display">
+   Set initial particle X randomiser to {0}
+  </string>
+  <string id="8-desc">
+   Set the initial particle X randomiser.
+  </string>
+  <string id="8-p0">
+   X randomiser
+  </string>
+  <string id="8-p0-desc">
+   Random X co-ordinate offset on creation.
+  </string>
+  <string id="9">
+   Set Y randomiser
+  </string>
+  <string id="9-display">
+   Set initial particle Y randomiser to {0}
+  </string>
+  <string id="9-desc">
+   Set the initial particle Y randomiser.
+  </string>
+  <string id="9-p0">
+   Y randomiser
+  </string>
+  <string id="9-p0-desc">
+   Random Y co-ordinate offset on creation.
+  </string>
+  <string id="10">
+   Set speed randomiser
+  </string>
+  <string id="10-display">
+   Set initial particle speed randomiser to {0}
+  </string>
+  <string id="10-desc">
+   Set the random addition to particle speed on creation.
+  </string>
+  <string id="10-p0">
+   Speed randomiser
+  </string>
+  <string id="10-p0-desc">
+   Random addition to particle speed on creation.
+  </string>
+  <string id="11">
+   Set size randomiser
+  </string>
+  <string id="11-display">
+   Set initial particle size randomiser to {0}
+  </string>
+  <string id="11-desc">
+   Set the random addition to particle size on creation.
+  </string>
+  <string id="11-p0">
+   Size randomiser
+  </string>
+  <string id="11-p0-desc">
+   Random addition to particle size on creation.
+  </string>
+  <string id="12">
+   Set grow rate randomiser
+  </string>
+  <string id="12-display">
+   Set initial particle grow rate randomiser to {0}
+  </string>
+  <string id="12-desc">
+   Set the random addition to particle grow rate on creation.
+  </string>
+  <string id="12-p0">
+   Grow rate randomiser
+  </string>
+  <string id="12-p0-desc">
+   Random addition to particle grow rate on creation.
+  </string>
+  <string id="13">
+   Set acceleration
+  </string>
+  <string id="13-display">
+   Set particle acceleration to {0}
+  </string>
+  <string id="13-desc">
+   Set the particle acceleration.
+  </string>
+  <string id="13-p0">
+   Acceleration
+  </string>
+  <string id="13-p0-desc">
+   Particle acceleration, in pixels per second per second.
+  </string>
+  <string id="14">
+   Set gravity
+  </string>
+  <string id="14-display">
+   Set particle gravity to {0}
+  </string>
+  <string id="14-desc">
+   Set the force of gravity.
+  </string>
+  <string id="14-p0">
+   Gravity
+  </string>
+  <string id="14-p0-desc">
+   Force of gravity, in pixels per second per second.
+  </string>
+  <string id="15">
+   Set angle randomiser
+  </string>
+  <string id="15-display">
+   Set particle angle randomiser to {0}
+  </string>
+  <string id="15-desc">
+   Set the maximum random angle deflection per second.
+  </string>
+  <string id="15-p0">
+   Angle randomiser
+  </string>
+  <string id="15-p0-desc">
+   Maximum random angle deflection in degrees per second.
+  </string>
+  <string id="16">
+   Set speed randomiser
+  </string>
+  <string id="16-display">
+   Set particle speed randomiser to {0}
+  </string>
+  <string id="16-desc">
+   Set the maximum random speed adjustment per second.
+  </string>
+  <string id="16-p0">
+   Speed randomiser
+  </string>
+  <string id="16-p0-desc">
+   Maximum random speed adjustment per second, in pixels per second per second.
+  </string>
+  <string id="17">
+   Set opacity randomiser
+  </string>
+  <string id="17-display">
+   Set particle opacity randomiser to {0}
+  </string>
+  <string id="17-desc">
+   Set the maximum random opacity adjustment per second.
+  </string>
+  <string id="17-p0">
+   Opacity randomiser
+  </string>
+  <string id="17-p0-desc">
+   Maximum random opacity adjustment per second.
+  </string>
+  <string id="18">
+   Set timeout
+  </string>
+  <string id="18-display">
+   Set particle timeout to {0}
+  </string>
+  <string id="18-desc">
+   Set the destroy timeout or fade to invisible time.
+  </string>
+  <string id="18-p0">
+   Timeout
+  </string>
+  <string id="18-p0-desc">
+   Time in seconds for timeout or fade to invisible (depending on destroy mode).
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   ParticleCount
+  </string>
+  <string id="0-desc">
+   Return the number of particles.
+  </string>
+  <string id="1">
+   Rate
+  </string>
+  <string id="1-desc">
+   The number of particles created per second.
+  </string>
+  <string id="2">
+   SprayCone
+  </string>
+  <string id="2-desc">
+   The number of degrees through which particles are created.
+  </string>
+  <string id="3">
+   InitSpeed
+  </string>
+  <string id="3-desc">
+   The initial particle speed, in pixels per second.
+  </string>
+  <string id="4">
+   InitSize
+  </string>
+  <string id="4-desc">
+   The initial particle size, in pixels.
+  </string>
+  <string id="5">
+   InitOpacity
+  </string>
+  <string id="5-desc">
+   The initial particle opacity, from 0 (transparent) to 100 (opaque).
+  </string>
+  <string id="6">
+   InitGrowRate
+  </string>
+  <string id="6-desc">
+   The initial particle grow rate, in pixels per second.
+  </string>
+  <string id="7">
+   XRandom
+  </string>
+  <string id="7-desc">
+   The random X offset on creation.
+  </string>
+  <string id="8">
+   YRandom
+  </string>
+  <string id="8-desc">
+   The random Y offset on creation.
+  </string>
+  <string id="9">
+   InitSpeedRandom
+  </string>
+  <string id="9-desc">
+   The random addition to particle speed on creation.
+  </string>
+  <string id="10">
+   InitSizeRandom
+  </string>
+  <string id="10-desc">
+   The random addition to particle size on creation.
+  </string>
+  <string id="11">
+   InitGrowRandom
+  </string>
+  <string id="11-desc">
+   The random addition to particle grow rate on creation.
+  </string>
+  <string id="12">
+   ParticleAcceleration
+  </string>
+  <string id="12-desc">
+   The particle acceleration in pixels per second per second.
+  </string>
+  <string id="13">
+   Gravity
+  </string>
+  <string id="13-desc">
+   The force of gravity in pixels per second per second.
+  </string>
+  <string id="14">
+   ParticleAngleRandom
+  </string>
+  <string id="14-desc">
+   The maximum random angle deflection in degrees per second.
+  </string>
+  <string id="15">
+   ParticleSpeedRandom
+  </string>
+  <string id="15-desc">
+   The maximum random change in speed in pixels per second per second.
+  </string>
+  <string id="16">
+   ParticleOpacityRandom
+  </string>
+  <string id="16-desc">
+   The maximum change in opacity per second.
+  </string>
+  <string id="17">
+   Timeout
+  </string>
+  <string id="17-desc">
+   The destroy or fade to invisible timeout.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

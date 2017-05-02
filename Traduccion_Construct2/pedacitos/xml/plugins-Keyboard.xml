@@ -1,0 +1,77 @@
+<group name="Keyboard">
+ <string id="name">
+  Keyboard
+ </string>
+ <string id="category">
+  Input
+ </string>
+ <string id="description">
+  Retrieve input from the keyboard.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   On key pressed
+  </string>
+  <string id="0-display">
+   On [b]{0}[/b] pressed
+  </string>
+  <string id="0-desc">
+   Triggered when a keyboard key is pressed.
+  </string>
+  <string id="0-p0">
+   Key
+  </string>
+  <string id="0-p0-desc">
+   Choose a key.  Note that international users and users on different operating systems or devices may not have the same keys available.
+  </string>
+  <string id="1">
+   On any key pressed
+  </string>
+  <string id="1-display">
+   On any key pressed
+  </string>
+  <string id="1-desc">
+   Triggered when any keyboard key is pressed.
+  </string>
+  <string id="2">
+   Key is down
+  </string>
+  <string id="2-display">
+   [b]{0}[/b] is down
+  </string>
+  <string id="2-desc">
+   Test if a keyboard key is currently held down.
+  </string>
+  <string id="2-p0">
+   Key
+  </string>
+  <string id="2-p0-desc">
+   Choose a key.  Note that international users and users on different operating systems or devices may not have the same keys available.
+  </string>
+  <string id="3">
+   On key released
+  </string>
+  <string id="3-display">
+   On [b]{0}[/b] released
+  </string>
+  <string id="3-desc">
+   Triggered when a keyboard key is released.
+  </string>
+  <string id="3-p0">
+   Key
+  </string>
+  <string id="3-p0-desc">
+   Choose a key.  Note that international users and users on different operating systems or devices may not have the same keys available.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

@@ -1,0 +1,59 @@
+<group name="Anchor">
+ <string id="name">
+  Anchor
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Position objects relative to the size of the window.
+ </string>
+ <group name="properties">
+  <string id="leftedge">
+   Left edge
+  </string>
+  <string id="leftedge-desc">
+   Anchor the object's left edge to a window edge.
+  </string>
+  <string id="leftedge-options">
+   Window left|Window right
+  </string>
+  <string id="topedge">
+   Top edge
+  </string>
+  <string id="topedge-desc">
+   Anchor the object's top edge to a window edge.
+  </string>
+  <string id="topedge-options">
+   Window top|Window bottom
+  </string>
+  <string id="rightedge">
+   Right edge
+  </string>
+  <string id="rightedge-desc">
+   Anchor the object's right edge.
+  </string>
+  <string id="rightedge-options">
+   None|Window right
+  </string>
+  <string id="bottomedge">
+   Bottom edge
+  </string>
+  <string id="bottomedge-desc">
+   Anchor the object's bottom edge.
+  </string>
+  <string id="bottomedge-options">
+   None|Window bottom
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

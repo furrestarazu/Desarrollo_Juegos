@@ -1,0 +1,251 @@
+<group name="Audio">
+ <string id="name">
+  Audio
+ </string>
+ <string id="category">
+  Media
+ </string>
+ <string id="description">
+  Play sound effects and music from files you've imported to Construct 2.
+ </string>
+ <group name="properties">
+  <string id="timescaleaudio">
+   Timescale audio
+  </string>
+  <string id="timescaleaudio-desc">
+   Choose whether the audio playback rate changes with the time scale.
+  </string>
+  <string id="timescaleaudio-options">
+   Off|On (sounds only)|On (sounds and music)
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   On ended
+  </string>
+  <string id="0-display">
+   On {0} ended
+  </string>
+  <string id="0-desc">
+   Triggered when an audio file finishes playing.
+  </string>
+  <string id="0-p0">
+   Tag
+  </string>
+  <string id="0-p0-desc">
+   The audio tag of the file to detect finishing.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Play
+  </string>
+  <string id="0-display">
+   Play [b]{0}[/b] {1} (tag [i]{2}[/i])
+  </string>
+  <string id="0-desc">
+   Play an audio file.
+  </string>
+  <string id="0-p0">
+   Audio file
+  </string>
+  <string id="0-p0-desc">
+   Choose the audio file to play.
+  </string>
+  <string id="0-p1">
+   Loop
+  </string>
+  <string id="0-p1-desc">
+   Whether or not to initially play the sound in a loop (repeating).
+  </string>
+  <string id="0-p1-opt0">
+   not looping
+  </string>
+  <string id="0-p1-opt1">
+   looping
+  </string>
+  <string id="0-p2">
+   Tag (optional)
+  </string>
+  <string id="0-p2-desc">
+   A tag, which can be anything you like, to use to reference this sound in future.
+  </string>
+  <string id="1">
+   Set looping
+  </string>
+  <string id="1-display">
+   Set [i]{0}[/i] {1}
+  </string>
+  <string id="1-desc">
+   Enable or disable looping on a sound.
+  </string>
+  <string id="1-p0">
+   Tag
+  </string>
+  <string id="1-p0-desc">
+   The tag identifying the sound to loop.  Leave empty to affect the last played sound.
+  </string>
+  <string id="1-p1">
+   State
+  </string>
+  <string id="1-p1-desc">
+   Choose whether to turn looping on or off.
+  </string>
+  <string id="1-p1-opt0">
+   looping
+  </string>
+  <string id="1-p1-opt1">
+   not looping
+  </string>
+  <string id="2">
+   Set muted
+  </string>
+  <string id="2-display">
+   Set [i]{0}[/i] {1}
+  </string>
+  <string id="2-desc">
+   Mute (make silent) or unmute a sound.
+  </string>
+  <string id="2-p0">
+   Tag
+  </string>
+  <string id="2-p0-desc">
+   The tag identifying the sound to loop.  Leave empty to affect the last played sound.
+  </string>
+  <string id="2-p1">
+   State
+  </string>
+  <string id="2-p1-desc">
+   Choose whether to mute or unmute the sound.
+  </string>
+  <string id="2-p1-opt0">
+   muted
+  </string>
+  <string id="2-p1-opt1">
+   unmuted
+  </string>
+  <string id="3">
+   Set volume
+  </string>
+  <string id="3-display">
+   Set [i]{0}[/i] volume to [b]{1}[/b] dB
+  </string>
+  <string id="3-desc">
+   Set the volume (loudness) of a sound.
+  </string>
+  <string id="3-p0">
+   Tag
+  </string>
+  <string id="3-p0-desc">
+   The tag identifying the sound to loop.  Leave empty to affect the last played sound.
+  </string>
+  <string id="3-p1">
+   dB
+  </string>
+  <string id="3-p1-desc">
+   The attenuation in decibels (dB).  0 is original volume, -10 dB is about half as loud, etc.
+  </string>
+  <string id="4">
+   Preload
+  </string>
+  <string id="4-display">
+   Preload [b]{0}[/b]
+  </string>
+  <string id="4-desc">
+   Download an audio file from the server without playing it.  This ensures it will play immediately.
+  </string>
+  <string id="4-p0">
+   Audio file
+  </string>
+  <string id="4-p0-desc">
+   Choose the audio file to preload.  It will be downloaded from the server but not played.
+  </string>
+  <string id="5">
+   Set playback rate
+  </string>
+  <string id="5-display">
+   Set [i]{0}[/i] playback rate to [b]{1}[/b]
+  </string>
+  <string id="5-desc">
+   Set the speed at which a sound plays at.
+  </string>
+  <string id="5-p0">
+   Tag
+  </string>
+  <string id="5-p0-desc">
+   The tag identifying the sound to loop.  Leave empty to affect the last played sound.
+  </string>
+  <string id="5-p1">
+   Playback rate
+  </string>
+  <string id="5-p1-desc">
+   The rate of playback.  1.0 is normal speed, 0.5 half speed, 2.0 double speed, etc.
+  </string>
+  <string id="6">
+   Stop
+  </string>
+  <string id="6-display">
+   Stop [b]{0}[/b]
+  </string>
+  <string id="6-desc">
+   Stop a sound from playing.
+  </string>
+  <string id="6-p0">
+   Tag
+  </string>
+  <string id="6-p0-desc">
+   The tag identifying the sound to stop.  Leave empty to affect the last played sound.
+  </string>
+  <string id="7">
+   Play (by name)
+  </string>
+  <string id="7-display">
+   Play [b]{1}[/b] {2} from {0} (tag [i]{3}[/i])
+  </string>
+  <string id="7-desc">
+   Play an audio file using a string for the filename.
+  </string>
+  <string id="7-p0">
+   Folder
+  </string>
+  <string id="7-p0-desc">
+   Choose the folder which contains the audio file.
+  </string>
+  <string id="7-p0-opt0">
+   Sounds
+  </string>
+  <string id="7-p0-opt1">
+   Music
+  </string>
+  <string id="7-p1">
+   Audio file name
+  </string>
+  <string id="7-p1-desc">
+   A string with the name of the audio file to play, without the file extension.  For example, to play myfile.ogg, use only &amp;quot;myfile&amp;quot;.
+  </string>
+  <string id="7-p2">
+   Loop
+  </string>
+  <string id="7-p2-desc">
+   Whether or not to initially play the sound in a loop (repeating).
+  </string>
+  <string id="7-p2-opt0">
+   not looping
+  </string>
+  <string id="7-p2-opt1">
+   looping
+  </string>
+  <string id="7-p3">
+   Tag (optional)
+  </string>
+  <string id="7-p3-desc">
+   A tag, which can be anything you like, to use to reference this sound in future.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

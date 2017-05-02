@@ -1,0 +1,65 @@
+<group name="exporters">
+ <!-- Strings for the HTML5 exporter -->
+ <group name="html5">
+  <string id="description">
+   Exports to HTML5 based on canvas/javascript that can run in web browsers and be embedded to web pages.
+  </string>
+  <!-- Set as the status bar text while the project is being exported -->
+  <string id="exportstatus">
+   Exporting project...
+  </string>
+  <!-- HTML5 specific properties appearing in the Properties Bar with a project selected (see ui\bars\properties\project) -->
+  <group name="properties">
+   <string id="previewbrowser">
+    Preview browser
+   </string>
+   <string id="previewbrowser-desc">
+    Choose the browser to launch when previewing.  You must install each browser first!
+   </string>
+   <string id="previewbrowser-options">
+    (default)|Chrome|Internet Explorer|Firefox|Opera|NW.js|Custom
+   </string>
+   <string id="previewmode">
+    Preview mode
+   </string>
+   <string id="previewmode-desc">
+    Choose between http:// or file:// protocols for preview.  Not all features work in File mode, so HTTP is recommended.
+   </string>
+   <string id="previewmode-options">
+    HTTP|File
+   </string>
+   <string id="fullscreen">
+    Fullscreen in browser
+   </string>
+   <string id="fullscreen-desc">
+    Resize the canvas to fill the entire browser window.
+   </string>
+   <string id="fullscreen-options">
+    Off|Crop|Scale|Letterbox scale|Letterbox integer scale
+   </string>
+   <string id="enablewebgl">
+    Enable WebGL
+   </string>
+   <string id="enablewebgl-desc">
+    Enable the WebGL renderer when supported. This usually improves performance.
+   </string>
+   <string id="sampling">
+    Sampling
+   </string>
+   <string id="sampling-desc">
+    The resize quality for images resized larger or smaller.  (Where supported.)
+   </string>
+   <string id="sampling-options">
+    Point|Linear
+   </string>
+   <string id="clearback">
+    Clear background
+   </string>
+   <string id="clearback-desc">
+    Set to 'no' to improve performance when background is covered up by objects.
+   </string>
+  </group>
+  <!-- properties -->
+ </group>
+ <!-- html5 -->
+</group>

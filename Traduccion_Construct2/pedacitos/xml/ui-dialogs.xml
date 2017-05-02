@@ -1,0 +1,94 @@
+<group name="dialogs">
+ <!-- Event wizard dialog, for adding both conditions and actions -->
+ <group name="event">
+  <!-- different window captions depending on the mode -->
+  <group name="caption">
+   <string id="addevent">
+    Agragar evento
+   </string>
+   <string id="addcondition">
+    Agregar condición
+   </string>
+   <string id="replacecondition">
+    Reemplazar condición
+   </string>
+   <string id="editcondition">
+    Editar condición
+   </string>
+   <string id="addaction">
+    Agragar acción
+   </string>
+   <string id="replaceaction">
+    Reemplazar acción
+   </string>
+   <string id="editaction">
+    Editar acción
+   </string>
+  </group>
+  <!-- caption -->
+  <string id="conditiontitle1">
+   Haga doble click en un objeto para crear una condición desde:
+  </string>
+  <string id="conditiontitle2">
+   Haga doble click en un objeto para crear una condición de reemplazo desde:
+  </string>
+  <string id="conditiontitle3">
+   Haga doble click en una condición en
+  </string>
+  <!-- followed by object name -->
+  <string id="actiontitle1">
+   Haga doble click en un objeto para crear una acción desde:
+  </string>
+  <string id="actiontitle2">
+   Haga doble click en un objeto para crear una acción de reemplazo desde:
+  </string>
+  <string id="actiontitle3">
+   Haga doble click en una acción en
+  </string>
+  <!-- followed by object name -->
+  <string id="conditionshelp">
+   Ayuda sobre '{0}' condiciones
+  </string>
+  <string id="actionshelp">
+   Ayuda sobre '{0}' acciones
+  </string>
+  <string id="nomatches">
+   (sin coincidencias)
+  </string>
+  <string id="paramsfor">
+   Parámetros para {0}: {1}
+  </string>
+ </group>
+ <!-- event -->
+ <!-- Preferences dialog -->
+ <group name="preferences">
+  <string id="caption">
+   Preferencias
+  </string>
+ </group>
+ <!-- preferences -->
+ <!-- About dialog -->
+ <group name="about">
+  <string id="caption">
+   Acerca de Construct 2
+  </string>
+ </group>
+ <!-- about -->
+ <!-- Object behaviors dialog -->
+ <group name="objbehaviors">
+  <string id="caption">
+   {0}: Comportamientos
+  </string>
+ </group>
+ <!-- objbehaviors -->
+ <!-- Object instance variables dialog -->
+ <group name="objinstvars">
+  <string id="caption">
+   {0}: Variables de instancia
+  </string>
+  <string id="caption-family">
+   {0}: Variables de instancia de familia
+  </string>
+ </group>
+ <!-- objinstvars -->
+</group>

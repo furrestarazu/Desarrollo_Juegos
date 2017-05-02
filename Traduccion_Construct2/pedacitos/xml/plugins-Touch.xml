@@ -1,0 +1,185 @@
+<group name="Touch">
+ <string id="name">
+  Touch
+ </string>
+ <string id="category">
+  Input
+ </string>
+ <string id="description">
+  Retrieve input from touchscreen devices, and access device orientation and motion.
+ </string>
+ <group name="properties">
+  <string id="usemouseinput">
+   Use mouse input
+  </string>
+  <string id="usemouseinput-desc">
+   Use mouse clicks as single-touch input (useful for testing).
+  </string>
+  <string id="usemouseinput-options">
+   No|Yes
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   On touch start
+  </string>
+  <string id="0-display">
+   On touch start
+  </string>
+  <string id="0-desc">
+   Triggered when a touch input begins.
+  </string>
+  <string id="1">
+   On touch end
+  </string>
+  <string id="1-display">
+   On touch end
+  </string>
+  <string id="1-desc">
+   Triggered when a touch input ends.
+  </string>
+  <string id="2">
+   Is in touch
+  </string>
+  <string id="2-display">
+   Is in touch
+  </string>
+  <string id="2-desc">
+   True if between a touch start and touch end.
+  </string>
+  <string id="3">
+   On touched object
+  </string>
+  <string id="3-display">
+   On touched {0}
+  </string>
+  <string id="3-desc">
+   Triggered when an object is touched.
+  </string>
+  <string id="3-p0">
+   Object
+  </string>
+  <string id="3-p0-desc">
+   Choose the object to check for touch.
+  </string>
+  <string id="4">
+   Is touching object
+  </string>
+  <string id="4-display">
+   Is touching {0}
+  </string>
+  <string id="4-desc">
+   Test if in a touch and the touch point is over an object.
+  </string>
+  <string id="4-p0">
+   Object
+  </string>
+  <string id="4-p0-desc">
+   Choose the object to check for being touched.
+  </string>
+  <string id="5">
+   Device orientation supported
+  </string>
+  <string id="5-display">
+   Device orientation is supported
+  </string>
+  <string id="5-desc">
+   True if the device supports orientation detection.
+  </string>
+  <string id="6">
+   Device motion supported
+  </string>
+  <string id="6-display">
+   Device motion is supported
+  </string>
+  <string id="6-desc">
+   True if the device supports motion detection.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   X
+  </string>
+  <string id="0-desc">
+   Get the touch X co-ordinate in the layout.
+  </string>
+  <string id="1">
+   Y
+  </string>
+  <string id="1-desc">
+   Get the touch Y co-ordinate in the layout.
+  </string>
+  <string id="2">
+   AbsoluteX
+  </string>
+  <string id="2-desc">
+   Get the touch X co-ordinate on the canvas.
+  </string>
+  <string id="3">
+   AbsoluteY
+  </string>
+  <string id="3-desc">
+   Get the touch Y co-ordinate on the canvas.
+  </string>
+  <string id="4">
+   Alpha
+  </string>
+  <string id="4-desc">
+   The device compass direction, in degrees.
+  </string>
+  <string id="5">
+   Beta
+  </string>
+  <string id="5-desc">
+   The device front-to-back tilt, in degrees (front is positive).
+  </string>
+  <string id="6">
+   Gamma
+  </string>
+  <string id="6-desc">
+   The device left-to-right tilt, in degrees (right is positive).
+  </string>
+  <string id="7">
+   AccelerationXWithG
+  </string>
+  <string id="7-desc">
+   The device X acceleration with gravity, in m/s^2.
+  </string>
+  <string id="8">
+   AccelerationYWithG
+  </string>
+  <string id="8-desc">
+   The device Y acceleration with gravity, in m/s^2.
+  </string>
+  <string id="9">
+   AccelerationZWithG
+  </string>
+  <string id="9-desc">
+   The device Z acceleration with gravity, in m/s^2.
+  </string>
+  <string id="10">
+   AccelerationX
+  </string>
+  <string id="10-desc">
+   The device X acceleration without gravity (if supported), in m/s^2.
+  </string>
+  <string id="11">
+   AccelerationY
+  </string>
+  <string id="11-desc">
+   The device Y acceleration without gravity (if supported), in m/s^2.
+  </string>
+  <string id="12">
+   AccelerationZ
+  </string>
+  <string id="12-desc">
+   The device Z acceleration without gravity (if supported), in m/s^2.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

@@ -1,0 +1,155 @@
+<group name="Sin">
+ <string id="name">
+  Sine
+ </string>
+ <string id="category">
+  Movements
+ </string>
+ <string id="description">
+  Adjust an object's position, size or angle with an oscillating sine wave.
+ </string>
+ <group name="properties">
+  <string id="activeonstart">
+   Active on start
+  </string>
+  <string id="activeonstart-desc">
+   Enable the behavior at the beginning of the layout.
+  </string>
+  <string id="activeonstart-options">
+   No|Yes
+  </string>
+  <string id="movement">
+   Movement
+  </string>
+  <string id="movement-desc">
+   Select what property of the object to modify.
+  </string>
+  <string id="movement-options">
+   Horizontal|Vertical|Size|Width|Height|Angle
+  </string>
+  <string id="period">
+   Period
+  </string>
+  <string id="period-desc">
+   The time in seconds for a complete cycle.
+  </string>
+  <string id="periodrandom">
+   Period random
+  </string>
+  <string id="periodrandom-desc">
+   Add a random number of seconds to the period, up to this value.
+  </string>
+  <string id="periodoffset">
+   Period offset
+  </string>
+  <string id="periodoffset-desc">
+   The initital time in seconds through the cycle.
+  </string>
+  <string id="periodoffsetrandom">
+   Period offset random
+  </string>
+  <string id="periodoffsetrandom-desc">
+   Add a random number of seconds to the initial time, up to this value.
+  </string>
+  <string id="magnitude">
+   Magnitude
+  </string>
+  <string id="magnitude-desc">
+   The maximum change in pixels (or degrees for Angle).
+  </string>
+  <string id="magnituderandom">
+   Magnitude random
+  </string>
+  <string id="magnituderandom-desc">
+   Add a random number to the magnitude, up to this value.
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is active
+  </string>
+  <string id="0-display">
+   Is {my} active
+  </string>
+  <string id="0-desc">
+   True if the movement is currently active.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set active
+  </string>
+  <string id="0-display">
+   Set {my} [b]{0}[/b]
+  </string>
+  <string id="0-desc">
+   Enable or disable the movement.
+  </string>
+  <string id="0-p0">
+   State
+  </string>
+  <string id="0-p0-desc">
+   Set whether the movement is active or inactive.
+  </string>
+  <string id="0-p0-opt0">
+   Inactive
+  </string>
+  <string id="0-p0-opt1">
+   Active
+  </string>
+  <string id="1">
+   Set period
+  </string>
+  <string id="1-display">
+   Set {my} period to [b]{0}[/b]
+  </string>
+  <string id="1-desc">
+   Set the time in seconds for a complete cycle.
+  </string>
+  <string id="1-p0">
+   Period
+  </string>
+  <string id="1-p0-desc">
+   The time in seconds for a complete cycle.
+  </string>
+  <string id="2">
+   Set magnitude
+  </string>
+  <string id="2-display">
+   Set {my} magnitude to [b]{0}[/b]
+  </string>
+  <string id="2-desc">
+   Set the magnitude of the movement.
+  </string>
+  <string id="2-p0">
+   Magnitude
+  </string>
+  <string id="2-p0-desc">
+   The maximum change in pixels (or degrees for Angle).
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   CyclePosition
+  </string>
+  <string id="0-desc">
+   Return the current position in the cycle as a number from 0 to 1.
+  </string>
+  <string id="1">
+   Period
+  </string>
+  <string id="1-desc">
+   Return the current period, in seconds.
+  </string>
+  <string id="2">
+   Magnitude
+  </string>
+  <string id="2-desc">
+   Return the current magnitude of the movement.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

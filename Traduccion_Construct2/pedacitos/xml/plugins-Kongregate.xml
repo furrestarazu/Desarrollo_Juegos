@@ -1,0 +1,107 @@
+<group name="Kongregate">
+ <string id="name">
+  Kongregate
+ </string>
+ <string id="category">
+  Web
+ </string>
+ <string id="description">
+  Integrate your game with the Kongregate arcade site.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is guest
+  </string>
+  <string id="0-display">
+   Is guest
+  </string>
+  <string id="0-desc">
+   True if the user is a guest (not logged in).
+  </string>
+  <string id="1">
+   On login
+  </string>
+  <string id="1-display">
+   On login
+  </string>
+  <string id="1-desc">
+   Triggered when the user logs in (either automatically or during the game).
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Show registration box
+  </string>
+  <string id="0-display">
+   Show registration box
+  </string>
+  <string id="0-desc">
+   Show a dialog prompting the user to register an account.
+  </string>
+  <string id="1">
+   Submit statistic
+  </string>
+  <string id="1-display">
+   Submit statistic {0} with value [b]{1}[/b]
+  </string>
+  <string id="1-desc">
+   Submit a statistic to the Kongregate statistics system.
+  </string>
+  <string id="1-p0">
+   Name
+  </string>
+  <string id="1-p0-desc">
+   The name of the statistic.  Must be created for the game via the Kongregate site first.
+  </string>
+  <string id="1-p1">
+   Value
+  </string>
+  <string id="1-p1-desc">
+   The value to submit for the statistic.  Must be a positive integer.
+  </string>
+  <string id="2">
+   Show shout box
+  </string>
+  <string id="2-display">
+   Show shout box with message [i]{0}[/i]
+  </string>
+  <string id="2-desc">
+   Allow the user to post a shout on their profile page.  User must be logged in.
+  </string>
+  <string id="2-p0">
+   Message
+  </string>
+  <string id="2-p0-desc">
+   Text to add to the shout box.
+  </string>
+  <string id="3">
+   Show sign-in box
+  </string>
+  <string id="3-display">
+   Show sign-in box
+  </string>
+  <string id="3-desc">
+   Show a dialog prompting the user to sign in.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   UserID
+  </string>
+  <string id="0-desc">
+   Return the current user's ID, or 0 if guest.
+  </string>
+  <string id="1">
+   UserName
+  </string>
+  <string id="1-desc">
+   Return the current user's name, or a guest name if not logged in.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

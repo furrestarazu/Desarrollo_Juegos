@@ -1,0 +1,56 @@
+<group name="Pin">
+ <string id="name">
+  Pin
+ </string>
+ <string id="category">
+  General
+ </string>
+ <string id="description">
+  Stick to another object maintaining a relative distance and angle.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is pinned
+  </string>
+  <string id="0-display">
+   {my} is pinned
+  </string>
+  <string id="0-desc">
+   Object is currently pinned to another object.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Pin to object
+  </string>
+  <string id="0-display">
+   {my} Pin to {0}
+  </string>
+  <string id="0-desc">
+   Pin the object to another object.
+  </string>
+  <string id="0-p0">
+   Pin to
+  </string>
+  <string id="0-p0-desc">
+   Choose the object to pin to.
+  </string>
+  <string id="1">
+   Unpin
+  </string>
+  <string id="1-display">
+   {my} Unpin
+  </string>
+  <string id="1-desc">
+   Unpin the object.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>

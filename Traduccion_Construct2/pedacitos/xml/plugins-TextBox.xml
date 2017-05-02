@@ -1,0 +1,263 @@
+<group name="TextBox">
+ <string id="name">
+  Text box
+ </string>
+ <string id="category">
+  Form controls
+ </string>
+ <string id="description">
+  A text field for the user to enter text in to.
+ </string>
+ <group name="properties">
+  <string id="text">
+   Text
+  </string>
+  <string id="text-desc">
+   The initial text for the text box.
+  </string>
+  <string id="placeholder">
+   Placeholder
+  </string>
+  <string id="placeholder-desc">
+   A tip to display when the text box is empty.
+  </string>
+  <string id="tooltip">
+   Tooltip
+  </string>
+  <string id="tooltip-desc">
+   Display this text when hovering the mouse over the control.
+  </string>
+  <string id="initialvisibility">
+   Initial visibility
+  </string>
+  <string id="initialvisibility-desc">
+   Choose whether the text box is visible on startup.
+  </string>
+  <string id="initialvisibility-options">
+   Invisible|Visible
+  </string>
+  <string id="enabled">
+   Enabled
+  </string>
+  <string id="enabled-desc">
+   Choose whether the text box is enabled or disabled on startup.
+  </string>
+  <string id="enabled-options">
+   No|Yes
+  </string>
+  <string id="readonly">
+   Read-only
+  </string>
+  <string id="readonly-desc">
+   Choose whether the text box is read-only on startup.
+  </string>
+  <string id="readonly-options">
+   No|Yes
+  </string>
+  <string id="spellcheck">
+   Spell check
+  </string>
+  <string id="spellcheck-desc">
+   Allow the browser to spell-check the text box, if supported.
+  </string>
+  <string id="spellcheck-options">
+   No|Yes
+  </string>
+  <string id="type">
+   Type
+  </string>
+  <string id="type-desc">
+   The kind of text entered in to the text box, which also affects on-screen keyboards on touch devices.
+  </string>
+  <string id="type-options">
+   Text|Password|Email|Number|Telephone number|URL
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Compare text
+  </string>
+  <string id="0-display">
+   Text is {0} ([i]{1}[/i])
+  </string>
+  <string id="0-desc">
+   Compare the text currently entered in to the text box.
+  </string>
+  <string id="0-p0">
+   Text
+  </string>
+  <string id="0-p0-desc">
+   The text to compare the text box's text to.
+  </string>
+  <string id="0-p1">
+   Case
+  </string>
+  <string id="0-p1-desc">
+   Choose whether the comparison is case sensitive (FOO different to Foo) or case insensitive (FOO same as Foo).
+  </string>
+  <string id="0-p1-opt0">
+   case insensitive
+  </string>
+  <string id="0-p1-opt1">
+   case sensitive
+  </string>
+  <string id="1">
+   On text changed
+  </string>
+  <string id="1-display">
+   On text changed
+  </string>
+  <string id="1-desc">
+   Triggered when the text in the text box changes.
+  </string>
+  <string id="2">
+   On clicked
+  </string>
+  <string id="2-display">
+   On clicked
+  </string>
+  <string id="2-desc">
+   Triggered when the text box is clicked.
+  </string>
+  <string id="3">
+   On double-clicked
+  </string>
+  <string id="3-display">
+   On double-clicked
+  </string>
+  <string id="3-desc">
+   Triggered when the text box is double-clicked.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set text
+  </string>
+  <string id="0-display">
+   Set text to {0}
+  </string>
+  <string id="0-desc">
+   Set the text box's text.
+  </string>
+  <string id="0-p0">
+   Text
+  </string>
+  <string id="0-p0-desc">
+   The text to set in the text box.
+  </string>
+  <string id="1">
+   Set placeholder
+  </string>
+  <string id="1-display">
+   Set placeholder to {0}
+  </string>
+  <string id="1-desc">
+   Set the text box's placeholder.
+  </string>
+  <string id="1-p0">
+   Placeholder
+  </string>
+  <string id="1-p0-desc">
+   The new text box placeholder.
+  </string>
+  <string id="2">
+   Set tooltip
+  </string>
+  <string id="2-display">
+   Set tooltip to {0}
+  </string>
+  <string id="2-desc">
+   Set the text box's tooltip.
+  </string>
+  <string id="2-p0">
+   Tooltip
+  </string>
+  <string id="2-p0-desc">
+   The tooltip to set on the text box.
+  </string>
+  <string id="3">
+   Set visible
+  </string>
+  <string id="3-display">
+   Set [b]{0}[/b]
+  </string>
+  <string id="3-desc">
+   Hide or show the text box.
+  </string>
+  <string id="3-p0">
+   Visibility
+  </string>
+  <string id="3-p0-desc">
+   Choose whether to hide or show the text box.
+  </string>
+  <string id="3-p0-opt0">
+   Invisible
+  </string>
+  <string id="3-p0-opt1">
+   Visible
+  </string>
+  <string id="4">
+   Set enabled
+  </string>
+  <string id="4-display">
+   Set [b]{0}[/b]
+  </string>
+  <string id="4-desc">
+   Disable or enable the text box.
+  </string>
+  <string id="4-p0">
+   Mode
+  </string>
+  <string id="4-p0-desc">
+   Choose whether to enable or disable the text box.
+  </string>
+  <string id="4-p0-opt0">
+   Disabled
+  </string>
+  <string id="4-p0-opt1">
+   Enabled
+  </string>
+  <string id="5">
+   Set read-only
+  </string>
+  <string id="5-display">
+   Set [b]{0}[/b]
+  </string>
+  <string id="5-desc">
+   Turn read-only on or off.
+  </string>
+  <string id="5-p0">
+   Mode
+  </string>
+  <string id="5-p0-desc">
+   Choose whether to enable or disable read-only mode.
+  </string>
+  <string id="5-p0-opt0">
+   Read-only
+  </string>
+  <string id="5-p0-opt1">
+   Not read-only
+  </string>
+  <string id="6">
+   Set focused
+  </string>
+  <string id="6-display">
+   Set focused
+  </string>
+  <string id="6-desc">
+   Set the input focus to the text box.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   Text
+  </string>
+  <string id="0-desc">
+   Get the text box's text.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

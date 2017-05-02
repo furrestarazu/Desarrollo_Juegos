@@ -1,0 +1,371 @@
+<group name="Facebook">
+ <string id="name">
+  Facebook
+ </string>
+ <string id="category">
+  Web
+ </string>
+ <string id="description">
+  Access Facebook API features.
+ </string>
+ <group name="properties">
+  <string id="appid">
+   App ID
+  </string>
+  <string id="appid-desc">
+   The App ID Facebook gives you after creating an app.
+  </string>
+  <string id="appsecret">
+   App secret
+  </string>
+  <string id="appsecret-desc">
+   The App Secret Facebook gives you after creating an app.  Only necessary for submitting scores!
+  </string>
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Is ready
+  </string>
+  <string id="0-display">
+   Is ready
+  </string>
+  <string id="0-desc">
+   True when the Facebook API has loaded and is ready to be used.
+  </string>
+  <string id="1">
+   Is user logged in
+  </string>
+  <string id="1-display">
+   Is user logged in
+  </string>
+  <string id="1-desc">
+   True if currently being viewed inside Facebook by a logged in user.
+  </string>
+  <string id="2">
+   On user logged in
+  </string>
+  <string id="2-display">
+   On user logged in
+  </string>
+  <string id="2-desc">
+   Triggered when the user successfully logs in.
+  </string>
+  <string id="3">
+   On user logged out
+  </string>
+  <string id="3-display">
+   On user logged out
+  </string>
+  <string id="3-desc">
+   Triggered when the user logs out.
+  </string>
+  <string id="4">
+   On name available
+  </string>
+  <string id="4-display">
+   On name available
+  </string>
+  <string id="4-desc">
+   Triggered after login when the user's name becomes available.
+  </string>
+  <string id="5">
+   On user top score available
+  </string>
+  <string id="5-display">
+   On user top score available
+  </string>
+  <string id="5-desc">
+   Triggered after the 'request user top score' action.
+  </string>
+  <string id="6">
+   On hi-score
+  </string>
+  <string id="6-display">
+   On hi-score
+  </string>
+  <string id="6-desc">
+   Triggered for each top score after the 'request hi-score board' action.
+  </string>
+  <string id="7">
+   On score submitted
+  </string>
+  <string id="7-display">
+   On score submitted
+  </string>
+  <string id="7-desc">
+   Triggered when the 'publish score' action completes.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="2">
+   Log in
+  </string>
+  <string id="2-display">
+   Log in (request [i]{0}[/i], [i]{1}[/i])
+  </string>
+  <string id="2-desc">
+   Log the user in to the application so their details can be accessed.
+  </string>
+  <string id="2-p0">
+   Stream permission
+  </string>
+  <string id="2-p0-desc">
+   Ask user for permission to automatically (without prompting) publish to the user's stream.  Do not ask for permissions you don't need!
+  </string>
+  <string id="2-p0-opt0">
+   None
+  </string>
+  <string id="2-p0-opt1">
+   Publish to stream
+  </string>
+  <string id="2-p1">
+   Action permission
+  </string>
+  <string id="2-p1-desc">
+   Ask user for permission to publish scores for the user.  The App Secret is required to post scores.  Do not enter the App Secret if you are not using scores.
+  </string>
+  <string id="2-p1-opt0">
+   None
+  </string>
+  <string id="2-p1-opt1">
+   Publish scores
+  </string>
+  <string id="3">
+   Log out
+  </string>
+  <string id="3-display">
+   Log out
+  </string>
+  <string id="3-desc">
+   Log the user out.
+  </string>
+  <string id="4">
+   Prompt wall post
+  </string>
+  <string id="4-display">
+   Prompt wall post
+  </string>
+  <string id="4-desc">
+   Bring up a dialog where the user can share some text on their wall or choose to cancel.
+  </string>
+  <string id="5">
+   Prompt to share this app
+  </string>
+  <string id="5-display">
+   Prompt to share this app ([i]{0}[/i], [i]{1}[/i], [i]{2}[/i], [i]{3}[/i])
+  </string>
+  <string id="5-desc">
+   Bring up a dialog where the user can share a link to the app on their wall or choose to cancel.
+  </string>
+  <string id="5-p0">
+   Name
+  </string>
+  <string id="5-p0-desc">
+   The name of the app that will appear in the Share dialog.
+  </string>
+  <string id="5-p1">
+   Caption
+  </string>
+  <string id="5-p1-desc">
+   The caption appearing beneath the name in the Share dialog.
+  </string>
+  <string id="5-p2">
+   Description
+  </string>
+  <string id="5-p2-desc">
+   The description appearing beneath the caption in the Share dialog.
+  </string>
+  <string id="5-p3">
+   Picture URL (optional)
+  </string>
+  <string id="5-p3-desc">
+   The URL of an image on your server to use on the Share dialog.  Must include the http://.  Defaults to the exported logo.png.
+  </string>
+  <string id="6">
+   Prompt to share link
+  </string>
+  <string id="6-display">
+   Prompt to share link [b]{0}[/b] ([i]{1}[/i], [i]{2}[/i], [i]{3}[/i], [i]{4}[/i])
+  </string>
+  <string id="6-desc">
+   Bring up a dialog where the user can share a link on their wall or choose to cancel.
+  </string>
+  <string id="6-p0">
+   URL
+  </string>
+  <string id="6-p0-desc">
+   The link to share.
+  </string>
+  <string id="6-p1">
+   Name
+  </string>
+  <string id="6-p1-desc">
+   The link text that will appear in the Share dialog.
+  </string>
+  <string id="6-p2">
+   Caption
+  </string>
+  <string id="6-p2-desc">
+   The caption appearing beneath the link text in the Share dialog.
+  </string>
+  <string id="6-p3">
+   Description
+  </string>
+  <string id="6-p3-desc">
+   The description appearing beneath the caption in the Share dialog.
+  </string>
+  <string id="6-p4">
+   Picture URL (optional)
+  </string>
+  <string id="6-p4-desc">
+   The URL of an image on your server to use on the Share dialog.  Must include the http://
+  </string>
+  <string id="7">
+   Publish wall post
+  </string>
+  <string id="7-display">
+   Publish wall post with text [i]{0}[/i]
+  </string>
+  <string id="7-desc">
+   Publish a message to the user's wall.  The user should explicitly initiate this.
+  </string>
+  <string id="7-p0">
+   Message
+  </string>
+  <string id="7-p0-desc">
+   The text to publish to the user's feed.  It is recommended to only do this when the user initiates the action.
+  </string>
+  <string id="8">
+   Publish link
+  </string>
+  <string id="8-display">
+   Publish link [b]{1}[/b] ([i]{0}[/i], [i]{2}[/i], [i]{3}[/i], [i]{4}[/i], [i]{5}[/i])
+  </string>
+  <string id="8-desc">
+   Publish a link to the user's wall.  The user should explicitly initiate this.
+  </string>
+  <string id="8-p0">
+   Message
+  </string>
+  <string id="8-p0-desc">
+   The text to publish to the user's feed.  It is recommended to only do this when the user initiates the action.
+  </string>
+  <string id="8-p1">
+   URL
+  </string>
+  <string id="8-p1-desc">
+   The link to share.
+  </string>
+  <string id="8-p2">
+   Name
+  </string>
+  <string id="8-p2-desc">
+   The link text.
+  </string>
+  <string id="8-p3">
+   Caption
+  </string>
+  <string id="8-p3-desc">
+   The caption appearing beneath the link text.
+  </string>
+  <string id="8-p4">
+   Description
+  </string>
+  <string id="8-p4-desc">
+   The description appearing beneath the caption.
+  </string>
+  <string id="8-p5">
+   Picture URL (optional)
+  </string>
+  <string id="8-p5-desc">
+   The URL of an image on your server to use on the Share dialog.  Must include the http://
+  </string>
+  <string id="9">
+   Publish score
+  </string>
+  <string id="9-display">
+   Publish score [b]{0}[/b]
+  </string>
+  <string id="9-desc">
+   Publish a score for this user.
+  </string>
+  <string id="9-p0">
+   Score
+  </string>
+  <string id="9-p0-desc">
+   The user's score for this game to publish.
+  </string>
+  <string id="10">
+   Request user top score
+  </string>
+  <string id="10-display">
+   Request user top score
+  </string>
+  <string id="10-desc">
+   Request the user's top score, triggering 'on user top score available' when received.
+  </string>
+  <string id="11">
+   Request hi-score board
+  </string>
+  <string id="11-display">
+   Request hi-score board top {0} scores
+  </string>
+  <string id="11-desc">
+   Request the app's hi-score board, triggering 'on hi-score' for each hi-score received.
+  </string>
+  <string id="11-p0">
+   Number of scores
+  </string>
+  <string id="11-p0-desc">
+   The number of hi-scores to retrieve.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   FullName
+  </string>
+  <string id="0-desc">
+   Get the user's full name, if they are logged in.
+  </string>
+  <string id="1">
+   FirstName
+  </string>
+  <string id="1-desc">
+   Get the user's first name, if they are logged in.
+  </string>
+  <string id="2">
+   LastName
+  </string>
+  <string id="2-desc">
+   Get the user's last name, if they are logged in.
+  </string>
+  <string id="3">
+   Score
+  </string>
+  <string id="3-desc">
+   Get the score, when in a 'on user top score' or 'on hi-score' event.
+  </string>
+  <string id="5">
+   HiscoreName
+  </string>
+  <string id="5-desc">
+   Get the name of the user with hi-score, when in an 'on hi-score' event.
+  </string>
+  <string id="6">
+   HiscoreRank
+  </string>
+  <string id="6-desc">
+   Get the rank of the hi-score, when in an 'on hi-score' event.
+  </string>
+  <string id="7">
+   UserID
+  </string>
+  <string id="7-desc">
+   Get the user's ID, which is different even for users with the same name.
+  </string>
+ </group>
+ <!-- exps -->
+</group>

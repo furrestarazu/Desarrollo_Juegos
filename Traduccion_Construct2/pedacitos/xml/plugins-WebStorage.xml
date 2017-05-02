@@ -1,0 +1,245 @@
+<group name="WebStorage">
+ <string id="name">
+  WebStorage
+ </string>
+ <string id="category">
+  Data &amp; Storage
+ </string>
+ <string id="description">
+  Allows you to store data in the browser session and local storage.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+  <string id="0">
+   Local storage supported
+  </string>
+  <string id="0-display">
+   Local storage supported
+  </string>
+  <string id="0-desc">
+   Check if local storage is supported by the browser.
+  </string>
+  <string id="1">
+   Session storage supported
+  </string>
+  <string id="1-display">
+   Session storage supported
+  </string>
+  <string id="1-desc">
+   Check if session storage is supported by the browser.
+  </string>
+  <string id="3">
+   Local key exists
+  </string>
+  <string id="3-display">
+   Local key {0} exists
+  </string>
+  <string id="3-desc">
+   Check if a key exists in local storage.
+  </string>
+  <string id="3-p0">
+   Key
+  </string>
+  <string id="3-p0-desc">
+   Enter the name of the key to check.
+  </string>
+  <string id="4">
+   Session key exists
+  </string>
+  <string id="4-display">
+   Session key {0} exists
+  </string>
+  <string id="4-desc">
+   Check if a key exists in session storage.
+  </string>
+  <string id="4-p0">
+   Key
+  </string>
+  <string id="4-p0-desc">
+   Enter the name of the key to check.
+  </string>
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set local value
+  </string>
+  <string id="0-display">
+   Set local key {0} to {1}
+  </string>
+  <string id="0-desc">
+   Store a value in local storage (available in any session).
+  </string>
+  <string id="0-p0">
+   Key
+  </string>
+  <string id="0-p0-desc">
+   Enter the name of the key to associate the value with.
+  </string>
+  <string id="0-p1">
+   Value
+  </string>
+  <string id="0-p1-desc">
+   Enter the value to store.
+  </string>
+  <string id="1">
+   Set session value
+  </string>
+  <string id="1-display">
+   Set session key {0} to {1}
+  </string>
+  <string id="1-desc">
+   Store a value in session storage (only available in the current session).
+  </string>
+  <string id="1-p0">
+   Key
+  </string>
+  <string id="1-p0-desc">
+   Enter the name of the key to associate the value with.
+  </string>
+  <string id="1-p1">
+   Value
+  </string>
+  <string id="1-p1-desc">
+   Enter the value to store.
+  </string>
+  <string id="2">
+   Remove local value
+  </string>
+  <string id="2-display">
+   Remove local key {0}
+  </string>
+  <string id="2-desc">
+   Remove a key from local storage.
+  </string>
+  <string id="2-p0">
+   Key
+  </string>
+  <string id="2-p0-desc">
+   Enter the name of the key to remove.
+  </string>
+  <string id="3">
+   Remove session value
+  </string>
+  <string id="3-display">
+   Remove session key {0}
+  </string>
+  <string id="3-desc">
+   Remove a key from session storage.
+  </string>
+  <string id="3-p0">
+   Key
+  </string>
+  <string id="3-p0-desc">
+   Enter the name of the key to remove.
+  </string>
+  <string id="4">
+   Clear local storage
+  </string>
+  <string id="4-display">
+   Clear local storage
+  </string>
+  <string id="4-desc">
+   Remove all local keys.
+  </string>
+  <string id="5">
+   Clear session storage
+  </string>
+  <string id="5-display">
+   Clear session storage
+  </string>
+  <string id="5-desc">
+   Remove all session keys.
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+  <string id="0">
+   LocalValue
+  </string>
+  <string id="0-desc">
+   Get the value from a key in local storage.
+  </string>
+  <string id="0-p0">
+   Key
+  </string>
+  <string id="0-p0-desc">
+   Key name
+  </string>
+  <string id="1">
+   SessionValue
+  </string>
+  <string id="1-desc">
+   Get the value from a key in session storage.
+  </string>
+  <string id="1-p0">
+   Key
+  </string>
+  <string id="1-p0-desc">
+   Key name
+  </string>
+  <string id="2">
+   LocalCount
+  </string>
+  <string id="2-desc">
+   Get the number of keys in local storage.
+  </string>
+  <string id="3">
+   SessionCount
+  </string>
+  <string id="3-desc">
+   Get the number of keys in session storage.
+  </string>
+  <string id="4">
+   LocalAt
+  </string>
+  <string id="4-desc">
+   Get the value stored in the Nth local key.
+  </string>
+  <string id="4-p0">
+   Index
+  </string>
+  <string id="4-p0-desc">
+   Index
+  </string>
+  <string id="5">
+   SessionAt
+  </string>
+  <string id="5-desc">
+   Get the value stored in the Nth session key.
+  </string>
+  <string id="5-p0">
+   Index
+  </string>
+  <string id="5-p0-desc">
+   Index
+  </string>
+  <string id="6">
+   LocalKeyAt
+  </string>
+  <string id="6-desc">
+   Get the Nth local key's name.
+  </string>
+  <string id="6-p0">
+   Index
+  </string>
+  <string id="6-p0-desc">
+   Index
+  </string>
+  <string id="7">
+   SessionKeyAt
+  </string>
+  <string id="7-desc">
+   Get the Nth session key's name.
+  </string>
+  <string id="7-p0">
+   Index
+  </string>
+  <string id="7-p0-desc">
+   Index
+  </string>
+ </group>
+ <!-- exps -->
+</group>

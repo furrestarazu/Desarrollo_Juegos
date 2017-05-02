@@ -1,0 +1,26 @@
+<group name="categories">
+ <string id="angleofmotion">
+  Angle of motion
+ </string>
+ <string id="animationtriggers">
+  Animation triggers
+ </string>
+ <string id="forces">
+  Forces
+ </string>
+ <string id="globalsettings">
+  Global settings
+ </string>
+ <string id="joints">
+  Joints
+ </string>
+ <string id="objectsettings">
+  Object settings
+ </string>
+ <string id="torque">
+  Torque
+ </string>
+ <string id="velocity">
+  Velocity
+ </string>
+</group>

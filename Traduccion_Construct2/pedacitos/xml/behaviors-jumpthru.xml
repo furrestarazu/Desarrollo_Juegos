@@ -1,0 +1,44 @@
+<group name="jumpthru">
+ <string id="name">
+  Jump-thru
+ </string>
+ <string id="category">
+  Attributes
+ </string>
+ <string id="description">
+  A solid the Platform behavior can also jump on to from underneath.
+ </string>
+ <group name="properties">
+ </group>
+ <!-- properties -->
+ <group name="cnds">
+ </group>
+ <!-- cnds -->
+ <group name="acts">
+  <string id="0">
+   Set enabled
+  </string>
+  <string id="0-display">
+   Set {my} [b]{0}[/b]
+  </string>
+  <string id="0-desc">
+   Set whether the object counts as a platform or not.
+  </string>
+  <string id="0-p0">
+   State
+  </string>
+  <string id="0-p0-desc">
+   Set whether the object counts as a platform or not.
+  </string>
+  <string id="0-p0-opt0">
+   Disabled
+  </string>
+  <string id="0-p0-opt1">
+   Enabled
+  </string>
+ </group>
+ <!-- acts -->
+ <group name="exps">
+ </group>
+ <!-- exps -->
+</group>
