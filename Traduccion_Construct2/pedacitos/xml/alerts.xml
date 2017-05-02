@@ -34,50 +34,50 @@
  </string>
  <!-- Shown if no exporters could be found or loaded -->
  <string id="noexporters-error">
-  Failed to find or load any exporters.  The IDE cannot start up.
+  Fallo al burcar o cargar los exportadores. La interface de desarollo no puede iniciar.
  </string>
  <!-- Startup alert about update checks -->
  <group name="update">
   <string id="title">
-   Would you like Construct 2 to automatically check for updates online?
+   ¿Desea que Construct 2 busque automáticamente actualizaciones en línea?
   </string>
   <string id="subtitle">
-   No personal information is sent to Scirra.  You may see a warning about Construct 2 attempting to access the Internet.
+   No se envía información personal a Scirra. Puede ver una advertencia sobre Construct 2 intentando acceder a Internet.
   </string>
   <!-- \n separates option title and subtitle -->
   <string id="option1">
-   Check for updates (recommended)
+   Buscar actaulizaciones (recomendado)
   </string>
   <string id="option2">
-   Check for beta updates\nHelp test new versions of Construct 2.  Beta releases introduce new features sooner, but are more likely to have problems.
+   Buscar actualizaciones beta\nAyuda a probar nuevas versiones de Construct 2Help test new versions of Construct 2.  Las versiones beta introducen nuevas características antes, pero tienen más probabilidades de tener problemas.
   </string>
   <string id="option3">
-   Don't check for updates
+   No buscar actualizaciones
   </string>
   <!-- Shown if user chooses 'Don't check for updates' -->
   <string id="noupdates">
-   Construct 2 will not check for updates.  Be sure to check the Scirra.com website regularly for updates which may include new features and bug fixes.  You can change your update setting in the Preferences dialog.
+   Construct 2 no buscará actualizaciones. Asegúrese de revisar regularmente el sitio web de Scirra.com para obtener actualizaciones que pueden incluir nuevas características y correcciones de errores. Puede cambiar la configuración de la actualización en el cuadro de diálogo Preferencias..
   </string>
  </group>
  <!-- update -->
  <!-- Startup alert about out-of-date graphics card drivers -->
  <group name="gfxdriver">
   <string id="title">
-   The driver for your graphics card ({0}) appears to be over 2 years old.
+   El controlador de su tarjeta gráfica ({0}) parece tener más de dos años de antigüedad.
   </string>
   <string id="subtitle">
-   Old drivers can cause crashes and glitches in Construct 2.  It is strongly recommended that you check for an updated version of your driver to make sure it does not cause problems in Construct 2.
+   Los controladores antiguos pueden causar fallos y fallos en Construct 2. Se recomienda que compruebe si hay una versión actualizada de su controlador para asegurarse de que no genera problemas en Construct 2.
   </string>
   <!-- For the Vista+ task dialog options.  \n separates the option title and subtitle -->
   <string id="option1">
-   Take me to a web site which can help me update my driver\nThis is strongly recommended to ensure the best possible experience while using Construct 2.
+   Llevarme a un sitio web que puede ayudarme con la actualización de mi driver\nSe recomienda esto para garantizar la mejor experiencia posible durante el uso Construct 2.
   </string>
   <string id="option2">
-   Ignore this message\nGo back to Construct 2 without checking for a driver update (not recommended).  You may experience crashes or glitches caused by your graphics card driver.
+   Ignorar este mensaje\nVolver a Construct 2 sin verificar una actualización de controladores (no recomendado). Puede experimentar fallos debido al controlador de su tarjeta gráfica.
   </string>
   <!-- Option given on Windows XP, which does not support task dialogs -->
   <string id="xpoption">
-   Would you like to be taken to a web site which can help you update your driver?
+   ¿Le gustaría ser llevado a un sitio web que puede ayudarle a actualizar su controlador?
   </string>
  </group>
  <!-- gfxdriver -->

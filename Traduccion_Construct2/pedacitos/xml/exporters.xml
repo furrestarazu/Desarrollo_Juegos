@@ -2,46 +2,46 @@
  <!-- Strings for the HTML5 exporter -->
  <group name="html5">
   <string id="description">
-   Exports to HTML5 based on canvas/javascript that can run in web browsers and be embedded to web pages.
+   Exportaciones a HTML5 basadas en canvas / javascript que pueden ejecutarse en navegadores web y ser incrustadas en páginas web.
   </string>
   <!-- Set as the status bar text while the project is being exported -->
   <string id="exportstatus">
-   Exporting project...
+   Exportando proyecto...
   </string>
   <!-- HTML5 specific properties appearing in the Properties Bar with a project selected (see ui\bars\properties\project) -->
   <group name="properties">
    <string id="previewbrowser">
-    Preview browser
+    Navegador de previsualización
    </string>
    <string id="previewbrowser-desc">
-    Choose the browser to launch when previewing.  You must install each browser first!
+    Elija el navegador a ejecutar cuando se realice una previsualización. Debe instalar cada explorador primero.
    </string>
    <string id="previewbrowser-options">
-    (default)|Chrome|Internet Explorer|Firefox|Opera|NW.js|Custom
+    (Por defecto)|Chrome|Internet Explorer|Firefox|Opera|NW.js|Personalizado
    </string>
    <string id="previewmode">
-    Preview mode
+    Modo de vista previa
    </string>
    <string id="previewmode-desc">
-    Choose between http:// or file:// protocols for preview.  Not all features work in File mode, so HTTP is recommended.
+    Elija entre los protocolos http:// o file:// para la previsualización. No todas las características funcionan en el modo 'file://'. Se recomienta el HTTP.
    </string>
    <string id="previewmode-options">
     HTTP|File
    </string>
    <string id="fullscreen">
-    Fullscreen in browser
+    Pantalla completa en el navegador
    </string>
    <string id="fullscreen-desc">
-    Resize the canvas to fill the entire browser window.
+    Cambiar el tamaño del lienzo para llenar toda la ventana del navegador.
    </string>
    <string id="fullscreen-options">
-    Off|Crop|Scale|Letterbox scale|Letterbox integer scale
+    Apagado|Recortar|Escalar|Escala carta|Escala carta entera
    </string>
    <string id="enablewebgl">
-    Enable WebGL
+    Habilitar WebGL
    </string>
    <string id="enablewebgl-desc">
-    Enable the WebGL renderer when supported. This usually improves performance.
+    Habilita el renderizado WebGL cuando es soportado. Esto generalmente mejora la preformance.
    </string>
    <string id="sampling">
     Sampling
