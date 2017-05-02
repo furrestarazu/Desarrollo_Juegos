@@ -1,22 +1,22 @@
 <group name="bound">
  <string id="name">
-  Bound to layout
+  Unido al diseño
  </string>
  <string id="category">
   General
  </string>
  <string id="description">
-  Stop an object leaving the layout.
+  Detener un objeto que sale del diseño.
  </string>
  <group name="properties">
   <string id="boundby">
-   Bound by
+   Unido por
   </string>
   <string id="boundby-desc">
-   Choose whether to stop the object at its origin or at its edge.
+   Elija si desea detener el objeto en su origen o en su borde.
   </string>
   <string id="boundby-options">
-   Origin|Edge
+   Origen|Borde
   </string>
  </group>
  <!-- properties -->
