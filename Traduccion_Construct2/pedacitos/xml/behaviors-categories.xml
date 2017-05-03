@@ -1,26 +1,26 @@
 <group name="categories">
  <string id="angleofmotion">
-  Angle of motion
+  Ángulo de movimiento
  </string>
  <string id="animationtriggers">
-  Animation triggers
+  Activadores de la animación
  </string>
  <string id="forces">
-  Forces
+  Fuerzas
  </string>
  <string id="globalsettings">
-  Global settings
+  Ajustes globales
  </string>
  <string id="joints">
-  Joints
+  Articulaciones
  </string>
  <string id="objectsettings">
-  Object settings
+  Ajustes de objeto
  </string>
  <string id="torque">
   Torque
  </string>
  <string id="velocity">
-  Velocity
+  Velocidad
  </string>
 </group>
