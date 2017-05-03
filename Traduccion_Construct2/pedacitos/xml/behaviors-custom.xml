@@ -1,58 +1,58 @@
 <group name="custom">
  <string id="name">
-  Custom Movement
+  Movimiento personalizado
  </string>
  <string id="category">
-  Movements
+  Movimientos
  </string>
  <string id="description">
-  Make your own movement using low-level movement functions.
+  Generar su propio movimiento utilizando funciones de movimiento de bajo nivel
  </string>
  <group name="properties">
   <string id="steppingmode">
-   Stepping mode
+   Modo paso a paso
   </string>
   <string id="steppingmode-desc">
-   Move in increments while firing the step triggers.
+   Mueve en incrementos mientas se disparan activadores del paso.
   </string>
   <string id="steppingmode-options">
-   None|Linear|Horizontal then vertical|Vertical then horizontal
+   Ninguno|Linear|Horizontal y luego vertical|Vertical y luego horizontal
   </string>
   <string id="pixelsperstep">
-   Pixels per step
+   Pixeles por paso
   </string>
   <string id="pixelsperstep-desc">
-   When stepping enabled, the number of pixels to move each step.
+   Número de pixeles a mover en cada paso cuando el paso a paso está habilitado.
   </string>
  </group>
  <!-- properties -->
  <group name="cnds">
   <string id="0">
-   Is moving
+   En movimiento
   </string>
   <string id="0-display">
-   {my} is moving
+   {my} está moviéndose
   </string>
   <string id="0-desc">
-   True when the object is moving.
+   Verdadero cuando el objeto se está moviendo
   </string>
   <string id="1">
-   Compare speed
+   Comparar la velocidad
   </string>
   <string id="1-display">
-   {my} {0} speed {1} {2}
+   Velocidad de {my} {0} -> {1} {2}
   </string>
   <string id="1-desc">
-   Compare the current speed of the object.
+   Compara la velocidad actual del objeto.
   </string>
   <string id="1-p0">
-   Which
+   Cual
   </string>
   <string id="1-p0-desc">
-   Choose the speed to compare.
+   Seleciona la velocidad a comparar.
   </string>
   <string id="1-p0-opt0">
-   Overall
+   En general
   </string>
   <string id="1-p0-opt1">
    Horizontal
@@ -61,97 +61,97 @@
    Vertical
   </string>
   <string id="1-p1">
-   Comparison
+   Comparación
   </string>
   <string id="1-p1-desc">
-   Choose the way to compare the speed.
+   Seleccione la manera de comparar la velocidad.
   </string>
   <string id="1-p2">
-   Speed
+   Velocidad
   </string>
   <string id="1-p2-desc">
-   The speed, in pixels per second, to compare to.
+   Velocidad para comparar, en pixeles por segundo
   </string>
   <string id="2">
-   On step
+   En el paso
   </string>
   <string id="2-display">
-   On {my} step
+   En el paso de {my}
   </string>
   <string id="2-desc">
-   Triggered when stepping the object for motion.
+   Se dispara cuando el objeto hace un movimiento paso a paso
   </string>
   <string id="3">
-   On horizontal step
+   En el paso horizontal
   </string>
   <string id="3-display">
-   On {my} horizontal step
+   En el paso horizontal de {my}
   </string>
   <string id="3-desc">
-   Triggered when stepping the object horizontally for motion.
+   Se dispara cuando el objeto hace un movimiento paso a paso horizontal.
   </string>
   <string id="4">
-   On vertical step
+   En paso vertical
   </string>
   <string id="4-display">
-   On {my} vertical step
+   En paso vertical de {my} 
   </string>
   <string id="4-desc">
-   Triggered when stepping the object vertically for motion.
+   Se dispara cuando el objeto hace un movimiento paso a paso vertical.
   </string>
  </group>
  <!-- cnds -->
  <group name="acts">
   <string id="0">
-   Stop
+   Detener
   </string>
   <string id="0-display">
-   Stop {my}
+   Detener {my}
   </string>
   <string id="0-desc">
-   Set the speed to zero.
+   Establece la velocidad a cero
   </string>
   <string id="1">
-   Reverse
+   Reversa
   </string>
   <string id="1-display">
-   Reverse {my}
+   Reversa a {my}
   </string>
   <string id="1-desc">
-   Invert the direction of motion.
+   Invierte la dirección del movimiento
   </string>
   <string id="1-p0">
-   Axes
+   Ejes
   </string>
   <string id="1-p0-desc">
-   Choose which axes to reverse on.
+   Seleccione sobre cuál eje reversar el movimiento
   </string>
   <string id="1-p0-opt0">
-   Both
+   Ambos
   </string>
   <string id="1-p0-opt1">
-   Horizontally
+   Horizontalmente
   </string>
   <string id="1-p0-opt2">
-   Vertically
+   Verticalmente
   </string>
   <string id="2">
-   Set speed
+   Ajustar la velocidad
   </string>
   <string id="2-display">
-   Set {my} {0} speed to [i]{1}[/i]
+   Ajustar la velocidad de {my} {0} a [i]{1}[/i]
   </string>
   <string id="2-desc">
-   Set the object's current speed.
+   Ajusta la velocidad actual del objeto
   </string>
   <string id="2-p0">
-   Which
+   Cuál
   </string>
   <string id="2-p0-desc">
-   Choose the speed to set.
+   Seleccione la velocidad a establecer
   </string>
   <string id="2-p0-opt0">
-   Overall
+   En general
   </string>
   <string id="2-p0-opt1">
    Horizontal
@@ -160,10 +160,10 @@
    Vertical
   </string>
   <string id="2-p1">
-   Speed
+   Velocidad
   </string>
   <string id="2-p1-desc">
-   The new speed of the object to set, in pixels per second.
+   Nueva velocidad a establecer para el objeto, en pixeles por segundo
   </string>
   <string id="3">
    Accelerate
