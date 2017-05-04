@@ -1,79 +1,79 @@
 <group name="EightDir">
  <string id="name">
-  8 Direction
+  8 direcciones
  </string>
  <string id="category">
-  Movements
+  Movimientos
  </string>
  <string id="description">
-  Moves an object up, down, left, right and on diagonals.
+  Mueve un objeto hacia arriba, abajo, izquierda derecha y en sus diagonales.
  </string>
  <group name="properties">
   <string id="maxspeed">
-   Max speed
+   Velocidad máxima
   </string>
   <string id="maxspeed-desc">
-   The maximum speed, in pixels per second, the object can travel at.
+   Velocidad máxima, en pixeles por segundo, a la que un objeto puede viajar.
   </string>
   <string id="acceleration">
-   Acceleration
+   Aceleración
   </string>
   <string id="acceleration-desc">
-   The rate of acceleration, in pixels per second per second.
+   Velocidad de aceleración en pixeles por segundo al cuadrado.
   </string>
   <string id="deceleration">
-   Deceleration
+   Desaceleración
   </string>
   <string id="deceleration-desc">
-   The rate of deceleration, in pixels per second per second.
+   Velocidad de desaceleración, en pixeles por segundo al cuadrado.
   </string>
   <string id="directions">
-   Directions
+   Direcciones
   </string>
   <string id="directions-desc">
-   The number of directions of movement available.
+   Número de direcciones de movimiento disponibles
   </string>
   <string id="directions-options">
-   Up &amp; down|Left &amp; right|4 directions|8 directions
+   Arriba &amp; Abajo|Izquierda &amp; derecha|4 direcciones|8 direcciones
   </string>
   <string id="setangle">
-   Set angle
+   Estableces ángulo
   </string>
   <string id="setangle-desc">
-   How to set the object's angle while moving.
+   Cómo establecer el ángulo del objeto mientras se mueve.
   </string>
   <string id="setangle-options">
-   No|90-degree intervals|45-degree intervals|360 degree (smooth)
+   No|Intervalos de 90 grados|Intervalos de 45 grados|360 grados (suave)
   </string>
   <string id="defaultcontrols">
-   Default controls
+   Controles predeterminados
   </string>
   <string id="defaultcontrols-desc">
-   If enabled, arrow keys control movement.  Otherwise, use the 'simulate control' action.
+   Si está habilitado, las flechas controlan el moimiento. De otra forma use la acción 'simular control'
   </string>
   <string id="defaultcontrols-options">
-   No|Yes
+   No|Sí
   </string>
  </group>
  <!-- properties -->
  <group name="cnds">
   <string id="0">
-   Is moving
+   En movimiento
   </string>
   <string id="0-display">
-   {my} is moving
+   {my} se está moviendo
   </string>
   <string id="0-desc">
-   True when the object is moving.
+   Verdadero cuando el objeto está en movimiento.
   </string>
   <string id="1">
-   Compare speed
+   Comparar velocidad
   </string>
   <string id="1-display">
-   {my} speed {0} {1}
+   Velocidad de {my}  {0} {1}
   </string>
   <string id="1-desc">
-   Compare the current speed of the object.
+   Comparar la velocidad actual del objeto.
   </string>
   <string id="1-p0">
    Comparison
