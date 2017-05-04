@@ -76,211 +76,211 @@
    Comparar la velocidad actual del objeto.
   </string>
   <string id="1-p0">
-   Comparison
+   Comparación
   </string>
   <string id="1-p0-desc">
-   Choose the way to compare the current speed.
+   Elija la forma de comparar la velocidad actual.
   </string>
   <string id="1-p1">
-   Speed
+   Velocidad
   </string>
   <string id="1-p1-desc">
-   The speed, in pixels per second, to compare the current speed to.
+   Velocidad en pixeles por segundo para comparar la velocidad actual
   </string>
  </group>
  <!-- cnds -->
  <group name="acts">
   <string id="0">
-   Stop
+   Detener
   </string>
   <string id="0-display">
-   Stop {my}
+   Detener {my}
   </string>
   <string id="0-desc">
-   Set the speed to zero.
+   Establece la velocidad a cero
   </string>
   <string id="1">
-   Reverse
+   Reversa
   </string>
   <string id="1-display">
-   Reverse {my}
+   Revertir {my}
   </string>
   <string id="1-desc">
-   Invert the direction of motion.
+   Invierte la dirección del movimiento.
   </string>
   <string id="2">
-   Set ignoring input
+   Establece la entrada ignorada
   </string>
   <string id="2-display">
-   {0} {my} user input
+   Entrada de usuario para {my} {0} 
   </string>
   <string id="2-desc">
-   Set whether to ignore the controls for this movement.
+   Establece si desea ignorar loc controles para este movimiento.
   </string>
   <string id="2-p0">
-   Input
+   Entrada
   </string>
   <string id="2-p0-desc">
-   Set whether to ignore the controls for this movement.
+   Establece si desea ignorar loc controles para este movimiento.
   </string>
   <string id="2-p0-opt0">
-   Stop ignoring
+   Dejar de ignorar
   </string>
   <string id="2-p0-opt1">
-   Start ignoring
+   Comenzar a ignorar
   </string>
   <string id="3">
-   Set speed
+   Establecer la velocidad
   </string>
   <string id="3-display">
-   Set {my} speed to [i]{0}[/i]
+   Establecer la velocidad de {my} a [i]{0}[/i]
   </string>
   <string id="3-desc">
-   Set the object's current speed.
+   Establece la velocidad actual del objeto.
   </string>
   <string id="3-p0">
-   Speed
+   Velocidad
   </string>
   <string id="3-p0-desc">
-   The new speed of the object to set, in pixels per second.
+   Nueva velocidad del objeto a establecer, en pixeles por segundo.
   </string>
   <string id="4">
-   Set max speed
+   Establecer la velocidad máxima
   </string>
   <string id="4-display">
-   Set {my} maximum speed to [i]{0}[/i]
+   Establecer la velocidad máxima de {my} a [i]{0}[/i]
   </string>
   <string id="4-desc">
-   Set the object's maximum speed.
+   Establece la velocidad máxima del objeto.
   </string>
   <string id="4-p0">
-   Max Speed
+   Velocidad máxima
   </string>
   <string id="4-p0-desc">
-   The new maximum speed of the object to set, in pixels per second.
+   Nueva velocidad máxima a establecer del objeto, en pixeles por segundo.
   </string>
   <string id="5">
-   Set acceleration
+   Ajustar aceleración.
   </string>
   <string id="5-display">
-   Set {my} acceleration to [i]{0}[/i]
+   Establecer la aceleración de {my} a [i]{0}[/i]
   </string>
   <string id="5-desc">
-   Set the object's acceleration.
+   Establece la aceleración del objeto.
   </string>
   <string id="5-p0">
-   Acceleration
+   Aceleración
   </string>
   <string id="5-p0-desc">
-   The new acceleration of the object to set, in pixels per second per second.
+   Nuevo valor de aceleración a establecer al objeto, en pixeles por segundo al cuadrado.
   </string>
   <string id="6">
-   Set deceleration
+   Ajustar desacelesación
   </string>
   <string id="6-display">
-   Set {my} deceleration to [i]{0}[/i]
+   Establecer la desaceleración de {my} a [i]{0}[/i]
   </string>
   <string id="6-desc">
-   Set the object's deceleration.
+   Establece la desaceleración del objeto.
   </string>
   <string id="6-p0">
-   Deceleration
+   Desaceleración
   </string>
   <string id="6-p0-desc">
-   The new deceleration of the object to set, in pixels per second per second.
+   Nuevo valor de desaceleración a establecer al objeto, en pixeles por segundo al cuadrado.
   </string>
   <string id="7">
-   Simulate control
+   Simular control
   </string>
   <string id="7-display">
-   Simulate {my} pressing {0}
+   Simular para {my} presionando {0}
   </string>
   <string id="7-desc">
-   Control the movement by events.
+   Controla el movimiento por eventos.
   </string>
   <string id="7-p0">
    Control
   </string>
   <string id="7-p0-desc">
-   The movement control to simulate pressing.
+   Control del movimiento para simular presiones de teclas.
   </string>
   <string id="7-p0-opt0">
-   Left
+   Izquierda
   </string>
   <string id="7-p0-opt1">
-   Right
+   Derecha
   </string>
   <string id="7-p0-opt2">
-   Up
+   Arriba
   </string>
   <string id="7-p0-opt3">
-   Down
+   Abajo
   </string>
   <string id="8">
-   Set enabled
+   Establecer el activado
   </string>
   <string id="8-display">
-   Set {my} [b]{0}[/b]
+   Establecer para {my} [b]{0}[/b]
   </string>
   <string id="8-desc">
-   Set whether this behavior is enabled.
+   Definir si este comportamiento está habilitado.
   </string>
   <string id="8-p0">
-   State
+   Estado
   </string>
   <string id="8-p0-desc">
-   Set whether to enable or disable the behavior.
+   Establece cuando está habilitado o deshabilitado el comportamiento.
   </string>
   <string id="8-p0-opt0">
-   Disabled
+   Deshabilitado
   </string>
   <string id="8-p0-opt1">
-   Enabled
+   Habilitado
   </string>
  </group>
  <!-- acts -->
  <group name="exps">
   <string id="0">
-   Speed
+   Velocidad
   </string>
   <string id="0-desc">
-   The current object speed, in pixels per second.
+   Velocidad actual del objeto, en pixeles por segundo.
   </string>
   <string id="1">
-   MaxSpeed
+   Velocidad máxima <!--MaxSpeed-->
   </string>
   <string id="1-desc">
-   The maximum speed setting, in pixels per second.
+   Velocidad máxima establecida, en pixeles por segundo.
   </string>
   <string id="2">
-   Acceleration
+   Aceleración
   </string>
   <string id="2-desc">
-   The acceleration setting, in pixels per second per second.
+   Aceleración establecida, en pixeles por segundo al cuadrado.
   </string>
   <string id="3">
-   Deceleration
+   Desaceleración
   </string>
   <string id="3-desc">
-   The deceleration setting, in pixels per second per second.
+   Desaceleración establecida, en pixeles por segundo al cuadrado.
   </string>
   <string id="4">
-   MovingAngle
+   Ángulo de movimiento <!--MovingAngle-->
   </string>
   <string id="4-desc">
-   The current angle of motion, in degrees.
+   Ángulo actual del movimiento, en grados.
   </string>
   <string id="5">
    VectorX
   </string>
   <string id="5-desc">
-   The current X component of motion, in pixels.
+   Componente X actual del movimiento, en pixeles.
   </string>
   <string id="6">
    VectorY
   </string>
   <string id="6-desc">
-   The current Y component of motion, in pixels.
+   Componente Y actual del movimiento, en pixeles.
   </string>
  </group>
  <!-- exps -->
