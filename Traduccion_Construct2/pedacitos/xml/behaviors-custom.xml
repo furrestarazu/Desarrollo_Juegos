@@ -166,112 +166,112 @@
    Nueva velocidad a establecer para el objeto, en pixeles por segundo
   </string>
   <string id="3">
-   Accelerate
+   Acelerar
   </string>
   <string id="3-display">
-   Accelerate {my} {0} [i]{1}[/i]
+   Acelerar {my} {0} [i]{1}[/i]
   </string>
   <string id="3-desc">
-   Accelerate the object forwards or on an axis.
+   Acelerar el objeto hacia adelante o sobre un eje.
   </string>
   <string id="3-p0">
-   Which
+   Cómo
   </string>
   <string id="3-p0-desc">
-   Choose which way to accelerate.
+   Selecciona la forma para acelerar.
   </string>
   <string id="3-p0-opt0">
-   Forwards
+   Hacia adelante
   </string>
   <string id="3-p0-opt1">
-   Horizontally
+   Horizontalmente
   </string>
   <string id="3-p0-opt2">
-   Vertically
+   Verticalmente
   </string>
   <string id="3-p1">
-   Acceleration
+   Aceleración
   </string>
   <string id="3-p1-desc">
-   The acceleration, in pixels per second per second.
+   Aceleración en pixeles por segundo al cuadrado.
   </string>
   <string id="4">
-   Accelerate toward angle
+   Acelerar hacia el ángulo
   </string>
   <string id="4-display">
-   Accelerate {my} [i]{0}[/i] at angle [i]{1}[/i]
+   Acelerar {my} [i]{0}[/i] en ángulo [i]{1}[/i]
   </string>
   <string id="4-desc">
-   Accelerate the object at an angle.
+   Acelerar el objeto en ángulo
   </string>
   <string id="4-p0">
-   Acceleration
+   Aceleración
   </string>
   <string id="4-p0-desc">
-   The acceleration, in pixels per second per second.
+   Aceleración en pixeles por segundo al cuadrado.
   </string>
   <string id="4-p1">
-   Angle
+   Ángulo
   </string>
   <string id="4-p1-desc">
-   The angle, in degrees, to accelerate toward.
+   Ángulo en grados sobre el cuál acelerar.
   </string>
   <string id="5">
-   Accelerate toward position
+   Acelerar hacia la posición
   </string>
   <string id="5-display">
-   Accelerate {my} [i]{0}[/i] toward ([i]{1}[/i], [i]{2}[/i])
+   Acelerar {my} [i]{0}[/i] hacia ([i]{1}[/i], [i]{2}[/i])
   </string>
   <string id="5-desc">
-   Accelerate the object toward a position.
+   Acelerar el objeto hacia la posición.
   </string>
   <string id="5-p0">
-   Acceleration
+   Aceleración
   </string>
   <string id="5-p0-desc">
-   The acceleration, in pixels per second per second.
+   Aceleración en pixeles por segundo al cuadrado.
   </string>
   <string id="5-p1">
    X
   </string>
   <string id="5-p1-desc">
-   The X co-ordinate in the layout to accelerate toward.
+   Coordenada X en el diseño hacia dónde acelerar.
   </string>
   <string id="5-p2">
    Y
   </string>
   <string id="5-p2-desc">
-   The Y co-ordinate in the layout to accelerate toward.
+   Coordenada Y en el diseño hacia dónde acelerar.
   </string>
   <string id="6">
-   Set angle of motion
+   Establecer el ángulo de movimiento
   </string>
   <string id="6-display">
-   Set {my} angle of motion to [i]{0}[/i]
+   Ajustar el ángulo de movimiento de {my} a [i]{0}[/i]
   </string>
   <string id="6-desc">
-   Set the object's current speed.
+   Establecer la velocidad actual del objeto.
   </string>
   <string id="6-p0">
-   Angle
+   Ángulo
   </string>
   <string id="6-p0-desc">
-   The new angle of motion, in degrees.
+   Núevo ángulo de movimiento, en grados.
   </string>
   <string id="7">
-   Rotate clockwise
+   Rotar en sentido horario
   </string>
   <string id="7-display">
-   Rotate {my} angle of motion clockwise [i]{0}[/i] degrees
+   Rotar el ángulo de movimiento de {my} en sentido horatio [i]{0}[/i] grados
   </string>
   <string id="7-desc">
-   Rotate the angle of motion in a clockwise direction.
+   Rotar el ángulo de movimiento en dirección horaria.
   </string>
   <string id="7-p0">
-   Angle
+   Ángulo
   </string>
   <string id="7-p0-desc">
-   Amount to rotate clockwise, in degrees.
+   Cantidad a rotar en sentido horario, en grados.
   </string>
   <string id="8">
    Rotate counter-clockwise
@@ -286,124 +286,124 @@
    Angle
   </string>
   <string id="8-p0-desc">
-   Amount to rotate counter-clockwise, in degrees.
+   Cantidad de rotación en sentido antihorario, en grados.
   </string>
   <string id="9">
-   Stop stepping
+   Detener el paso
   </string>
   <string id="9-display">
-   Stop {my} stepping ({0})
+   Detener el paso de {my}  ({0})
   </string>
   <string id="9-desc">
-   Stop the current stepping, preventing any more step triggers firing this tick.
+   Detener el paso actual, impidiendo que más disparadores de pasos disparen esta señal.
   </string>
   <string id="9-p0">
-   Position
+   Posición
   </string>
   <string id="9-p0-desc">
-   Choose the resulting object position.
+   Elija la posición resultante del objeto.
   </string>
   <string id="9-p0-opt0">
-   Go back a step
+   Regresar un paso
   </string>
   <string id="9-p0-opt1">
-   Stay at current position
+   Permanecer en la posición actual
   </string>
   <string id="10">
-   Push out solid
+   Expulsar el sólido
   </string>
   <string id="10-display">
-   Push {my} out of solid ({0})
+   Expulsar {my} del sólido ({0})
   </string>
   <string id="10-desc">
-   Push the object to a space if it is overlapping a solid.
+   Expulsa el objeto al espacio si está superponiendo un sólido.
   </string>
   <string id="10-p0">
-   Direction
+   Dirección
   </string>
   <string id="10-p0-desc">
-   Choose the method of push out.
+   Elija el método de expulsar.
   </string>
   <string id="10-p0-opt0">
-   Opposite angle
+   Ángulo opuesto
   </string>
   <string id="10-p0-opt1">
-   Nearest
+   Más cercano
   </string>
   <string id="10-p0-opt2">
-   Up
+   Arriba
   </string>
   <string id="10-p0-opt3">
-   Down
+   Abajo
   </string>
   <string id="10-p0-opt4">
-   Left
+   Izquierda
   </string>
   <string id="10-p0-opt5">
-   Right
+   Derecha
   </string>
   <string id="11">
-   Push out solid at angle
+   Expulsar el sólido al ángulo
   </string>
   <string id="11-display">
-   Push {my} out of solid at angle {0}
+   Explusar {my} del sólido con el ángulo {0}
   </string>
   <string id="11-desc">
-   Push the object to a space at an angle if it is overlapping a solid.
+   Expulsa el objeto al espacio con un ángulo si éste se superpone a un sólido.
   </string>
   <string id="11-p0">
-   Angle
+   Ángulo
   </string>
   <string id="11-p0-desc">
-   Angle, in degrees, to push the object out at.
+   Ángulo, en grados, para expulsar el objeto.
   </string>
   <string id="12">
-   Set enabled
+   Ajuste habilitado
   </string>
   <string id="12-display">
-   Set {my} [b]{0}[/b]
+   Establecer para {my} [b]{0}[/b]
   </string>
   <string id="12-desc">
-   Set whether this behavior is enabled.
+   Establecer si este comportamiento se encuentra habilitado 
   </string>
   <string id="12-p0">
-   State
+   Estado
   </string>
   <string id="12-p0-desc">
-   Set whether to enable or disable the behavior.
+   Ajustar si el comportamiento está habilitado o inhabilidato.
   </string>
   <string id="12-p0-opt0">
-   Disabled
+   Deshabilitado
   </string>
   <string id="12-p0-opt1">
-   Enabled
+   Habilitado
   </string>
  </group>
  <!-- acts -->
  <group name="exps">
   <string id="0">
-   Speed
+   Velocidad
   </string>
   <string id="0-desc">
-   The current object speed, in pixels per second.
+   Velocidad actual del objeto, en pixeles por segundo.
   </string>
   <string id="1">
-   MovingAngle
+   Ángulo de movimiento <!--MovingAngle-->
   </string>
   <string id="1-desc">
-   The current angle of motion, in degrees.
+   Ángulo de movimiento actual, en grados.
   </string>
   <string id="2">
    dx
   </string>
   <string id="2-desc">
-   The current X component of motion, in pixels per second.
+   Componente actual X del movimiento, en pixeles por segundo.
   </string>
   <string id="3">
    dy
   </string>
   <string id="3-desc">
-   The current Y component of motion, in pixels per second.
+   Componente actual Y del movimiento, en pixeles por segundo.
   </string>
  </group>
  <!-- exps -->
