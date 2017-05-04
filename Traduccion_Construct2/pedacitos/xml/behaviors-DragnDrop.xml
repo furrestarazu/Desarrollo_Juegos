@@ -1,67 +1,67 @@
 <group name="DragnDrop">
  <string id="name">
-  Drag &amp; Drop
+  Arrastras &amp; Soltar
  </string>
  <string id="category">
   General
  </string>
  <string id="description">
-  Drag and drop objects either by mouse or touch.
+  Arrastras y soltar objetos con el mouse o con el toque
  </string>
  <group name="properties">
  </group>
  <!-- properties -->
  <group name="cnds">
   <string id="0">
-   Is dragging
+   Arrastrando
   </string>
   <string id="0-display">
-   {my} is dragging
+   {my} se está arrastrando
   </string>
   <string id="0-desc">
-   True if the object is currently being dragged.
+   Verdadero si el objeto está siendo arrastrado.
   </string>
   <string id="1">
-   On drag start
+   Al iniciar el arrastre
   </string>
   <string id="1-display">
-   On {my} drag start
+   Al inicio del arrastre de {my} 
   </string>
   <string id="1-desc">
-   Triggered when the object begins to be dragged.
+   Disparado cuando el objeto comienza a ser arrastrado.
   </string>
   <string id="2">
-   On drop
+   Al soltar
   </string>
   <string id="2-display">
-   On {my} drop
+   Al soltar {my} 
   </string>
   <string id="2-desc">
-   Triggered when the object is dropped (the drag stops).
+   Disparado cuando el objeto es soltado (al detener el arrastrado).
   </string>
  </group>
  <!-- cnds -->
  <group name="acts">
   <string id="0">
-   Set enabled
+   Ajuste activado
   </string>
   <string id="0-display">
-   Set {my} {0}
+   Establecer para {my} {0}
   </string>
   <string id="0-desc">
-   Enable or disable the drag and drop behavior.
+   Habilita o deshabilita el comportamiento de arrastrar y soltar.
   </string>
   <string id="0-p0">
-   State
+   Estado
   </string>
   <string id="0-p0-desc">
-   Choose whether to enable or disable the behavior.
+   Elija si se desea activar o no este comportamiento
   </string>
   <string id="0-p0-opt0">
-   Disabled
+   Deshabilitado
   </string>
   <string id="0-p0-opt1">
-   Enabled
+   Habilitado
   </string>
  </group>
  <!-- acts -->

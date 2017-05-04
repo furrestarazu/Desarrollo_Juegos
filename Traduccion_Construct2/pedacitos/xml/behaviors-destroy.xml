@@ -1,12 +1,12 @@
 <group name="destroy">
  <string id="name">
-  Destroy outside layout
+  Destruir el diseño exterior
  </string>
  <string id="category">
   General
  </string>
  <string id="description">
-  Automatically destroy the object if it leaves the layout area.
+  Destruir el objeto automáticamente si el mismo abandona el área del diseño.
  </string>
  <group name="properties">
  </group>
