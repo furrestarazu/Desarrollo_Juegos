@@ -39,15 +39,15 @@
     Número que identifica la versión del proyecto.
    </string>
    <string id="firstlayout">
-    Primera Capa
+    Primer Diseño
    </string>
    <string id="firstlayout-desc">
-    La capa que será cargada inicialmente cuando el proyecto se ejecuta.
+    El diseño que será cargado inicialmente cuando el proyecto se ejecuta.
    </string>
    <!-- 'First layout' is a dropdown property with a list of all layout names, but (default) appears
 						 at the top to mean the first layout in the project. -->
    <string id="firstlayout-default">
-    (default)
+    (por defecto)
    </string>
    <string id="pixelrounding">
     Pixel rounding
@@ -87,22 +87,22 @@
   <!-- Layout properties -->
   <group name="layout">
    <string id="layout-header">
-    Propiedades de la capa
+    Propiedades del diseño
    </string>
    <string id="layout-header-desc">
-    Ajustes para la capa seleccionada.
+    Ajustes para el diseño seleccionado.
    </string>
    <string id="name">
     Nombre
    </string>
    <string id="name-desc">
-    Nombre de la capa.
+    Nombre del diseño.
    </string>
    <string id="eventsheet">
     Hoja de Eventos
    </string>
    <string id="eventsheet-desc">
-    Seleccione la hoja de eventos a ejecutarse para esta capa. Puede incluirse otras hojas de evento desde esta hoja de eventos.
+    Seleccione la hoja de eventos a ejecutarse para este diseño. Puede incluirse otras hojas de evento desde esta hoja de eventos.
    </string>
    <string id="eventsheet-none">
     (ninguna)
