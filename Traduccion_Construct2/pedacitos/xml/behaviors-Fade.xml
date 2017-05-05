@@ -1,64 +1,64 @@
 <group name="Fade">
  <string id="name">
-  Fade
+  Desvanecer
  </string>
  <string id="category">
   General
  </string>
  <string id="description">
-  Change an object's opacity over time.  Useful for making objects gradually disappear.
+  Cambia la opacidad de un objeto en el tiempo. Usaro para desaparecer objetos gradualmente.
  </string>
  <group name="properties">
   <string id="fadeintime">
-   Fade in time
+   Desvanecer en el tiempo
   </string>
   <string id="fadeintime-desc">
-   Duration in seconds of fade-in, or zero to skip.
+   Duración en segundos para el acentuado. Cero para saltar.
   </string>
   <string id="waittime">
-   Wait time
+   Espera
   </string>
   <string id="waittime-desc">
-   Duration in seconds of time to wait between fade-in and fade-out, or zero to skip.
+  Duración en segundos del tiempo entre el acentuado y el desvanecimiento. Cero para saltar.
   </string>
   <string id="fadeouttime">
-   Fade out time
+   Desvanecimiento en el tiempo
   </string>
   <string id="fadeouttime-desc">
-   Duration in seconds of fade-out, or zero to skip.
+   Duración en segundos del desvanecimiento. Cero para saltar
   </string>
   <string id="destroy">
-   Destroy
+   Destruir
   </string>
   <string id="destroy-desc">
-   Destroy the object after it has faded out.
+   Destruir el objeto luego de su desvanecimiento
   </string>
   <string id="destroy-options">
-   No|After fade out
+   No|Después del desvanecimiento
   </string>
  </group>
  <!-- properties -->
  <group name="cnds">
   <string id="0">
-   On fade out finished
+   Al finalizar el desvanecimiento
   </string>
   <string id="0-display">
-   On {my} fade-out finished
+   Al finalizar el desvanecimiento en {my}
   </string>
   <string id="0-desc">
-   Triggered when the fade out has finished.
+   Disparado cuando el desvanecimiento finalizó
   </string>
  </group>
  <!-- cnds -->
  <group name="acts">
   <string id="0">
-   Restart fade
+   Reiniciar fundido
   </string>
   <string id="0-display">
-   {my}: restart fade
+   {my}: Reiniciar fundido
   </string>
   <string id="0-desc">
-   Run the fade again.
+   Ejecuta el fundido nuevamente
   </string>
  </group>
  <!-- acts -->
